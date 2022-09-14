@@ -18,7 +18,10 @@ export default function NavStyler() {
             <div
               className="NavStyler__line"
               key={uuid()}
-              style={{ top: `${progressiveVerticalPoints[index]}px` }}
+              style={{
+                top: `${progressiveVerticalPoints[index]}px`,
+                right: `${progressiveVerticalPoints[index] / 10}px`,
+              }}
             ></div>
           );
         })}
