@@ -7,3 +7,7 @@
     position: absolute;
     right: 0; left: 0;
 }
+
+.NavStylerLines:hover {
+    transform: scale(1.5);
+}
