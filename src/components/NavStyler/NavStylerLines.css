@@ -1,0 +1,9 @@
+
+.NavStylerLines {
+    border-bottom: 1px solid #000;
+    /* box */
+    height: 1px;
+    /* pos */
+    position: absolute;
+    right: 0; left: 0;
+}
