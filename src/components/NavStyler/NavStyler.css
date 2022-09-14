@@ -1,6 +1,5 @@
 .NavStyler {
     color: #fff;
-
     /* box */
     height: 100%;
     /* pos */
@@ -8,4 +7,15 @@
     top: 0;
     bottom: 0;
     right: 0;
+    left: 0;
+}
+
+.NavStyler__line {
+    border-bottom: 1px solid #000;
+    /* box */
+    height: 1px;
+    /* pos */
+    position: absolute;
+    width: 100%;
+
 }
