@@ -1,6 +1,11 @@
 .NavStyler {
     color: #fff;
+
+    /* box */
+    height: 100%;
     /* pos */
     position: absolute;
     top: 0;
+    bottom: 0;
+    right: 0;
 }
