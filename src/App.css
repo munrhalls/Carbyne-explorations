@@ -1,6 +1,6 @@
 @import './Reset.css';
-@import './TopMace/TopMace.css';
-@import './Content/Content.css';
+@import './components/TopMace/TopMace.css';
+@import './components/Content/Content.css';
 
 
 .App {
