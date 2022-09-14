@@ -1,5 +1,10 @@
+/* box */
+/* display */
+
 .TopMace {
     background: #000;
+    /* box */
+    height: 100%;
 }
 
 @import './MobileTopMace.css';

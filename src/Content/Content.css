@@ -1,4 +1,6 @@
 .Content {
-    
+    /* box */
+    width: 90%;
+    margin-left: auto;
 }
 @import './MobileContent.css'
