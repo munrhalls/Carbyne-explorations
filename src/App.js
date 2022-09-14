@@ -2,13 +2,13 @@
 import useWindowHeight from "./Hooks/useWindowHeight";
 // app
 import "./App.css";
-import TopMace from "./components/TopMace/TopMace";
+import Nav from "./components/Nav/Nav";
 import Content from "./components/Content/Content";
 
 function App() {
   return (
     <div className="App" style={{ height: `${useWindowHeight()}px` }}>
-      <TopMace />
+      <Nav />
       <Content />
     </div>
   );

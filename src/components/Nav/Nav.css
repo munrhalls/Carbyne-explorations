@@ -1,0 +1,13 @@
+/* box */
+/* display */
+
+.Nav {
+    background: #000;
+    /* box */
+   
+    /* pos */
+    position: absolute;
+    left: 0; top: 0; bottom: 0; right: 70%;
+}
+
+@import './MobileNav.css';
