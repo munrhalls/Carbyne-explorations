@@ -1,0 +1,25 @@
+.ScannerAnim {
+    /* z-precedence */
+    z-index: 3;
+    /* pos */
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    /* box */
+    height: 100%;
+    width: 100%;
+}
+
+.ScannerAnim__line {
+    /* z-precedence */
+    z-index: 4;
+    /* pos */
+    position: absolute;
+    left: 0; right: 0;
+    /* box */
+    height: 1px;
+    width: 100%;
+}
+
+.--highlighted {
+    box-shadow: 0 0 30px 30px #fff;
+}
