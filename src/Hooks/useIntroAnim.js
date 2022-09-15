@@ -9,7 +9,7 @@ export default function useIntroAnim() {
 
     const timeOutID = setTimeout(function () {
       setLoading(false);
-    }, 1500);
+    }, 3000);
 
     return () => {
       clearTimeout(timeOutID);
