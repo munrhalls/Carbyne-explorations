@@ -6,7 +6,7 @@ export default function ScannerLoader({ children, active }) {
     <>
       {active ? (
         <div className="ScannerLoader">
-          <StylerLines distanceBetweenLines={5} />
+          <StylerLines distanceBetweenLines={0.5} />
         </div>
       ) : (
         children

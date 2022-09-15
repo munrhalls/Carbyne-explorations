@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { useSphere } from "../Contexts/SphereProvider";
 
-export default function useIntroTimedToggle() {
+export default function useIntroAnim() {
   const { setLoading } = useSphere();
 
   useEffect(() => {
