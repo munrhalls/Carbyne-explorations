@@ -9,5 +9,6 @@
 }
 
 .StylerLines:hover {
-    transform: scale(1.5);
+    background-color: #fff;
+    height: 1rem;
 }

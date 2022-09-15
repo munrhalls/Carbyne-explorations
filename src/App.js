@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App" style={{ height: `${useWindowHeight()}px` }}>
       <Nav />
-      <StylerLines />
+      <StylerLines distanceBetweenLines={2} />
       <Content />
     </div>
   );

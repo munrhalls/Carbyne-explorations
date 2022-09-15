@@ -2,11 +2,14 @@ import React from "react";
 import { v4 as uuid } from "uuid";
 import useWindowHeight from "../../Hooks/useWindowHeight";
 
-export default function StylerLines() {
+export default function StylerLines({ distanceBetweenLines }) {
   const vhPixelsNum = useWindowHeight();
 
-  const progressiveVerticalPoints = [...Array(vhPixelsNum).keys()].map(
-    (n) => n * 1.5
+  const distanceMultiBetweenHorizLines = distanceBetweenLines || 1.5;
+  const iterations = vhPixelsNum / distanceMultiBetweenHorizLines;
+
+  const progressiveVerticalPoints = [...Array(iterations).keys()].map(
+    (n) => n * distanceMultiBetweenHorizLines
   );
 
   return (
