@@ -1,5 +1,5 @@
 
-.NavStylerLines {
+.StylerLines {
     border-bottom: 1px solid #000;
     /* box */
     height: 1px;
@@ -8,6 +8,6 @@
     right: 0; left: 0;
 }
 
-.NavStylerLines:hover {
+.StylerLines:hover {
     transform: scale(1.5);
 }

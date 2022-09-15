@@ -1,4 +1,4 @@
-.NavStyler {
+.Styler {
     color: #fff;
     /* box */
     height: 100%;
@@ -10,4 +10,4 @@
     left: 0;
 }
 
-@import './NavStylerLines.css'
+@import './StylerLines.css'
