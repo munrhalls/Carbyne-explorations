@@ -3,7 +3,7 @@ import useWindowHeight from "./Hooks/useWindowHeight";
 // app
 import "./App.css";
 import Nav from "./components/Nav/Nav";
-import StylerLines from "./components/Styler/StylerLines";
+import StylerLines from "./Stylers/StylerLines/StylerLines";
 import Content from "./components/Content/Content";
 
 function App() {

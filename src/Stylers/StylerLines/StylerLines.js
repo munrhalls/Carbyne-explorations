@@ -1,6 +1,6 @@
 import React from "react";
 import { v4 as uuid } from "uuid";
-import useWindowHeight from "./../../Hooks/useWindowHeight";
+import useWindowHeight from "../../Hooks/useWindowHeight";
 
 export default function StylerLines() {
   const vhPixelsNum = useWindowHeight();
