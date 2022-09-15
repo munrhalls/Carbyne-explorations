@@ -9,15 +9,13 @@ export default function StylerLines({ distanceBetweenLines }) {
   const iterationsFloat = vhPixelsNum / distanceMultiBetweenHorizLines;
   const iterations = Math.floor(iterationsFloat);
 
-  console.log(iterations);
-
   const progressiveVerticalPointsList = [...Array(iterations).keys()].map(
     (n) => n * distanceMultiBetweenHorizLines
   );
 
   return (
     <>
-      {Array(vhPixelsNum)
+      {Array(iterations)
         .fill(null)
         .map((n, index) => {
           return (
