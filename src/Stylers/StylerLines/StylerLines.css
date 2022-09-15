@@ -11,6 +11,8 @@
 }
 
 .StylerLines:hover {
-    background-color: blue;
-    height: 1rem;
+    transform: scale(0.9);
+    z-index: 1;
+    height: 10px;
+    box-shadow: 0 0 250px 200px  #fff;
 }
