@@ -6,7 +6,7 @@ export default function NavStylerLines() {
   const vhPixelsNum = useWindowHeight();
 
   const progressiveVerticalPoints = [...Array(vhPixelsNum).keys()].map(
-    (n) => n
+    (n) => n * 1.5
   );
 
   return (
