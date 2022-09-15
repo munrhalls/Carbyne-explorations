@@ -2,11 +2,12 @@
 @import './components/Nav/Nav.css';
 @import './Stylers/Stylers.css';
 @import './Animators/ScannerAnim.css';
+@import './components/ScannerLoader/ScannerLoader.css';
 @import './components/Content/Content.css';
-
 
 .App {
   position: relative;
 }
+
 
 @import './MobileApp.css';
