@@ -4,6 +4,9 @@ import StylerLines from "../../Stylers/StylerLines/StylerLines";
 import ScannerAnim from "../../Animators/ScannerAnim";
 
 export default function ScannerLoader({ children, active }) {
+
+  
+
   return (
     <>
       {active ? (

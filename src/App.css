@@ -1,6 +1,7 @@
 @import './Reset.css';
 @import './components/Nav/Nav.css';
 @import './Stylers/Stylers.css';
+@import './Animators/ScannerAnim.css';
 @import './components/Content/Content.css';
 
 
