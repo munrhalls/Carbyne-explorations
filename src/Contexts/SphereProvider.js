@@ -6,12 +6,12 @@ export function useSphere() {
   return useContext(SphereContext);
 }
 
-export default function SphereProvider({children}) {
+export default function SphereProvider({ children }) {
   const [loading, setLoading] = useState(false);
 
-  const value = {loading, setLoading}
+  const value = { loading, setLoading };
 
-  return <SphereContext.Provider value={value}>
-    {children}
-  </SphereContext.Provider>
+  return (
+    <SphereContext.Provider value={value}>{children}</SphereContext.Provider>
+  );
 }

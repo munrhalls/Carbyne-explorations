@@ -1,17 +1,24 @@
 // globals
 import useWindowHeight from "./Hooks/useWindowHeight";
-// app
+// components
 import "./App.css";
 import Nav from "./components/Nav/Nav";
-import StylerLines from "./Stylers/StylerLines/StylerLines";
 import Content from "./components/Content/Content";
+// stylers
+import StylerLines from "./Stylers/StylerLines/StylerLines";
+// interactive informers
+import ScannerLoader from "./components/ScannerLoader/ScannerLoader";
 
 function App() {
+  
+
   return (
     <div className="App" style={{ height: `${useWindowHeight()}px` }}>
-      <Nav />
-      <StylerLines distanceBetweenLines={0.5} />
-      <Content />
+      <ScannerLoader active={loading}>
+        <Nav />
+        <StylerLines distanceBetweenLines={0.5} />
+        <Content />
+      </ScannerLoader>
     </div>
   );
 }
