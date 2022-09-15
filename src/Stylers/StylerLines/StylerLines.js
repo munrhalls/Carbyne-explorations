@@ -12,8 +12,8 @@ export default function StylerLines({
   const distanceMultiBetweenHorizLines = distanceBetweenLines || 1.5;
   const iterationsFloat = vhPixelsNum / distanceMultiBetweenHorizLines;
   const iterationsNBasedOnViewportHeight = Math.floor(iterationsFloat);
-  N;
-  const progressiveVerticalPointsList = [
+
+  const progressiveVerticalPointsListBasedOnViewportHeight = [
     ...Array(iterationsNBasedOnViewportHeight).keys(),
   ].map((n) => n * distanceMultiBetweenHorizLines);
 
@@ -29,8 +29,8 @@ export default function StylerLines({
               className="StylerLines"
               key={uuid()}
               style={{
-                top: `${progressiveVerticalPointsList[index]}px`,
-                right: `${progressiveVerticalPointsList[index]}px`,
+                top: `${progressiveVerticalPointsListBasedOnViewportHeight[index]}px`,
+                right: `${progressiveVerticalPointsListBasedOnViewportHeight[index]}px`,
               }}
             ></div>
           );
