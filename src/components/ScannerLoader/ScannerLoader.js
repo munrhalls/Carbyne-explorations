@@ -1,16 +1,15 @@
 import React from "react";
 import StylerLines from "../../Stylers/StylerLines/StylerLines";
 // animators
-import OneByOne from "../../Animators/OneByOne";
+import ScannerAnim from "../../Animators/ScannerAnim";
 
 export default function ScannerLoader({ children, active }) {
   return (
     <>
       {active ? (
         <div className="ScannerLoader">
-          <OneByOne>
-            <StylerLines distanceBetweenLines={0.5} />
-          </OneByOne>
+          <StylerLines distanceBetweenLines={0.5} />
+          <ScannerAnim />
         </div>
       ) : (
         children

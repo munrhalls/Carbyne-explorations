@@ -1,11 +1,8 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { v4 as uuid } from "uuid";
 import useWindowHeight from "../../Hooks/useWindowHeight";
 
-export default function StylerLines({
-  distanceBetweenLines,
-  percentDistanceFromRight,
-}) {
+export default function StylerLines({ distanceBetweenLines, highlightProp }) {
   const vhPixelsNum = useWindowHeight();
 
   // vertical
