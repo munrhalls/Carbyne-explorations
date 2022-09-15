@@ -1,5 +1,7 @@
 
 .StylerLines {
+    /* z precedence */
+    z-index: 0;
     border-bottom: 1px solid #000;
     /* box */
     height: 1px;
@@ -9,6 +11,6 @@
 }
 
 .StylerLines:hover {
-    background-color: #fff;
+    background-color: blue;
     height: 1rem;
 }

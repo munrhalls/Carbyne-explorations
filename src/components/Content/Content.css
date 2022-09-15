@@ -1,4 +1,6 @@
 .Content {
+    /* z precedence (max = 9) */
+    z-index: 9;
     /* pos */
     position: absolute;
     top: 15%;
@@ -8,5 +10,6 @@
     height: 85%;
     width: 70%;
     margin-left: auto;
+    background-color: #fff; 
 }
 @import './MobileContent.css'
