@@ -1,6 +1,6 @@
 .ScannerAnim {
     /* z-precedence */
-    z-index: 3;
+    z-index: 0;
     /* pos */
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
@@ -11,7 +11,7 @@
 
 .ScannerAnim__line {
     /* z-precedence */
-    z-index: 4;
+    z-index: 1;
     /* pos */
     position: absolute;
     left: 0; right: 0;

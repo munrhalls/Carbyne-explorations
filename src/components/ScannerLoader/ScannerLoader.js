@@ -7,6 +7,7 @@ export default function ScannerLoader({ children, active }) {
     <>
       {active ? (
         <div className="ScannerLoader">
+          <h3 className="ScannerLoader__msg">loading...</h3>
           <ScannerAnim />
         </div>
       ) : (

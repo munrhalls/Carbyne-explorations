@@ -3,4 +3,21 @@
     background-color: #000;
     height: 100%;
     width: 100%;
+
+    /* displ */
+    display: flex;
+    justify-content: safe center;
+    align-items: safe center;
+}
+
+.ScannerLoader__msg {
+    /* z-precdence */
+    z-index: 2;
+    /* pos */
+    position: absolute;
+    /* color */
+    color: #111;
+    /* text */
+    letter-spacing: .25rem;
+    text-transform: uppercase;
 }
