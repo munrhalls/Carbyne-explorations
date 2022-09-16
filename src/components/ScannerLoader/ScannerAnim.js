@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import useWindowHeight from "../../Hooks/useWindowHeight";
 import useInterval from "../../Hooks/useInterval";
-import ScannerAnimLinesList from "./ScannerAnimLinesList";
 import { v4 as uuid } from "uuid";
 
 export default function ScannerAnim() {
@@ -13,12 +12,8 @@ export default function ScannerAnim() {
   }, 10);
 
   useEffect(() => {
-    if (count > linesNum) setCount(0);
+    if (count > linesNum / 2) setCount(0);
   });
 
-  return (
-    <div className="ScannerAnim">
-      <ScannerAnimLinesList linesNum={linesNum} count={count} />
-    </div>
-  );
+  return <div className="ScannerAnim">{count}</div>;
 }
