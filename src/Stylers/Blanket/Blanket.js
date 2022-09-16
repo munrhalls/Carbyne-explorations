@@ -42,37 +42,43 @@ export default function Blanket() {
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >
-      {/* <rect width="100%" height="100%" fill="blue" />
-  <circle cx="150" cy="100" r="80" fill="black" />
-  <text x="150" y="125" fontSize="60" textAnchor="middle" fill="white">
-    SVG
-  </text> */}
       <path
         d={`M 0 0
-        M 0, ${height}
-        L 0, 0
-        L ${width}, 0
-        L ${width}, ${height / 7.25}
+      M 0, ${height}
+      L 0, 0
+      L ${width}, 0
+      L ${width}, ${height / 7.25}
     L ${width * 0.6}, ${height / 7}
     L ${width * 0.3}, ${height / 4.5}
     L ${width * 0.25}, ${height / 3.5}
     L ${width * 0.15}, ${height / 2.25}
     L ${width * 0.1}, ${height / 1.25}
     L ${width * 0.07}, ${height / 0.5}
-    Z
-
-
-
-
-
-
-
-
-
     `}
         fill="black"
         stroke="black"
         strokeWidth="10"
+      />
+
+
+
+
+      <path
+        d={`M 0 0
+      M 0, ${height}
+      L 0, 0
+      L ${width}, 0
+      L ${width}, ${height / 7.25}
+    L ${width * 0.6}, ${height / 7}
+    L ${width * 0.3}, ${height / 4.5}
+    L ${width * 0.25}, ${height / 3.5}
+    L ${width * 0.15}, ${height / 2.25}
+    L ${width * 0.1}, ${height / 1.25}
+    L ${width * 0.07}, ${height / 0.5}
+    `}
+        fill="none"
+        stroke="#101010"
+        strokeWidth="12"
       />
     </svg>
   );
