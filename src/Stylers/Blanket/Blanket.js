@@ -9,8 +9,9 @@ export default function Blanket() {
 
   const svg = (
     <svg
+      className="Blanket"
       version="1.1"
-      width="300"
+      width={width}
       height={height}
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"

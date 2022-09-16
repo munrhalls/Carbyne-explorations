@@ -10,4 +10,5 @@
     left: 0;
 }
 
+@import './Blanket/Blanket.css';
 @import './StylerLines/StylerLines.css';

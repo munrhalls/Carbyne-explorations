@@ -1,5 +1,6 @@
 // globals
 import useWindowHeight from "./Hooks/useWindowHeight";
+import useWindowWidth from "./Hooks/useWindowWidth";
 // hooks
 import useIntroAnim from "./Hooks/useIntroAnim";
 // components
@@ -18,7 +19,13 @@ function App() {
   useIntroAnim();
 
   return (
-    <div className="App" style={{ height: `${useWindowHeight()}px` }}>
+    <div
+      className="App"
+      style={{
+        height: `${useWindowHeight()}px`,
+        width: `${useWindowWidth()}px`,
+      }}
+    >
       <ScannerLoader active={loading}>
         <Blanket />
         <Nav />
