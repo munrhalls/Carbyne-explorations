@@ -9,8 +9,13 @@ export default function StylerPatches() {
 
   return (
     <div className="StylerPatches">
-      {iterations.map((patch) => {
-        return <div className="StylerPatches__patch"></div>;
+      {iterations.map((patch, index) => {
+        return (
+          <div
+            className="StylerPatches__patch"
+            style={{ top: `${patchNum * index}px`, height: `${patchesNum}px` }}
+          ></div>
+        );
       })}
     </div>
   );
