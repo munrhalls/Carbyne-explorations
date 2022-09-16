@@ -11,6 +11,7 @@ import StylerLines from "./Stylers/StylerLines/StylerLines";
 // interactive informers
 import ScannerLoader from "./components/ScannerLoader/ScannerLoader";
 import { useSphere } from "./Contexts/SphereProvider";
+import StylerPatches from "./Stylers/StylerPatches/StylerPatches";
 
 function App() {
   const { loading } = useSphere();
@@ -19,6 +20,7 @@ function App() {
   return (
     <div className="App" style={{ height: `${useWindowHeight()}px` }}>
       <ScannerLoader active={loading}>
+        <StylerPatches />
         <Nav />
         <Content />
       </ScannerLoader>
