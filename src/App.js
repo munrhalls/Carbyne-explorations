@@ -20,7 +20,6 @@ function App() {
     <div className="App" style={{ height: `${useWindowHeight()}px` }}>
       <ScannerLoader active={loading}>
         <Nav />
-        <StylerLines distanceBetweenLines={0.5} />
         <Content />
       </ScannerLoader>
     </div>
