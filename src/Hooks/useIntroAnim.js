@@ -3,7 +3,7 @@ import { useSphere } from "../Contexts/SphereProvider";
 
 export default function useIntroAnim() {
   const { setLoading } = useSphere();
-  const introTime = 1500;
+  const introTime = 250;
 
   useEffect(() => {
     setLoading(true);

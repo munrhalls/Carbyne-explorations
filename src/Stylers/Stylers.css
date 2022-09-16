@@ -10,4 +10,5 @@
     left: 0;
 }
 
-@import './StylerLines/StylerLines.css'
+@import './StylerLines/StylerLines.css';
+@import './StylerPatches/StylerPatches.css';
