@@ -1,8 +1,12 @@
 import React from "react";
 import useWindowHeight from "../../Hooks/useWindowHeight";
+import useWindowWidth from "../../Hooks/useWindowWidth";
 
 export default function Blanket() {
   const height = String(useWindowHeight());
+  const width = String(useWindowWidth());
+  console.log(width);
+
   const svg = (
     <svg
       version="1.1"
@@ -17,7 +21,7 @@ export default function Blanket() {
         SVG
       </text> */}
       <path
-        d={`M0,0 L150, ${height} Q120,0 25,120 T77, 205`}
+        d={`M0,0 L${width}, ${height} Q120,0 25,120 T77, 205`}
         fill="none"
         stroke="black"
         strokeWidth="5"
