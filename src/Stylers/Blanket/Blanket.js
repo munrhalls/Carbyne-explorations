@@ -48,14 +48,31 @@ export default function Blanket() {
     SVG
   </text> */}
       <path
-        d={`M ${width}, ${height / 10}
-    L ${width * 0.3}, ${height / 10}
+        d={`M 0 0
+        M 0, ${height}
+        L 0, 0
+        L ${width}, 0
+        L ${width}, ${height / 7.25}
+    L ${width * 0.6}, ${height / 7}
+    L ${width * 0.3}, ${height / 4.5}
+    L ${width * 0.25}, ${height / 3.5}
+    L ${width * 0.15}, ${height / 2.25}
+    L ${width * 0.1}, ${height / 1.25}
+    L ${width * 0.07}, ${height / 0.5}
+    Z
+
+
+
+
+
+
+
 
 
     `}
-        fill="none"
+        fill="black"
         stroke="black"
-        strokeWidth="5"
+        strokeWidth="10"
       />
     </svg>
   );
