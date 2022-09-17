@@ -1,3 +1,7 @@
+@import './BGblanket.css';
+@import './BGblanketOutline.css';
+@import './BGcontentContainer.css';
+
 .SVG {
   /* z-precedence */
   z-index: 1;

@@ -3,7 +3,7 @@ import useWindowHeight from "../../Hooks/useWindowHeight";
 import useWindowWidth from "../../Hooks/useWindowWidth";
 
 export const SVG = {
-  Blanket: function () {
+  BGblanket: function () {
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
@@ -21,7 +21,7 @@ export const SVG = {
       M 0, ${height}
       L 0, 0
       L ${width}, 0
-      L ${width}, ${height / 7.25}
+      L ${width}, ${height / 6.5}
     L ${width * 0.6}, ${height / 7}
     L ${width * 0.3}, ${height / 4.5}
     L ${width * 0.25}, ${height / 3.5}
@@ -36,7 +36,7 @@ export const SVG = {
       </svg>
     );
   },
-  BlanketOutline: function () {
+  BGblanketOutline: function () {
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
@@ -68,5 +68,8 @@ export const SVG = {
         />
       </svg>
     );
+  },
+  BGcontentContainer: function () {
+    return <div className="BGcontentContainer"></div>;
   },
 };
