@@ -50,21 +50,18 @@ export const SVG = {
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
         <path
-          d={`M 0 0
-      M 0, ${height}
-      L 0, 0
-      L ${width}, 0
-      L ${width}, ${height / 6.5}
-    Q ${width * 0.75}, ${height / 10} ${width * 0.6}, ${height / 8.6}
-    Q ${width * 0.5}, ${height / 7.5} ${width * 0.325}, ${height / 9}
-    Q ${width * 0.1}, ${height / 4.5} ${width * 0.15}, ${height / 2.25}
-    L ${width * 0.15}, ${height / 2.25}
-    L ${width * 0.1}, ${height / 1.25}
-    L ${width * 0.07}, ${height / 0.5}
-    `}
+          d={`M 0, 0
+          Q${width * 0.09} ${height * 0.45} ${width * 0.245} ${height * 0.75}
+          L${width * 0.245} ${height * 0.8}
+          L${width * 0.23715} ${height * 0.85}
+          L${width * 0.237175} ${height * 0.975}
+          L${width * 0.2375} ${height}
+
+        
+        `}
           fill="none"
-          stroke="blue"
-          strokeWidth="5"
+          stroke="#000"
+          strokeWidth={`${width / 12.5}`}
         />
       </svg>
     );
