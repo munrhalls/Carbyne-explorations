@@ -1,0 +1,6 @@
+.SVG {
+  /* z-precedence */
+  z-index: 1;
+  /* pos */
+  position: absolute;
+}

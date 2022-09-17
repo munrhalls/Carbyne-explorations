@@ -12,7 +12,7 @@ import StylerLines from "./Stylers/StylerLines/StylerLines";
 // interactive informers
 import ScannerLoader from "./components/ScannerLoader/ScannerLoader";
 import { useSphere } from "./Contexts/SphereProvider";
-import Blanket from "./Stylers/Blanket/Blanket";
+import { SVG } from "./Stylers/SVG/SVG";
 
 function App() {
   const { loading } = useSphere();
@@ -27,7 +27,7 @@ function App() {
       }}
     >
       <ScannerLoader active={loading}>
-        <Blanket />
+        <SVG.Blanket />
         <Nav />
         <Content />
       </ScannerLoader>

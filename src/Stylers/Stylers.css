@@ -1,14 +1,14 @@
 .Styler {
-    color: #fff;
-    /* box */
-    height: 100%;
-    /* pos */
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+  color: #fff;
+  /* box */
+  height: 100%;
+  /* pos */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
-@import './Blanket/Blanket.css';
-@import './StylerLines/StylerLines.css';
+@import "./SVG/SVG.css";
+@import "./StylerLines/StylerLines.css";
