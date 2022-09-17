@@ -24,15 +24,21 @@ function App() {
         width: `${useWindowWidth()}px`,
       }}
     >
-      {/* <ScannerLoader active={loading}> */}
-      <SVG.BGblanket />
-      <SVG.BGCaveLine />
-      <SVG.BGCaveLineFill />
-      <SVG.BGCaveDots />
-      <SVG.BGblanketOutline />
-      <SVG.BGcontentContainer />
-      <Nav />
-      {/* </ScannerLoader> */}
+      <ScannerLoader active={loading}>
+        <SVG.BGblanket />
+        <SVG.BGCaveLine />
+        <SVG.BGCaveLineFill />
+        <SVG.BGCaveDots />
+        <SVG.BGblanketOutline />
+        <SVG.BGcontentContainer />
+        <Nav />
+
+        <div className="App__title">
+          <h1>WELCOME</h1>
+          <h1>I AM MUNRHALLS</h1>
+          <h1>THIS IS MY REPOSITORY AND BLOG</h1>
+        </div>
+      </ScannerLoader>
     </div>
   );
 }

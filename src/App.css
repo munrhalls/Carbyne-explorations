@@ -13,5 +13,22 @@
   overflow: hidden;
 }
 
+.App__title {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  letter-spacing: 4px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: safe center;
+}
+
+.App__title h1 {
+  margin: 0.5rem;
+  padding: .25rem;
+  font-weight: bold;
+}
 
 @import './MobileApp.css';

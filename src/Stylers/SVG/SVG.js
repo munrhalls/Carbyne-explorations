@@ -1,9 +1,12 @@
 import React from "react";
 import useWindowHeight from "../../Hooks/useWindowHeight";
 import useWindowWidth from "../../Hooks/useWindowWidth";
+// ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
 
 export const SVG = {
   BGblanket: function () {
+    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
+
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
@@ -37,6 +40,8 @@ export const SVG = {
     );
   },
   BGCaveLine: function () {
+    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
+
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
@@ -67,6 +72,8 @@ export const SVG = {
     );
   },
   BGCaveLineFill: function () {
+    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
+
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
@@ -98,6 +105,8 @@ export const SVG = {
     );
   },
   BGCaveDots: function () {
+    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
+
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
@@ -240,6 +249,8 @@ export const SVG = {
     );
   },
   BGblanketOutline: function () {
+    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
+
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
