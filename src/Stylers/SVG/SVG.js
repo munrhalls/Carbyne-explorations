@@ -24,7 +24,7 @@ export const SVG = {
       L ${width}, ${height / 6.5}
     Q ${width * 0.75}, ${height / 10} ${width * 0.6}, ${height / 8.6}
     Q ${width * 0.5}, ${height / 7.5} ${width * 0.3}, ${height / 7}
-    L ${width * 0.25}, ${height / 3.5}
+    L ${width * 0.17}, ${height / 3.5}
     L ${width * 0.15}, ${height / 2.25}
     L ${width * 0.1}, ${height / 1.25}
     L ${width * 0.07}, ${height / 0.5}
