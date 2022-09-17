@@ -80,18 +80,22 @@ export const SVG = {
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
         <path
-          d={`M 0, 0
-          Q${width * 0.09} ${height * 0.45} ${width * 0.245} ${height * 0.75}
-          L${width * 0.245} ${height * 0.8}
-          L${width * 0.23715} ${height * 0.85}
-          L${width * 0.237175} ${height * 0.975}
-          L${width * 0.2375} ${height}
+          d={`M ${width * 0.0975} ${height}
+          L ${width * 0.102} ${height * 0.8}
+          L ${width * 0.12975} ${height * 0.596}
+          L ${width * 0.2} ${height * 0.74788}
+          L ${width * 0.20715} ${height * 0.76788}
+          L ${width * 0.20705} ${height * 0.79788}
+
+
+
+
 
         
         `}
-          fill="none"
-          stroke="#f0f0f0"
-          strokeWidth={`${width / 12.5}`}
+          fill="darkblue"
+          stroke="darkblue"
+          strokeWidth="1"
         />
       </svg>
     );
