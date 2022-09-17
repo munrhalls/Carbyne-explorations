@@ -1,3 +1,10 @@
-.BGblanket {
-    
+.BGcontentContainer {
+    /* z-precedence */
+    z-index: 0;
+    /* pos */
+    position: absolute;
+    /* box */
+    height: 100%;
+    width: 100%;
+    background: green;
 }

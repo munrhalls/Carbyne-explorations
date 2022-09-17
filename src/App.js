@@ -27,9 +27,9 @@ function App() {
       }}
     >
       <ScannerLoader active={loading}>
-        <SVG.Blanket />
+        <SVG.BGblanket />
+        <SVG.BGcontentContainer />
         <Nav />
-        <Content />
       </ScannerLoader>
     </div>
   );

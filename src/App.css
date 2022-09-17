@@ -1,9 +1,12 @@
 @import './Reset.css';
+/* comps */
 @import './components/Nav/Nav.css';
+/* purely stylers */
 @import './Stylers/Stylers.css';
+/* anims */
 @import './Animators/ScannerAnim.css';
+/* globals */
 @import './components/ScannerLoader/ScannerLoader.css';
-@import './components/Content/Content.css';
 
 .App {
   position: relative;
