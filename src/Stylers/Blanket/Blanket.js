@@ -37,8 +37,8 @@ export default function Blanket() {
     <svg
       className="Blanket"
       version="1.1"
-      height={String(height)}
-      width={String(width)}
+      height={`${height}`}
+      width={`${width}`}
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >
