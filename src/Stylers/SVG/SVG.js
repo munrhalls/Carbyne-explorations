@@ -29,14 +29,13 @@ export const SVG = {
     L ${width * 0.1}, ${height / 1.25}
     L ${width * 0.07}, ${height / 0.5}
     `}
-          fill="black"
-          stroke="black"
-          strokeWidth="10"
+          fill="#000"
+          stroke="#000"
+          strokeWidth="5"
         />
       </svg>
     );
   },
-
   BlanketOutline: function () {
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
