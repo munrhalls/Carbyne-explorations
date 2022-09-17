@@ -22,7 +22,7 @@ export const SVG = {
       L 0, 0
       L ${width}, 0
       L ${width}, ${height / 6.5}
-    L ${width * 0.6}, ${height / 7}
+    Q ${width * 0.75}, ${height / 10} ${width * 0.6}, ${height / 7}
     L ${width * 0.3}, ${height / 4.5}
     L ${width * 0.25}, ${height / 3.5}
     L ${width * 0.15}, ${height / 2.25}
@@ -36,6 +36,7 @@ export const SVG = {
       </svg>
     );
   },
+
   BGblanketOutline: function () {
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
@@ -55,7 +56,9 @@ export const SVG = {
       L 0, 0
       L ${width}, 0
       Q ${width}, ${height / 8} ${width}, ${height / 6.5}
-    Q ${width * 0.6}, ${height / 6.5} ${width * 0.6}, ${height / 7}
+      
+    Q ${width * 0.6}, ${height / 8.5} ${width * 0.6}, ${height / 7}
+
     Q ${width * 0.3}, ${height / 4} ${width * 0.3}, ${height / 4.5}
     Q ${width * 0.25}, ${height / 3.25} ${width * 0.25}, ${height / 3.5}
     Q ${width * 0.18}, ${height / 2.5} ${width * 0.15}, ${height / 2.25}
@@ -64,11 +67,12 @@ export const SVG = {
     `}
           fill="none"
           stroke="blue"
-          strokeWidth="5"
+          strokeWidth="10"
         />
       </svg>
     );
   },
+
   BGcontentContainer: function () {
     return <div className="BGcontentContainer"></div>;
   },
