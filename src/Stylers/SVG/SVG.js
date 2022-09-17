@@ -89,13 +89,9 @@ export const SVG = {
           L ${width * 0.1980705} ${height * 0.85788}
           L ${width * 0.1980705} ${height}
 
-
-
-
-        
         `}
-          fill="darkblue"
-          stroke="darkblue"
+          fill="#000019"
+          stroke="#000019"
           strokeWidth="1"
         />
       </svg>
