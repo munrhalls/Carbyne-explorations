@@ -6,9 +6,6 @@ export const SVG = {
   BGblanket: function () {
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
-    // it's just a progression of (x, y) for parabole bend-to & (x, y) end-point to
-    // in Q(x,y) (x,y) format, based on screen vh/vw
-    // trace moving point from-to = easy to change
 
     return (
       <svg
@@ -26,7 +23,6 @@ export const SVG = {
       L ${width}, 0
       L ${width}, ${height / 6.5}
     Q ${width * 0.75}, ${height / 10} ${width * 0.6}, ${height / 8.6}
-    
     Q ${width * 0.5}, ${height / 7.5} ${width * 0.3}, ${height / 4.5}
     L ${width * 0.25}, ${height / 3.5}
     L ${width * 0.15}, ${height / 2.25}
