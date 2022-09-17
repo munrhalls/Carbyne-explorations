@@ -86,7 +86,8 @@ export const SVG = {
           L ${width * 0.2} ${height * 0.74788}
           L ${width * 0.20715} ${height * 0.76788}
           L ${width * 0.20705} ${height * 0.79788}
-
+          L ${width * 0.1980705} ${height * 0.85788}
+          L ${width * 0.1980705} ${height}
 
 
 
