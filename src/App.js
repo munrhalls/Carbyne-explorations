@@ -28,6 +28,7 @@ function App() {
       <SVG.BGblanket />
       <SVG.BGCaveLine />
       <SVG.BGCaveLineFill />
+      <SVG.BGCaveDots />
       <SVG.BGblanketOutline />
       <SVG.BGcontentContainer />
       <Nav />
