@@ -54,7 +54,7 @@ export const SVG = {
       M 0, ${height}
       L 0, 0
       L ${width}, 0
-      Q ${width}, ${height / 8} ${width}, ${height / 7.25}
+      Q ${width}, ${height / 8} ${width}, ${height / 6.5}
     Q ${width * 0.6}, ${height / 6.5} ${width * 0.6}, ${height / 7}
     Q ${width * 0.3}, ${height / 4} ${width * 0.3}, ${height / 4.5}
     Q ${width * 0.25}, ${height / 3.25} ${width * 0.25}, ${height / 3.5}
@@ -63,8 +63,8 @@ export const SVG = {
     Q ${width * 0.14}, ${height / 0.25} ${width * 0.07}, ${height / 0.5}
     `}
           fill="none"
-          stroke="#000701"
-          strokeWidth="45"
+          stroke="blue"
+          strokeWidth="5"
         />
       </svg>
     );
