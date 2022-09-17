@@ -66,7 +66,7 @@ export const SVG = {
     Q ${width * 0.14}, ${height / 0.25} ${width * 0.07}, ${height / 0.5}
     `}
           fill="none"
-          stroke="blue"
+          // stroke="blue"
           strokeWidth="10"
         />
       </svg>
