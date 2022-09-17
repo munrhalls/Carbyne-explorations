@@ -23,7 +23,7 @@ export const SVG = {
       L ${width}, 0
       L ${width}, ${height / 6.5}
     Q ${width * 0.75}, ${height / 10} ${width * 0.6}, ${height / 8.6}
-    Q ${width * 0.5}, ${height / 7.5} ${width * 0.3}, ${height / 9}
+    Q ${width * 0.5}, ${height / 7.5} ${width * 0.325}, ${height / 9}
     Q ${width * 0.1}, ${height / 4.5} ${width * 0.15}, ${height / 2.25}
     L ${width * 0.15}, ${height / 2.25}
     L ${width * 0.1}, ${height / 1.25}
@@ -36,7 +36,39 @@ export const SVG = {
       </svg>
     );
   },
+  BGCaveLine: function () {
+    const height = `${useWindowHeight()}`;
+    const width = `${useWindowWidth()}`;
 
+    return (
+      <svg
+        className="SVG"
+        version="1.1"
+        height={height}
+        width={width}
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <path
+          d={`M 0 0
+      M 0, ${height}
+      L 0, 0
+      L ${width}, 0
+      L ${width}, ${height / 6.5}
+    Q ${width * 0.75}, ${height / 10} ${width * 0.6}, ${height / 8.6}
+    Q ${width * 0.5}, ${height / 7.5} ${width * 0.325}, ${height / 9}
+    Q ${width * 0.1}, ${height / 4.5} ${width * 0.15}, ${height / 2.25}
+    L ${width * 0.15}, ${height / 2.25}
+    L ${width * 0.1}, ${height / 1.25}
+    L ${width * 0.07}, ${height / 0.5}
+    `}
+          fill="none"
+          stroke="blue"
+          strokeWidth="5"
+        />
+      </svg>
+    );
+  },
   BGblanketOutline: function () {
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;

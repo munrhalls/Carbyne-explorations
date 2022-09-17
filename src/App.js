@@ -26,6 +26,7 @@ function App() {
     >
       {/* <ScannerLoader active={loading}> */}
       <SVG.BGblanket />
+      <SVG.BGCaveLine />
       <SVG.BGblanketOutline />
       <SVG.BGcontentContainer />
       <Nav />
