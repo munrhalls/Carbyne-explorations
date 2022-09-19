@@ -355,6 +355,25 @@ export const SVG = {
       </svg>
     );
   },
+  BGanimStarDots: function () {
+    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
+
+    const height = `${useWindowHeight()}`;
+    const width = `${useWindowWidth()}`;
+
+    return (
+      <svg
+        className="SVG BGanimStarDots"
+        version="1.1"
+        height={height}
+        width={width}
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <image href={IMG__STARS} height="200" width="200" />
+      </svg>
+    );
+  },
   BGTitleLayerLine: function () {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
 
