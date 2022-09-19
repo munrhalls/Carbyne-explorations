@@ -160,11 +160,18 @@ export const SVG = {
       >
         <rect
           className="BGCaveSteps__rectangle"
-          style={{ transform: `skew(-0.01turn, 1deg)` }}
-          x={`${width * 0.125}`}
+          x={`${width * 0.05}`}
           y={`${height * 0.98}`}
-          width={`${width * 0.04}`}
+          width={`${width * 0.05}`}
           height={`${width * 0.0125}`}
+          fill="#fff"
+        />
+        <rect
+          className="BGCaveSteps__rectangle"
+          x={`${width * 0.05875}`}
+          y={`${height * 0.96}`}
+          width={`${width * 0.035}`}
+          height={`${width * 0.01}`}
           fill="#fff"
         />
         {/* <path
