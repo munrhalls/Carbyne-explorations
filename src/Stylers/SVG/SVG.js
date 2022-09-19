@@ -35,6 +35,7 @@ export const SVG = {
           fill="#000"
           stroke="#000"
           strokeOpacity="0.8275"
+          strokeLinejoin="round"
           strokeWidth="8"
         />
       </svg>
@@ -67,6 +68,7 @@ export const SVG = {
         `}
           fill="none"
           stroke="#000"
+          strokeLinejoin="round"
           strokeWidth={`${width / 12.5}`}
         />
       </svg>
@@ -100,6 +102,7 @@ export const SVG = {
         `}
           fill="#000019"
           stroke="#000019"
+          strokeLinejoin="round"
           strokeWidth="1"
         />
       </svg>
@@ -125,6 +128,7 @@ export const SVG = {
         `}
           fill="#fff"
           stroke="#fff"
+          strokeLinejoin="round"
           strokeWidth="1"
         />
       </svg>
@@ -150,6 +154,7 @@ export const SVG = {
     `}
           fill="none"
           stroke="blue"
+          strokeLinejoin="round"
           strokeWidth="10"
         />
       </svg>
