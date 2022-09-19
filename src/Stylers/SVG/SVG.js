@@ -374,7 +374,7 @@ export const SVG = {
           fill="url(#IMG__STARS)"
           d={`
         M ${width * 0.15} ${height * 1}
-
+      
         L ${width * 0.15} ${height * 0.7}
         L ${width * 0.25} ${height * 0.7}
         L ${width * 0.25} ${height * 1}
@@ -383,7 +383,7 @@ export const SVG = {
         `}
         />
         <pattern id="IMG__STARS" width="100%" height="100%">
-          <image href={IMG__STARS} height="100%" width="100%" />
+          <image href={IMG__STARS} />
         </pattern>
       </svg>
     );
