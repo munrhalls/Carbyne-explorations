@@ -174,6 +174,14 @@ export const SVG = {
           height={`${width * 0.01}`}
           fill="#fff"
         />
+        <rect
+          className="BGCaveSteps__rectangle"
+          x={`${width * 0.0675}`}
+          y={`${height * 0.9445}`}
+          width={`${width * 0.0175}`}
+          height={`${width * 0.0075}`}
+          fill="#fff"
+        />
         {/* <path
           d={`M ${width * 0.1} ${height * 0.95}
           L ${width * 0.15} ${height * 0.9}
