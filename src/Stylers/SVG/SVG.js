@@ -383,7 +383,7 @@ export const SVG = {
         `}
         />
         <pattern id="IMG__STARS" width="100%" height="100%">
-          <image href={IMG__STARS} />
+          <image className="BGanimStarDots__path" href={IMG__STARS} />
         </pattern>
       </svg>
     );
