@@ -103,9 +103,9 @@ export const SVG = {
           L ${width * 0.095} ${height * 0.88}
 
           L ${width * 0.1} ${height * 0.9}
-          L ${width * 0.1125} ${height * 0.95}
-          L ${width * 0.11} ${height * 0.975}
-          L ${width * 0.1125} ${height}
+          L ${width * 0.115} ${height * 0.95}
+          L ${width * 0.115} ${height * 0.975}
+          L ${width * 0.1225} ${height}
         `}
           fill="#000036"
           stroke="#000036"
