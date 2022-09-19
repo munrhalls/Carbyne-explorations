@@ -34,7 +34,8 @@ export const SVG = {
     `}
           fill="#000"
           stroke="#000"
-          strokeWidth="5"
+          strokeOpacity="0.8275"
+          strokeWidth="8"
         />
       </svg>
     );
@@ -121,125 +122,6 @@ export const SVG = {
       >
         <path
           d={`M ${width * 0.15} ${height * 0.7}
-          L ${width * 0.15} ${height * 0.7}
-
-          M ${width * 0.15} ${height * 0.7}
-          L ${width * 0.15} ${height * 0.701}
-
-          M ${width * 0.15} ${height * 0.71}
-          L ${width * 0.15} ${height * 0.712}
-
-          M ${width * 0.16} ${height * 0.72}
-          L ${width * 0.161} ${height * 0.72}
-
-          M ${width * 0.14} ${height * 0.723}
-          L ${width * 0.141} ${height * 0.723}
-
-
-          M ${width * 0.145} ${height * 0.69}
-          L ${width * 0.145} ${height * 0.691}
-
-          M ${width * 0.145} ${height * 0.691}
-          L ${width * 0.145} ${height * 0.69094}
-
-          M ${width * 0.145} ${height * 0.692}
-          L ${width * 0.145} ${height * 0.6923}
-
-
-          M ${width * 0.133} ${height * 0.6923}
-          L ${width * 0.132} ${height * 0.6924}
-
-          M ${width * 0.133} ${height * 0.8}
-          L ${width * 0.132} ${height * 0.802}
-
-          M ${width * 0.133} ${height * 0.81}
-          L ${width * 0.132} ${height * 0.8102}
-
-          M ${width * 0.133} ${height * 0.84}
-          L ${width * 0.132} ${height * 0.84102}
-
-          M ${width * 0.123} ${height * 0.81}
-          L ${width * 0.121} ${height * 0.8102}
-
-          M ${width * 0.12} ${height * 0.81}
-          L ${width * 0.121} ${height * 0.8102}
-
-          M ${width * 0.15} ${height * 0.81}
-          L ${width * 0.1501} ${height * 0.8102}
-
-          M ${width * 0.2} ${height * 0.81}
-          L ${width * 0.201} ${height * 0.8102}
-
-          M ${width * 0.19} ${height * 0.83}
-          L ${width * 0.1901} ${height * 0.8302}
-
-          M ${width * 0.19} ${height * 0.73}
-          L ${width * 0.1901} ${height * 0.731}
-
-          M ${width * 0.17} ${height * 0.71}
-          L ${width * 0.1701} ${height * 0.711}
-
-
-          M ${width * 0.175} ${height * 0.71}
-          L ${width * 0.17501} ${height * 0.711}
-          M ${width * 0.17} ${height * 0.71}
-          L ${width * 0.1701} ${height * 0.711}
-          M ${width * 0.167} ${height * 0.751}
-          L ${width * 0.16701} ${height * 0.7511}
-          M ${width * 0.17} ${height * 0.71}
-          L ${width * 0.1701} ${height * 0.711}
-          M ${width * 0.157} ${height * 0.71}
-          L ${width * 0.1571} ${height * 0.711}
-          M ${width * 0.17} ${height * 0.71}
-          L ${width * 0.1701} ${height * 0.711}
-          M ${width * 0.17} ${height * 0.71}
-          L ${width * 0.1701} ${height * 0.711}
-          M ${width * 0.17} ${height * 0.71}
-          L ${width * 0.1701} ${height * 0.711}
-
-
-          M ${width * 0.17} ${height * 0.71}
-          L ${width * 0.171} ${height * 0.711}
-          M ${width * 0.17} ${height * 0.751}
-          L ${width * 0.1701} ${height * 0.7521}
-
-          M ${width * 0.17} ${height * 0.771}
-          L ${width * 0.1701} ${height * 0.7721}
-
-          M ${width * 0.171} ${height * 0.781}
-          L ${width * 0.17101} ${height * 0.7821}
-
-          M ${width * 0.1751} ${height * 0.781}
-          L ${width * 0.175101} ${height * 0.7821}
-
-
-          M ${width * 0.1651} ${height * 0.781}
-          L ${width * 0.165101} ${height * 0.7821}
-
-          M ${width * 0.1651} ${height * 0.691}
-          L ${width * 0.165101} ${height * 0.6921}
-
-          M ${width * 0.1451} ${height * 0.671}
-          L ${width * 0.145101} ${height * 0.6721}
-          M ${width * 0.1451} ${height * 0.691}
-          L ${width * 0.145101} ${height * 0.6921}
-
-          M ${width * 0.17} ${height * 0.71}
-          L ${width * 0.1701} ${height * 0.711}
-
-          M ${width * 0.1451} ${height * 0.63} 
-          L ${width * 0.145101} ${height * 0.631}
-
-          M ${width * 0.1451} ${height * 0.63} 
-          L ${width * 0.145101} ${height * 0.631}
-
-          M ${width * 0.1291} ${height * 0.75} 
-          L ${width * 0.12915} ${height * 0.7525}
-
-
-          M ${width * 0.12745} ${height * 0.75} 
-          L ${width * 0.12775} ${height * 0.754}
-          
         `}
           fill="#fff"
           stroke="#fff"
