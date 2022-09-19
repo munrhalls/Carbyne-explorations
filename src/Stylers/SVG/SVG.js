@@ -29,8 +29,8 @@ export const SVG = {
     Q ${width * 0.5}, ${height / 7.5} ${width * 0.325}, ${height / 9}
     Q ${width * 0.1}, ${height / 4.5} ${width * 0.15}, ${height / 2.25}
     L ${width * 0.15}, ${height / 2.25}
-    L ${width * 0.1}, ${height / 1.25}
-    L ${width * 0.07}, ${height / 0.5}
+    L ${width * 0.35}, ${height / 1.25}
+    L ${width * 0.45}, ${height / 0.5}
     `}
           fill="#000"
           stroke="#000"
@@ -67,7 +67,7 @@ export const SVG = {
         
         `}
           fill="none"
-          stroke="#000"
+          stroke="#180000"
           strokeLinejoin="round"
           strokeWidth={`${width / 12.5}`}
         />
