@@ -29,6 +29,7 @@ function App() {
         <SVG.BGCaveLine />
         <SVG.BGCaveLineFill />
         <SVG.BGCircle />
+        <SVG.BGCaveSteps />
         {/* <SVG.BGCaveDots /> */}
         <SVG.BGblanketOutline />
         <SVG.BGcontentContainer />

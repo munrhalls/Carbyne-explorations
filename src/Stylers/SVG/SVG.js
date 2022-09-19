@@ -140,6 +140,33 @@ export const SVG = {
           strokeWidth="7.5"
           fill="#fff"
         />
+      </svg>
+    );
+  },
+  BGCaveSteps: function () {
+    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
+
+    const height = `${useWindowHeight()}`;
+    const width = `${useWindowWidth()}`;
+
+    return (
+      <svg
+        className="SVG"
+        version="1.1"
+        height={height}
+        width={width}
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <rect
+          className="BGCaveSteps__rectangle"
+          style={{ transform: `skew(-0.01turn, 1deg)` }}
+          x={`${width * 0.125}`}
+          y={`${height * 0.98}`}
+          width={`${width * 0.04}`}
+          height={`${width * 0.0125}`}
+          fill="#fff"
+        />
         {/* <path
           d={`M ${width * 0.1} ${height * 0.95}
           L ${width * 0.15} ${height * 0.9}
