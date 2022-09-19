@@ -211,7 +211,7 @@ export const SVG = {
         <circle
           cx={`${width * 0.075}`}
           cy={`${height * 0.91}`}
-          r="1.5"
+          r="3"
           stroke="transparent"
           strokeWidth="15"
           fill="#fff"
