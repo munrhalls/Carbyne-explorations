@@ -116,6 +116,41 @@ export const SVG = {
       </svg>
     );
   },
+  BGCircle: function () {
+    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
+
+    const height = `${useWindowHeight()}`;
+    const width = `${useWindowWidth()}`;
+
+    return (
+      <svg
+        className="SVG"
+        version="1.1"
+        height={height}
+        width={width}
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <circle
+          cx={`${width * 0.31}`}
+          cy={`${height * 0.135}`}
+          r={`${height * 0.075}`}
+          stroke="black"
+          stroke-width="15"
+          fill="#fff"
+        />
+        {/* <path
+          d={`M ${width * 0.1} ${height * 0.95}
+          L ${width * 0.15} ${height * 0.9}
+          `}
+          fill="#fff"
+          stroke="#fff"
+          strokeLinejoin="round"
+          strokeWidth="1"
+        /> */}
+      </svg>
+    );
+  },
   BGCaveDots: function () {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
 
