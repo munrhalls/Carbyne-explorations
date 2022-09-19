@@ -90,15 +90,22 @@ export const SVG = {
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
         <path
-          d={`M ${width * 0.0975} ${height}
-          L ${width * 0.102} ${height * 0.8}
-          L ${width * 0.12975} ${height * 0.596}
-          L ${width * 0.2} ${height * 0.74788}
-          L ${width * 0.20715} ${height * 0.76788}
-          L ${width * 0.20705} ${height * 0.79788}
-          L ${width * 0.1980705} ${height * 0.85788}
-          L ${width * 0.1980705} ${height}
+          d={`M ${width * 0.025} ${height}
+          L ${width * 0.04} ${height * 0.95}
+          L ${width * 0.045} ${height * 0.9}
 
+          L ${width * 0.06} ${height * 0.8725}
+          L ${width * 0.065} ${height * 0.87}
+          L ${width * 0.07} ${height * 0.8775}
+          L ${width * 0.075} ${height * 0.875}
+          L ${width * 0.08} ${height * 0.87}
+          L ${width * 0.085} ${height * 0.875}
+          L ${width * 0.095} ${height * 0.88}
+
+          L ${width * 0.1} ${height * 0.9}
+          L ${width * 0.1125} ${height * 0.95}
+          L ${width * 0.11} ${height * 0.975}
+          L ${width * 0.1125} ${height}
         `}
           fill="#000036"
           stroke="#000036"
