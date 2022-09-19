@@ -13,7 +13,7 @@ export const SVG = {
 
     return (
       <svg
-        className="SVG"
+        className="BGblanket SVG"
         version="1.1"
         height={height}
         width={width}
@@ -50,7 +50,7 @@ export const SVG = {
 
     return (
       <svg
-        className="SVG"
+        className="BGCaveLine SVG"
         version="1.1"
         height={height}
         width={width}
@@ -83,7 +83,7 @@ export const SVG = {
 
     return (
       <svg
-        className="SVG"
+        className="BGCaveLineFill SVG"
         version="1.1"
         height={height}
         width={width}
@@ -124,7 +124,7 @@ export const SVG = {
 
     return (
       <svg
-        className="SVG"
+        className="BGCircle SVG"
         version="1.1"
         height={height}
         width={width}
@@ -151,7 +151,7 @@ export const SVG = {
 
     return (
       <svg
-        className="SVG"
+        className="BGCaveSteps SVG"
         version="1.1"
         height={height}
         width={width}
@@ -201,7 +201,7 @@ export const SVG = {
 
     return (
       <svg
-        className="SVG"
+        className="BGCaveDots SVG"
         version="1.1"
         height={height}
         width={width}
@@ -363,14 +363,28 @@ export const SVG = {
 
     return (
       <svg
-        className="SVG BGanimStarDots"
+        className="BGanimStarDots SVG"
         version="1.1"
         height={height}
         width={width}
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <image href={IMG__STARS} height="200" width="200" />
+        <path
+          fill="url(#IMG__STARS)"
+          d={`
+        M ${width * 0.15} ${height * 1}
+
+        L ${width * 0.15} ${height * 0.7}
+        L ${width * 0.25} ${height * 0.7}
+        L ${width * 0.25} ${height * 1}
+        L ${width * 0.15} ${height * 1}
+        
+        `}
+        />
+        <pattern id="IMG__STARS" width="100%" height="100%">
+          <image href={IMG__STARS} height="100%" width="100%" />
+        </pattern>
       </svg>
     );
   },
@@ -382,7 +396,7 @@ export const SVG = {
 
     return (
       <svg
-        className="SVG"
+        className="BGTitleLayerLine SVG"
         version="1.1"
         height={height}
         width={width}
@@ -401,7 +415,7 @@ export const SVG = {
 
     return (
       <svg
-        className="SVG"
+        className="BGblanketOutline SVG"
         version="1.1"
         height={height}
         width={width}
