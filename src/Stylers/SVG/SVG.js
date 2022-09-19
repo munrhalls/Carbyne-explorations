@@ -100,8 +100,8 @@ export const SVG = {
           L ${width * 0.1980705} ${height}
 
         `}
-          fill="#000019"
-          stroke="#000019"
+          fill="#000036"
+          stroke="#000036"
           strokeLinejoin="round"
           strokeWidth="1"
         />
