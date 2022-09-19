@@ -1,0 +1,9 @@
+.BGCaveDots {
+    position: absolute;
+
+}
+
+.BGCaveDots__dot {
+    position: absolute;
+    top: 50%;
+}

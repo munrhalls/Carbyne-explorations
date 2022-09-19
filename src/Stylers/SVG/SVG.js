@@ -1,3 +1,4 @@
+import IMG__STARS from "./../../Assets/stars.png";
 import React from "react";
 import useWindowHeight from "../../Hooks/useWindowHeight";
 import useWindowWidth from "../../Hooks/useWindowWidth";
@@ -130,14 +131,23 @@ export const SVG = {
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <path
-          d={`M ${width * 0.15} ${height * 0.7}
-        `}
+        <circle
+          cx={`${width * 0.31}`}
+          cy={`${height * 0.135}`}
+          r={`${height * 0.075}`}
+          stroke="black"
+          stroke-width="3"
+          fill="#fff"
+        />
+        {/* <path
+          d={`M ${width * 0.1} ${height * 0.95}
+          L ${width * 0.15} ${height * 0.9}
+          `}
           fill="#fff"
           stroke="#fff"
           strokeLinejoin="round"
           strokeWidth="1"
-        />
+        /> */}
       </svg>
     );
   },
