@@ -67,7 +67,7 @@ export const SVG = {
         
         `}
           fill="none"
-          stroke="#180000"
+          stroke="#000"
           strokeLinejoin="round"
           strokeWidth={`${width / 12.5}`}
         />
