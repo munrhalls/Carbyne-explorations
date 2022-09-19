@@ -30,7 +30,7 @@ function App() {
         <SVG.BGCaveLineFill />
         <SVG.BGCircle />
         <SVG.BGCaveSteps />
-        {/* <SVG.BGCaveDots /> */}
+        <SVG.BGCaveDots />
         <SVG.BGblanketOutline />
         <SVG.BGcontentContainer />
         <Nav />

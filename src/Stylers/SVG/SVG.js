@@ -190,15 +190,6 @@ export const SVG = {
           height={`${width * 0.003}`}
           fill="#fff"
         />
-        {/* <path
-          d={`M ${width * 0.1} ${height * 0.95}
-          L ${width * 0.15} ${height * 0.9}
-          `}
-          fill="#fff"
-          stroke="#fff"
-          strokeLinejoin="round"
-          strokeWidth="1"
-        /> */}
       </svg>
     );
   },
@@ -218,22 +209,149 @@ export const SVG = {
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
         <circle
-          cx={`${width * 0.31}`}
-          cy={`${height * 0.135}`}
-          r={`${height * 0.075}`}
-          stroke="black"
-          stroke-width="15"
+          cx={`${width * 0.075}`}
+          cy={`${height * 0.91}`}
+          r="1.5"
+          stroke="transparent"
+          strokeWidth="15"
           fill="#fff"
         />
-        {/* <path
-          d={`M ${width * 0.1} ${height * 0.95}
-          L ${width * 0.15} ${height * 0.9}
-          `}
-          fill="#fff"
-          stroke="#fff"
-          strokeLinejoin="round"
+        <circle
+          cx={`${width * 0.0725}`}
+          cy={`${height * 0.92}`}
+          r="1"
+          stroke="transparent"
           strokeWidth="1"
-        /> */}
+          fill="#fff"
+        />
+        <circle
+          cx={`${width * 0.07125}`}
+          cy={`${height * 0.9}`}
+          r="1"
+          stroke="transparent"
+          strokeWidth="1"
+          fill="#fff"
+        />
+        <circle
+          cx={`${width * 0.06125}`}
+          cy={`${height * 0.89}`}
+          r="1"
+          stroke="transparent"
+          strokeWidth="1"
+          fill="#fff"
+        />
+        <circle
+          cx={`${width * 0.0575}`}
+          cy={`${height * 0.88}`}
+          r="1"
+          stroke="transparent"
+          strokeWidth="1"
+          fill="#fff"
+        />
+        <circle
+          cx={`${width * 0.0775}`}
+          cy={`${height * 0.89}`}
+          r="1"
+          stroke="transparent"
+          strokeWidth="1"
+          fill="#fff"
+        />
+        <circle
+          cx={`${width * 0.0755}`}
+          cy={`${height * 0.91}`}
+          r="1"
+          stroke="transparent"
+          strokeWidth="1"
+          fill="#fff"
+        />
+        <circle
+          cx={`${width * 0.0815}`}
+          cy={`${height * 0.9}`}
+          r="1"
+          stroke="transparent"
+          strokeWidth="1"
+          fill="#fff"
+        />
+        <circle
+          cx={`${width * 0.0915}`}
+          cy={`${height * 0.93}`}
+          r="1"
+          stroke="transparent"
+          strokeWidth="1"
+          fill="#fff"
+        />
+        <circle
+          cx={`${width * 0.0615}`}
+          cy={`${height * 0.93}`}
+          r="1"
+          stroke="transparent"
+          strokeWidth="1"
+          fill="#fff"
+        />
+        <circle
+          cx={`${width * 0.0515}`}
+          cy={`${height * 0.895}`}
+          r="1"
+          stroke="transparent"
+          strokeWidth="1"
+          fill="#fff"
+        />
+        <circle
+          cx={`${width * 0.06815}`}
+          cy={`${height * 0.875}`}
+          r="1"
+          stroke="transparent"
+          strokeWidth="1"
+          fill="#fff"
+        />
+        <circle
+          cx={`${width * 0.0715}`}
+          cy={`${height * 0.8985}`}
+          r="1"
+          stroke="transparent"
+          strokeWidth="1"
+          fill="#fff"
+        />
+        <circle
+          cx={`${width * 0.0915}`}
+          cy={`${height * 0.8985}`}
+          r="1"
+          stroke="transparent"
+          strokeWidth="1"
+          fill="#fff"
+        />
+        <circle
+          cx={`${width * 0.0945}`}
+          cy={`${height * 0.905}`}
+          r="1"
+          stroke="transparent"
+          strokeWidth="1"
+          fill="#fff"
+        />
+        <circle
+          cx={`${width * 0.094755}`}
+          cy={`${height * 0.915}`}
+          r="1"
+          stroke="transparent"
+          strokeWidth="1"
+          fill="#fff"
+        />
+        <circle
+          cx={`${width * 0.05510194755}`}
+          cy={`${height * 0.905}`}
+          r="1"
+          stroke="transparent"
+          strokeWidth="1"
+          fill="#fff"
+        />
+        <circle
+          cx={`${width * 0.052510194755}`}
+          cy={`${height * 0.9155}`}
+          r="1"
+          stroke="transparent"
+          strokeWidth="1"
+          fill="#fff"
+        />
       </svg>
     );
   },
