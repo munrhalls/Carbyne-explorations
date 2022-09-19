@@ -136,7 +136,7 @@ export const SVG = {
           cy={`${height * 0.135}`}
           r={`${height * 0.075}`}
           stroke="black"
-          stroke-width="3"
+          stroke-width="15"
           fill="#fff"
         />
         {/* <path
