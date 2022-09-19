@@ -1,9 +1,9 @@
 # Carbyne Explorations
 
 Website: (https://carbyne-explorations.netlify.com)
-Carbyne Explorations.
+Carbyne Explorations. My blog.
 
-My blog.
+All SVG graphics, background graphics, animations, all icons, design, website and app are all authored & written by me - Munrhalls.
 
 ## Available Scripts
 
