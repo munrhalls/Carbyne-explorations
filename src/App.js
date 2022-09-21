@@ -63,7 +63,7 @@ function App() {
 
         {content === "POETRY" && (
           <div className="Content">
-            <h1>POETRY CONTENT VIEW.</h1>
+            <h1>MY POEMS.</h1>
             {/* refactor */}
             <h1 style={{ fontWeight: "bold", marginTop: "1rem" }}>
               LIQUID AIR ABUSER
@@ -104,6 +104,10 @@ function App() {
             <p>There's only one problem, with these, though:</p>
             they exist.
             <p>What drinks fit on the table, when telling such stories?</p>{" "}
+            <br></br>
+            <h3>Poem by: MUNRHALLS.</h3>
+            <br></br>
+            <br></br>
           </div>
         )}
       </ScannerLoader>
