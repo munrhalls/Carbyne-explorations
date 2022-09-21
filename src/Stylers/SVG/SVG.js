@@ -510,9 +510,9 @@ export const SVG = {
           width="500"
           // x={width * 0.475}
           // y={height * 0.185}
-          fill="#fff"
+          fill="#777"
         >
-          <textPath alignmentBaseline="bottom" xlinkHref="#curve1" fill="#fff">
+          <textPath alignmentBaseline="bottom" xlinkHref="#curve1" fill="#aaa">
             carbyne
           </textPath>
         </text>
