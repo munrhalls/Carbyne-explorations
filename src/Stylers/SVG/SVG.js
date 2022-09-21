@@ -483,10 +483,10 @@ export const SVG = {
       >
         <path
           id="curve"
-          d={`M${width * 0.475} ${height * 0.685} 
-          L ${width} ${height * 0.15}
-        
-        `}
+          //   d={`M${width * 0.475} ${height * 0.685}
+          //    ${width} ${height * 0.15}
+          // `}
+          d="M500,300 Q90,90 90,45 Q90,10 50,10 Q10,10 10,40 Q10,70 45,70 Q70,70 75,50"
           fill="transparent"
         />
         <text
@@ -496,11 +496,7 @@ export const SVG = {
           // y={height * 0.185}
           fill="#414141"
         >
-          <textPath
-            alignment-baseline="top"
-            xlinkHref="#curve"
-            fill="transparent"
-          >
+          <textPath alignmentBaseline="top" xlinkHref="#curve" fill="#414141">
             Carbyne Explorations
           </textPath>
         </text>
