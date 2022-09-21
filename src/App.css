@@ -7,8 +7,10 @@
 @import './Animators/ScannerAnim.css';
 /* globals */
 @import './components/ScannerLoader/ScannerLoader.css';
+@import './Fonts/Fonts.css';
 
 .App {
+  font-family: 'Anke', 'Sofachrome Rg', 'Josefin Sans','Good Times Rg' ;
   position: relative;
   overflow: hidden;
 }
