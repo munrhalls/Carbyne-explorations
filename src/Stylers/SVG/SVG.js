@@ -466,6 +466,33 @@ export const SVG = {
       </svg>
     );
   },
+  AppTitle: function () {
+    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
+
+    const height = `${useWindowHeight()}`;
+    const width = `${useWindowWidth()}`;
+
+    return (
+      <svg
+        className="BGTitleLayerLine SVG"
+        version="1.1"
+        height={height}
+        width={width}
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <path
+          d={`M ${width * 0.35} ${height * 0.22} 
+          Q${width * 0.6} ${height * 0.24}  ${width * 0.6} ${height * 0.23} 
+          Q${width * 0.6} ${height * 0.185}  ${width} ${height * 0.245} 
+          `}
+          stroke="#333"
+          strokeWidth="3"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  },
   BGblanketOutline: function () {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
 
