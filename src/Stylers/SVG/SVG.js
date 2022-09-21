@@ -374,8 +374,8 @@ export const SVG = {
         <circle cx="150" cy="50" r="4" />
 
         <svg
-          x={width * 0.05}
-          y={height * 1}
+          x={width * 0}
+          y={height * 0.6}
           width={width * 0.4}
           height={height * 0.4}
         >
