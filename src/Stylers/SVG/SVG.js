@@ -481,13 +481,28 @@ export const SVG = {
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
+        <path
+          id="curve"
+          d={`M${width * 0.475} ${height * 0.685} 
+          L ${width} ${height * 0.15}
+        
+        `}
+          fill="transparent"
+        />
         <text
           className="AppTitle__text"
-          x={width * 0.5}
-          y={height * 0.18}
+          width="500"
+          // x={width * 0.475}
+          // y={height * 0.185}
           fill="#414141"
         >
-          Carbyne Explorations
+          <textPath
+            alignment-baseline="top"
+            xlinkHref="#curve"
+            fill="transparent"
+          >
+            Carbyne Explorations
+          </textPath>
         </text>
       </svg>
     );
