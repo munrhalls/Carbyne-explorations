@@ -48,6 +48,7 @@ function App() {
 
         <SVG.BGUpholderConnectorXer />
         <SVG.BGNavigationalAntennae />
+
         <Nav />
 
         <div className="App__title">
