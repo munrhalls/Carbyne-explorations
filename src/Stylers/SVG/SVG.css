@@ -6,6 +6,7 @@
 @import './BGCaveLineFill.css';
 @import './BGblanketOutline.css';
 @import './BGcontentContainer.css';
+@import './AppTitle.css';
 
 .SVG {
   /* z-precedence */

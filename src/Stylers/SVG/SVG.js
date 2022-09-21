@@ -474,15 +474,20 @@ export const SVG = {
 
     return (
       <svg
-        className="BGTitleLayerLine SVG"
+        className="AppTitle SVG"
         version="1.1"
         height={height}
         width={width}
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <text x={width * 0.5} y={height * 0.5} fill="grey">
-          I love SVG!
+        <text
+          className="AppTitle__text"
+          x={width * 0.5}
+          y={height * 0.5}
+          fill="#414141"
+        >
+          Carbyne Explorations
         </text>
       </svg>
     );
