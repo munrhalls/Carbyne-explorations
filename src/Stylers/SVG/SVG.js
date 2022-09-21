@@ -364,35 +364,33 @@ export const SVG = {
     return (
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        stroke="red"
-        fill="grey"
         className="SVG"
         height={height}
         width={width}
       >
-        <circle cx="50" cy="50" r="40" />
-        <circle cx="150" cy="50" r="4" />
-
         <svg
           x={width * 0}
           y={height * 0.6}
           width={width * 0.21}
           height={height * 0.4}
-          fill="blue"
         >
-          <rect width={width * 0.4} height="100%" fill="url(#IMG__STARS)">
+          <rect
+            width={width * 0.4}
+            height={height * 0.4}
+            fill="url(#IMG__STARS)"
+          >
             <animateTransform
               attributeName="transform"
               attributeType="XML"
               type="translate"
               from="0"
-              to={width * .4}
-              dur="100s"
+              to={width * 0.1}
+              dur="2s"
               repeatCount="indefinite"
             />
           </rect>
 
-          <pattern id="IMG__STARS" width="100%" height="100%">
+          <pattern id="IMG__STARS" width="100%" height="100%">  
             <image className="BGanimStarDots__path" href={IMG__STARS} />
           </pattern>
         </svg>
