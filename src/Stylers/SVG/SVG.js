@@ -634,7 +634,7 @@ export const SVG = {
 
     return (
       <svg
-        className="AppTitle SVG"
+        className="BGNavigationalRiver SVG"
         version="1.1"
         height={height}
         width={width}
@@ -690,10 +690,15 @@ export const SVG = {
           strokeLinejoin="round"
         />
 
-        <animateMotion
-          dur="10s"
-          repeatCount="indefinite"
-          path={`M${width} ${height * 0.14447154471544716}
+        <text className="AppTitle__textTwo">
+          <textPath alignmentBaseline="top" xlinkHref="#curve2" fill="##fff">
+            Explorations
+          </textPath>
+
+          <animateMotion
+            dur="10s"
+            repeatCount="indefinite"
+            path={`M${width} ${height * 0.14447154471544716}
           L ${width * 0.9890859481582538} ${height * 0.15176151761517614}
           Q ${width * 0.77207366984993179} ${height * 0.082113821138211}
           ${width * 0.6207366984993179} ${height * 0.052113821138211}
@@ -709,7 +714,8 @@ export const SVG = {
           L ${width * 0.03957708049113233} ${height * 0.7967479674796748}
           L ${width * 0.014106412005457026} ${height * 0.9227642276422764}
         `}
-        />
+          />
+        </text>
       </svg>
     );
   },
