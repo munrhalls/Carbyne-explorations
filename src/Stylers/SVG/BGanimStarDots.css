@@ -1,17 +1,7 @@
-@keyframes motion {
-    from {
-        right: 0;
-    } to {
-        right: 50%;
-    }
-}
-
 #IMG__STARS {
-    background-color: #000;
-    opacity: 0.5;
+    
 }
 
 .BGanimStarDots__path {
-    position: absolute;
-    animation: motion infinite 10s;
+    height: 100%;
 }
