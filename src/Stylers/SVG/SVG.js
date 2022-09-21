@@ -454,7 +454,17 @@ export const SVG = {
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <path />
+        <path
+          d={`M ${width * 0.35} ${height * 0.22} 
+          Q${width * 0.6} ${height * 0.24}  ${width * 0.6} ${height * 0.23} 
+          Q${width * 0.6} ${height * 0.2}  ${width} ${height * 0.23} 
+         
+          
+          `}
+          stroke="#111"
+          strokeWidth="3"
+          strokeLinejoin="round"
+        />
       </svg>
     );
   },

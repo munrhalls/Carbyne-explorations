@@ -14,7 +14,7 @@ import { SVG } from "./Stylers/SVG/SVG";
 
 function App() {
   const { loading } = useSphere();
-  useIntroAnim();
+  // useIntroAnim();
 
   return (
     <div
