@@ -35,6 +35,7 @@ function App() {
         <SVG.BGanimStarDots />
         <SVG.BGblanket />
         <SVG.BGCaveLine />
+        <SVG.BGCaveRavineWhiteLaces />
         <SVG.BGCaveLineFill />
         <SVG.BGCircle />
         <SVG.BGCaveSteps />
