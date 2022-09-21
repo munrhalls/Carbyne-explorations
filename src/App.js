@@ -25,13 +25,14 @@ function App() {
       }}
     >
       <ScannerLoader active={loading}>
+        <SVG.BGanimStarDots />
         <SVG.BGblanket />
         <SVG.BGCaveLine />
         <SVG.BGCaveLineFill />
         <SVG.BGCircle />
         <SVG.BGCaveSteps />
         <SVG.BGCaveDots />
-        <SVG.BGanimStarDots />
+
         <SVG.BGTitleLayerLine />
         <SVG.BGblanketOutline />
         <SVG.BGcontentContainer />

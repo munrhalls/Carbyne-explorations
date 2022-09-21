@@ -213,7 +213,7 @@ export const SVG = {
           cy={`${height * 0.91}`}
           r="3"
           stroke="transparent"
-          strokeWidth="15"
+          strokeWidth={width * 0.01}
           fill="#fff"
         />
         <circle
@@ -363,29 +363,61 @@ export const SVG = {
 
     return (
       <svg
-        className="BGanimStarDots SVG"
-        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        stroke="red"
+        fill="grey"
+        className="SVG"
         height={height}
         width={width}
-        xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <path
-          fill="url(#IMG__STARS)"
-          d={`
-        M ${width * 0.15} ${height * 1}
-      
-        L ${width * 0.15} ${height * 0.7}
-        L ${width * 0.25} ${height * 0.7}
-        L ${width * 0.25} ${height * 1}
-        L ${width * 0.15} ${height * 1}
-        
-        `}
-        />
-        <pattern id="IMG__STARS" width="100%" height="100%">
-          <image className="BGanimStarDots__path" href={IMG__STARS} />
-        </pattern>
+        <circle cx="50" cy="50" r="40" />
+        <circle cx="150" cy="50" r="4" />
+
+        <svg
+          x={width * 0.05}
+          y={height * 1}
+          width={width * 0.4}
+          height={height * 0.4}
+        >
+          <circle cx="50" cy="50" r="40">
+            <animateTransform
+              attributeName="transform"
+              attributeType="XML"
+              type="translate"
+              from="0"
+              to="50"
+              dur="10s"
+              repeatCount="indefinite"
+            />
+          </circle>
+        </svg>
       </svg>
+
+      // <svg
+      //   className="BGanimStarDots SVG"
+      //   version="1.1"
+      //   height={height}
+      //   width={width}
+      //   xmlns="http://www.w3.org/2000/svg"
+      //   xmlnsXlink="http://www.w3.org/1999/xlink"
+      //   style={{ overflow: `visible` }}
+      // >
+      //   <path
+      //     fill="url(#IMG__STARS)"
+      //     d={`
+      //       M ${0} ${height * 1}
+
+      //       L ${width * 0.15} ${height * 0.7}
+      //       L ${width * 0.25} ${height * 0.7}
+      //       L ${width * 0.25} ${height * 1}
+      //       L ${width * 0.15} ${height * 1}
+
+      //       `}
+      //   />
+      //   <pattern id="IMG__STARS" width="100%" height="100%">
+      //     <image className="BGanimStarDots__path" href={IMG__STARS} />
+      //   </pattern>
+      // </svg>
     );
   },
   BGTitleLayerLine: function () {
