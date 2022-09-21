@@ -685,17 +685,17 @@ export const SVG = {
           L ${width * 0.03957708049113233} ${height * 0.7967479674796748}
           L ${width * 0.014106412005457026} ${height * 0.9227642276422764}
         `}
-          stroke="purple"
+          stroke="transparent"
           fill="none"
           strokeLinejoin="round"
         />
 
-        <text className="AppTitle__textTwo" fill="purple">
+        <text className="BGNavigationalRiver__btn" fill="#fff">
           {/* <textPath alignmentBaseline="top" xlinkHref="#curve2" fill="##fff"> */}
           Explorations
           {/* </textPath> */}
           <animateMotion
-            dur="5s"
+            dur="30s"
             repeatCount="indefinite"
             path={`M${width} ${height * 0.14447154471544716}
           L ${width * 0.9890859481582538} ${height * 0.15176151761517614}
