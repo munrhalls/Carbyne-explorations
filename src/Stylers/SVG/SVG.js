@@ -458,10 +458,8 @@ export const SVG = {
           d={`M ${width * 0.35} ${height * 0.22} 
           Q${width * 0.6} ${height * 0.24}  ${width * 0.6} ${height * 0.23} 
           Q${width * 0.6} ${height * 0.185}  ${width} ${height * 0.245} 
-         
-          
           `}
-          stroke="#111"
+          stroke="#333"
           strokeWidth="3"
           strokeLinejoin="round"
         />
