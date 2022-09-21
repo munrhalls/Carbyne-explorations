@@ -13,9 +13,9 @@ import { useSphere } from "./Contexts/SphereProvider";
 import { SVG } from "./Stylers/SVG/SVG";
 
 function App() {
-  const { loading } = useSphere();
+  const { loading, content } = useSphere();
   // useIntroAnim();
-
+  console.log(content);
   return (
     <div
       className="App"
@@ -53,9 +53,15 @@ function App() {
         <Nav />
 
         <div className="App__title">
-          <h1>WELCOME</h1>
-          <h1>I AM MUNRHALLS</h1>
-          <h1>THIS IS MY REPOSITORY AND BLOG</h1>
+          {!content && (
+            <>
+              <h1>WELCOME</h1>
+              <h1>I AM MUNRHALLS</h1>
+              <h1>THIS IS MY REPOSITORY AND BLOG</h1>
+            </>
+          )}
+
+          {content === "POETRY" && <h1>POETRY CONTENT VIEW.</h1>}
         </div>
       </ScannerLoader>
     </div>

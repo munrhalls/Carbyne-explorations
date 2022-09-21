@@ -2,6 +2,7 @@ import IMG__STARS from "./../../Assets/stars.png";
 import React from "react";
 import useWindowHeight from "../../Hooks/useWindowHeight";
 import useWindowWidth from "../../Hooks/useWindowWidth";
+import { useSphere } from "../../Contexts/SphereProvider";
 // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
 
 export const SVG = {
@@ -696,9 +697,13 @@ export const SVG = {
   },
   BGNavigationalRiverButton: function ({ text }) {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
-
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
+    const { setContent } = useSphere();
+
+    const contentLink = text?.toUpperCase().trim();
+    // contentLink?.style?.textTransform = "uppercase";
+    console.log(contentLink);
 
     return (
       <svg
@@ -709,7 +714,11 @@ export const SVG = {
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <text className="BGNavigationalRiverButton" fill="#fff">
+        <text
+          className="BGNavigationalRiverButton"
+          fill="#fff"
+          onClick={() => setContent(contentLink)}
+        >
           {/* <textPath alignmentBaseline="top" xlinkHref="#curve2" fill="##fff"> */}
           {text}
           {/* </textPath> */}
