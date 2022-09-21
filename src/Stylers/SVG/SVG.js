@@ -587,8 +587,38 @@ export const SVG = {
         <path
           d={`M${width * 0.08594815825375171} ${height * 0.8509485094850948}
           L ${width * 0.0791268758526603} ${height * 0.7994579945799458}
-          L ${width * 0.11869031377899045} ${height * 0.5907859078590786}
-          L ${width * 0.2155525238744884} ${height * 0.15718157181571815}
+          
+          L ${width * 0.2155525238744884} ${height * 0.23718157181571815}
+        `}
+          stroke="#fff"
+          strokeWidth="1"
+        />
+      </svg>
+    );
+  },
+  BGUpholderConnectorXer: function () {
+    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
+
+    const height = `${useWindowHeight()}`;
+    const width = `${useWindowWidth()}`;
+
+    return (
+      <svg
+        className="AppTitle SVG"
+        version="1.1"
+        height={height}
+        width={width}
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <path
+          d={`M${width * 0.06275579809004093} ${height * 0.7913279132791328}
+          
+          L ${width * 0.19283765347885403} ${height * 0.18585365853658534}
+          Q ${width * 0.2333151432469304} ${height * 0.32848238482384823} ${
+            width * 0.40109140518417463
+          } ${height * 0.251111111111111}
+          
         `}
           stroke="#777"
           strokeWidth="1"

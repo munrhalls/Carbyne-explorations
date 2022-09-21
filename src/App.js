@@ -45,8 +45,9 @@ function App() {
         <SVG.BGblanketOutline />
         <SVG.BGcontentContainer />
         <SVG.AppTitle />
+
+        <SVG.BGUpholderConnectorXer />
         <SVG.BGNavigationalAntennae />
-        <SVG.BGNavigationalRiver />
         <Nav />
 
         <div className="App__title">
