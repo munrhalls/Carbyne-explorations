@@ -666,6 +666,7 @@ export const SVG = {
             Z
         `}
           stroke="#777"
+          strokeOpacity="0.25"
           strokeWidth="1"
           fill="transparent"
         />
