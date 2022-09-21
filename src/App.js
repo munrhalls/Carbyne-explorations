@@ -64,6 +64,7 @@ function App() {
         {content === "POETRY" && (
           <div className="Content">
             <h1>POETRY CONTENT VIEW.</h1>
+            {/* refactor */}
             <h1 style={{ fontWeight: "bold", marginTop: "1rem" }}>
               LIQUID AIR ABUSER
             </h1>
