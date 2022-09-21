@@ -415,7 +415,7 @@ export const SVG = {
               type="translate"
               from="0"
               to={-width * 0.3}
-              dur="30s"
+              dur="15s"
               repeatCount="indefinite"
             />
           </rect>
