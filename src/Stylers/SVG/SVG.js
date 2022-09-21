@@ -692,6 +692,7 @@ export const SVG = {
         />
 
         <SVG.BGNavigationalRiverButton text="Poetry" />
+        {/* <SVG.BGNavigationalRiverButton text="Articles" /> */}
       </svg>
     );
   },
