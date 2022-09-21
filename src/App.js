@@ -48,6 +48,7 @@ function App() {
 
         <SVG.BGUpholderConnectorXer />
         <SVG.BGNavigationalAntennae />
+        <SVG.BGNavigationalRiver />
 
         <Nav />
 
