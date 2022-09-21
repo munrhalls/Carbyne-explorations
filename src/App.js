@@ -23,6 +23,7 @@ function App() {
         height: `${useWindowHeight()}px`,
         width: `${useWindowWidth()}px`,
       }}
+      onClick={(e) => console.log(e.clientX / e.target.clientWidth)}
     >
       <ScannerLoader active={loading}>
         <SVG.BGanimStarDots />

@@ -486,9 +486,10 @@ export const SVG = {
           //   d={`M${width * 0.475} ${height * 0.685}
           //    ${width} ${height * 0.15}
           // `}
-          d={`M${width * 0.475} ${height * 0.185} 
-          L ${width * 0.8} ${height * 0.185}`}
-          fill="transparent"
+          d={`M${width * 0.3975} ${height * 0.1675} 
+          L ${width * 0.4675} ${height * 0.185} 
+          L ${width} ${height * 0.185}`}
+          fill="blue"
         />
         <text
           className="AppTitle__text"
