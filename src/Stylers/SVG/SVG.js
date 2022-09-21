@@ -486,7 +486,8 @@ export const SVG = {
           //   d={`M${width * 0.475} ${height * 0.685}
           //    ${width} ${height * 0.15}
           // `}
-          d="M500,300 Q90,90 90,45 Q90,10 50,10 Q10,10 10,40 Q10,70 45,70 Q70,70 75,50"
+          d={`M${width * 0.475} ${height * 0.185} 
+          L ${width * 0.8} ${height * 0.185}`}
           fill="transparent"
         />
         <text
