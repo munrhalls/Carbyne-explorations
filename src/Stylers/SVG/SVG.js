@@ -380,17 +380,21 @@ export const SVG = {
           height={height * 0.4}
           fill="blue"
         >
-          <circle cx="50" cy="50" r="40">
+          <rect width={width * 0.4} height="100%" fill="url(#IMG__STARS)">
             <animateTransform
               attributeName="transform"
               attributeType="XML"
               type="translate"
               from="0"
-              to="50"
-              dur="10s"
+              to={width * .4}
+              dur="100s"
               repeatCount="indefinite"
             />
-          </circle>
+          </rect>
+
+          <pattern id="IMG__STARS" width="100%" height="100%">
+            <image className="BGanimStarDots__path" href={IMG__STARS} />
+          </pattern>
         </svg>
       </svg>
 
