@@ -34,3 +34,9 @@
 }
 
 @import './MobileApp.css';
+
+@media screen and (max-width: 600px) {
+  html, body, .App { 
+    font-size: 8px;
+  };
+}

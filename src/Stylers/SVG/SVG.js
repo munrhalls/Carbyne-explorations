@@ -484,7 +484,7 @@ export const SVG = {
         <text
           className="AppTitle__text"
           x={width * 0.5}
-          y={height * 0.5}
+          y={height * 0.18}
           fill="#414141"
         >
           Carbyne Explorations
