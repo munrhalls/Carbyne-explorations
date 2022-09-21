@@ -481,15 +481,9 @@ export const SVG = {
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <path
-          d={`M ${width * 0.35} ${height * 0.22} 
-          Q${width * 0.6} ${height * 0.24}  ${width * 0.6} ${height * 0.23} 
-          Q${width * 0.6} ${height * 0.185}  ${width} ${height * 0.245} 
-          `}
-          stroke="#333"
-          strokeWidth="3"
-          strokeLinejoin="round"
-        />
+        <text x={width * 0.5} y={height * 0.5} fill="grey">
+          I love SVG!
+        </text>
       </svg>
     );
   },
