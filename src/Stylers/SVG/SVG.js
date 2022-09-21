@@ -501,21 +501,32 @@ export const SVG = {
           // `}
           d={`M${width * 0.4943253467843632} ${height * 0.2247371273712737} 
           L ${width * 0.6355611601513241} ${height * 0.21441192411924118} 
-          
           `}
           fill="transparent"
         />
+
         <text
           className="AppTitle__textOne"
           width="500"
           // x={width * 0.475}
           // y={height * 0.185}
-          fill="#777"
+          fill="#000"
         >
           <textPath alignmentBaseline="bottom" xlinkHref="#curve1" fill="#aaa">
             carbyne
           </textPath>
         </text>
+
+        <path
+          id="curve2"
+          //   d={`M${width * 0.475} ${height * 0.685}
+          //    ${width} ${height * 0.15}
+          // `}
+          d={`M${width * 0.4905422446406053} ${height * 0.1842818428184282} 
+          L ${width * 0.8612862547288777} ${height * 0.13821138211382114} 
+          `}
+          fill="transparent"
+        />
 
         <text className="AppTitle__textTwo">
           <textPath alignmentBaseline="top" xlinkHref="#curve2" fill="#414141">
