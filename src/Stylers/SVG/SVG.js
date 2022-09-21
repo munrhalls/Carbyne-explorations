@@ -690,13 +690,12 @@ export const SVG = {
           strokeLinejoin="round"
         />
 
-        <text className="AppTitle__textTwo">
-          <textPath alignmentBaseline="top" xlinkHref="#curve2" fill="##fff">
-            Explorations
-          </textPath>
-
+        <text className="AppTitle__textTwo" fill="purple">
+          {/* <textPath alignmentBaseline="top" xlinkHref="#curve2" fill="##fff"> */}
+          Explorations
+          {/* </textPath> */}
           <animateMotion
-            dur="10s"
+            dur="5s"
             repeatCount="indefinite"
             path={`M${width} ${height * 0.14447154471544716}
           L ${width * 0.9890859481582538} ${height * 0.15176151761517614}
