@@ -374,24 +374,40 @@ export const SVG = {
           width={width * 0.21}
           height={height * 0.4}
         >
-          <rect
-            width={width * 0.4}
-            height={height * 0.4}
-            fill="url(#IMG__STARS)"
-          >
+          <rect width={width * 2} height={height * 0.4} fill="url(#IMG__STARS)">
             <animateTransform
               attributeName="transform"
               attributeType="XML"
               type="translate"
               from="0"
-              to={width * 0.1}
-              dur="2s"
+              to={-width * 0.3}
+              dur="60s"
               repeatCount="indefinite"
             />
           </rect>
 
           <pattern id="IMG__STARS" width="100%" height="100%">
-            <image className="BGanimStarDots__path" href={IMG__STARS} />
+            <image className="BGanimStarDots__path" href={IMG__STARS} x="0" />
+            <image
+              className="BGanimStarDots__path"
+              href={IMG__STARS}
+              x={width * 0.1}
+            />
+            <image
+              className="BGanimStarDots__path"
+              href={IMG__STARS}
+              x={width * 0.2}
+            />
+            <image
+              className="BGanimStarDots__path"
+              href={IMG__STARS}
+              x={width * 0.3}
+            />
+            <image
+              className="BGanimStarDots__path"
+              href={IMG__STARS}
+              x={width * 0.4}
+            />
           </pattern>
         </svg>
       </svg>
