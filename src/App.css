@@ -10,7 +10,7 @@
 @import './Fonts/Fonts.css';
 
 .App {
-  font-family: 'Anke', 'Sofachrome Rg', 'Josefin Sans','Good Times Rg' ;
+  font-family: 'Josefin Sans', 'Anke','Good Times Rg', 'Sofachrome Rg';
   position: relative;
   overflow: hidden;
 }
