@@ -9,28 +9,49 @@
 @import './components/ScannerLoader/ScannerLoader.css';
 @import './Fonts/Fonts.css';
 
+* {
+  box-sizing: border-box;
+}
 .App {
   font-family: 'Josefin Sans', 'Anke','Good Times Rg', 'Sofachrome Rg';
   position: relative;
-  overflow: hidden;
 }
 
 .App__title {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 30%;
   letter-spacing: 4px;
 
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: safe center;
+  /* justify-content: flex-start;
+  align-items: flex-start; */
+
 }
 
 .App__title h1 {
   margin: 0.5rem;
+  margin-bottom: 2rem;
   padding: .25rem;
   font-weight: bold;
+  height: 100%;
+}
+
+.Content p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  max-width: 12rem;
+  padding-right: 4rem;
+}
+
+.Content {
+  position: absolute;
+  top: 40%; right: 0; bottom: 0; left: 35%;
+  overflow: scroll;
+  max-height: 100vh;
+  z-index: 9;
 }
 
 @import './MobileApp.css';
