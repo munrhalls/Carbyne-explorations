@@ -671,7 +671,8 @@ export const SVG = {
         <path
           d={`M${width} ${height * 0.14447154471544716}
           L ${width * 0.9890859481582538} ${height * 0.15176151761517614}
-          L ${width * 0.6207366984993179} ${height * 0.082113821138211}
+          Q ${width * 0.77207366984993179} ${height * 0.082113821138211}
+          ${width * 0.6207366984993179} ${height * 0.052113821138211}
           L ${width * 0.39154160982264663} ${height * 0.03517615176151762}
 
           L ${width * 0.296043656207367} ${height * 0.04533062330623306}
@@ -687,6 +688,7 @@ export const SVG = {
         `}
           stroke="purple"
           fill="none"
+          strokeLinejoin="round"
         />
         {/* <animateMotion
           dur="10s"
