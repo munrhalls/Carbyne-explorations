@@ -457,11 +457,20 @@ export const SVG = {
         <path
           d={`M ${width * 0.35} ${height * 0.22} 
           Q${width * 0.6} ${height * 0.24}  ${width * 0.6} ${height * 0.23} 
-          Q${width * 0.6} ${height * 0.185}  ${width} ${height * 0.245} 
+          Q${width * 0.6} ${height * 0.185}  ${width} ${
+            height * 0.15447154471544716
+          } 
           `}
           stroke="#333"
           strokeWidth="3"
           strokeLinejoin="round"
+        />
+
+        <path
+          d={`M ${width * 0.35} ${height * 0.22} 
+
+
+          `}
         />
       </svg>
     );
@@ -482,24 +491,31 @@ export const SVG = {
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
         <path
-          id="curve"
+          id="curve1"
           //   d={`M${width * 0.475} ${height * 0.685}
           //    ${width} ${height * 0.15}
           // `}
-          d={`M${width * 0.3975} ${height * 0.1675} 
-          L ${width * 0.4675} ${height * 0.185} 
-          L ${width} ${height * 0.185}`}
-          fill="blue"
+          d={`M${width * 0.3873239436619718} ${height * 0.21138211382113822} 
+          L ${width * 0.5} ${height * 0.2170921409214092} 
+          L ${width * 0.6} ${height * 0.220921409214092} 
+          `}
+          fill="transparent"
         />
         <text
-          className="AppTitle__text"
+          className="AppTitle__textOne"
           width="500"
           // x={width * 0.475}
           // y={height * 0.185}
           fill="#414141"
         >
-          <textPath alignmentBaseline="top" xlinkHref="#curve" fill="#414141">
-            Carbyne Explorations
+          <textPath alignmentBaseline="top" xlinkHref="#curve1" fill="#414141">
+            Carbyne
+          </textPath>
+        </text>
+
+        <text className="AppTitle__textTwo">
+          <textPath alignmentBaseline="top" xlinkHref="#curve2" fill="#414141">
+            Explorations
           </textPath>
         </text>
       </svg>
