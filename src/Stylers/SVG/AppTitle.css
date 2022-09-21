@@ -7,9 +7,7 @@
 
 .AppTitle__textOne {
     font-size: 1rem;
-    font-weight: bold;
     letter-spacing: 1px;
-    text-transform: uppercase;
 }
 
 .AppTitle__textTwo {
@@ -17,6 +15,12 @@
 }
 @media screen and (max-width: 600px) {
     .AppTitle {
-        font-size: 1rem;    
+        font-size: .75rem;    
+    }
+  }
+
+  @media screen and (max-width: 325px) {
+    .AppTitle {
+        font-size: .5rem;    
     }
   }

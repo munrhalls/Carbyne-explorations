@@ -466,12 +466,16 @@ export const SVG = {
           strokeLinejoin="round"
         />
 
-        <path
-          d={`M ${width * 0.35} ${height * 0.22} 
-
+        {/* <path
+          d={`M ${width * 0.6005917159763313} ${height * 0.20758620689655173} 
+          L ${width * 0.9940828402366864} ${height * 0.2113793103448276}
+          
 
           `}
-        />
+          stroke="#000"
+          strokeWidth="2"
+          strokeLinejoin="round"
+        /> */}
       </svg>
     );
   },
@@ -495,9 +499,9 @@ export const SVG = {
           //   d={`M${width * 0.475} ${height * 0.685}
           //    ${width} ${height * 0.15}
           // `}
-          d={`M${width * 0.3873239436619718} ${height * 0.21138211382113822} 
-          L ${width * 0.5} ${height * 0.2170921409214092} 
-          L ${width * 0.6} ${height * 0.220921409214092} 
+          d={`M${width * 0.4943253467843632} ${height * 0.2247371273712737} 
+          L ${width * 0.6355611601513241} ${height * 0.21441192411924118} 
+          
           `}
           fill="transparent"
         />
@@ -506,10 +510,10 @@ export const SVG = {
           width="500"
           // x={width * 0.475}
           // y={height * 0.185}
-          fill="#414141"
+          fill="#fff"
         >
-          <textPath alignmentBaseline="top" xlinkHref="#curve1" fill="#414141">
-            Carbyne
+          <textPath alignmentBaseline="bottom" xlinkHref="#curve1" fill="#fff">
+            carbyne
           </textPath>
         </text>
 
