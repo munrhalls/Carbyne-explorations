@@ -8,6 +8,7 @@
 @import './BGcontentContainer.css';
 @import './AppTitle.css';
 @import './BGNavigationalRiver';
+@import './BGNavigationalRiverButton';
 
 .SVG {
   /* z-precedence */

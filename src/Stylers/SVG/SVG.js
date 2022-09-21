@@ -715,6 +715,51 @@ export const SVG = {
         `}
           />
         </text>
+
+        <SVG.BGNavigationalRiverButton text="Poetry" />
+      </svg>
+    );
+  },
+  BGNavigationalRiverButton: function ({ text }) {
+    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
+
+    const height = `${useWindowHeight()}`;
+    const width = `${useWindowWidth()}`;
+
+    return (
+      <svg
+        className="BGNavigationalRiver SVG"
+        version="1.1"
+        height={height}
+        width={width}
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <text className="BGNavigationalRiverButton" fill="#fff">
+          {/* <textPath alignmentBaseline="top" xlinkHref="#curve2" fill="##fff"> */}
+          {text}
+          {/* </textPath> */}
+          <animateMotion
+            dur="30s"
+            repeatCount="indefinite"
+            path={`M${width} ${height * 0.14447154471544716}
+          L ${width * 0.9890859481582538} ${height * 0.15176151761517614}
+          Q ${width * 0.77207366984993179} ${height * 0.082113821138211}
+          ${width * 0.6207366984993179} ${height * 0.052113821138211}
+          L ${width * 0.39154160982264663} ${height * 0.03517615176151762}
+
+          L ${width * 0.296043656207367} ${height * 0.04533062330623306}
+          L ${width * 0.19781718963165076} ${height * 0.04502168021680217}
+          Q ${width * 0.1206139154160982} ${height * 0.04959349593495936}
+          ${width * 0.1406139154160982} ${height * 0.064959349593495936}
+
+          Q ${width * 0.05594815825375171} ${height * 0.25799457994579946}
+          ${width * 0.04594815825375171} ${height * 0.5799457994579946}
+          L ${width * 0.03957708049113233} ${height * 0.7967479674796748}
+          L ${width * 0.014106412005457026} ${height * 0.9227642276422764}
+        `}
+          />
+        </text>
       </svg>
     );
   },
