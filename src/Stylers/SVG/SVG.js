@@ -376,8 +376,9 @@ export const SVG = {
         <svg
           x={width * 0}
           y={height * 0.6}
-          width={width * 0.4}
+          width={width * 0.21}
           height={height * 0.4}
+          fill="blue"
         >
           <circle cx="50" cy="50" r="40">
             <animateTransform
