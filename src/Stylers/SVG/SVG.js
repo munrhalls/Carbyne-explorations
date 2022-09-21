@@ -569,6 +569,64 @@ export const SVG = {
       </svg>
     );
   },
+  BGNavigationalRiver: function () {
+    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
+
+    const height = `${useWindowHeight()}`;
+    const width = `${useWindowWidth()}`;
+
+    return (
+      <svg
+        className="AppTitle SVG"
+        version="1.1"
+        height={height}
+        width={width}
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <path
+          id="curve1"
+          //   d={`M${width * 0.475} ${height * 0.685}
+          //    ${width} ${height * 0.15}
+          // `}
+          d={`M${width * 0.4943253467843632} ${height * 0.2247371273712737} 
+          L ${width * 0.6355611601513241} ${height * 0.21441192411924118} 
+          `}
+          fill="transparent"
+        />
+
+        <text
+          className="AppTitle__textOne"
+          width="500"
+          // x={width * 0.475}
+          // y={height * 0.185}
+          fill="#000"
+        >
+          <textPath alignmentBaseline="bottom" xlinkHref="#curve1" fill="#aaa">
+            carbyne
+          </textPath>
+        </text>
+
+        <path
+          id="curve2"
+          //   d={`M${width * 0.475} ${height * 0.685}
+          //    ${width} ${height * 0.15}
+          // `}
+          d={`M${width * 0.4005422446406053} ${height * 0.1942818428184282} 
+          L ${width * 0.8612862547288777} ${height * 0.15821138211382114} 
+          `}
+          fill="transparent"
+        />
+
+        <text className="AppTitle__textTwo">
+          <textPath alignmentBaseline="top" xlinkHref="#curve2" fill="#414141">
+            Explorations
+          </textPath>
+        </text>
+      </svg>
+    );
+  },
+
   BGblanketOutline: function () {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
 
