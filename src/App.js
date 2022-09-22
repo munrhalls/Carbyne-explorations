@@ -57,6 +57,7 @@ function App() {
               "Practical meditation",
               "Best books",
               "Articles",
+              "My programming works",
               "My poems",
             ]}
           />
