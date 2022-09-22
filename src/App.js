@@ -18,6 +18,7 @@ function App() {
   // useIntroAnim();
 
   console.log(content);
+
   return (
     <div
       className="App"
@@ -49,7 +50,16 @@ function App() {
         <SVG.BGUpholderConnectorXer />
         <SVG.BGNavigationalAntennae />
         <SVG.BGNavigationalRiver>
-          <SVG.BGNavigationalRiverButtons />
+          <SVG.BGNavigationalRiverButtons
+            BGNavigationalRiverButtons={[
+              "Effectiveness",
+              "Music for work",
+              "Practical meditation",
+              "Best books",
+              "Articles",
+              "My poems",
+            ]}
+          />
         </SVG.BGNavigationalRiver>
         <div className="App__title">
           {!content && (

@@ -786,19 +786,10 @@ export const SVG = {
       </svg>
     );
   },
-  BGNavigationalRiverButtons: function () {
+  BGNavigationalRiverButtons: function ({ BGNavigationalRiverButtons }) {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
-
-    const BGNavigationalRiverButtons = [
-      "Effectiveness",
-      "Music for work",
-      "Practical meditation",
-      "Best books",
-      "Articles",
-      "My poems",
-    ];
 
     return (
       <>
