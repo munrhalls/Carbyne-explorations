@@ -690,10 +690,12 @@ export const SVG = {
           fill="none"
           strokeLinejoin="round"
         />
+
+        <SVG.BGNavigationalRiverButtons />
       </svg>
     );
   },
-  BGNavigationalRiverButton: function ({ text, index }) {
+  BGNavigationalRiverButton: function ({ text, timeDistance }) {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
@@ -701,14 +703,11 @@ export const SVG = {
 
     const contentLink = text?.toUpperCase().trim();
     // contentLink?.style?.textTransform = "uppercase";
-    console.log(contentLink);
-    const distanceUnit = width * 0.2;
-    const offset = `${index * distanceUnit}`;
-    console.log(offset);
+    const offset = `${10 * timeDistance + Math.ceil(text.length) / 3}`;
 
     return (
       <svg
-        className="BGNavigationalRiverButton SVG"
+        className="BGNavigationalRiverButton"
         version="1.1"
         height={height}
         width={width}
@@ -718,14 +717,17 @@ export const SVG = {
         <text
           className="BGNavigationalRiverButton__text"
           fill="#fff"
+          textLength="1.75rem"
+          dx="-15"
+          dy="-10"
           onClick={() => setContent(contentLink)}
         >
           {/* <textPath alignmentBaseline="top" xlinkHref="#curve2" fill="##fff"> */}
           {text}
           {/* </textPath> */}
           <animateMotion
-            dur="15s"
-            begin={`${index}s`}
+            dur="360s"
+            begin={-offset * 3}
             repeatCount="indefinite"
             path={`M${width} ${height * 0.14447154471544716}
           L ${width * 0.9890859481582538} ${height * 0.15176151761517614}
@@ -766,11 +768,22 @@ export const SVG = {
     return (
       <>
         {BGNavigationalRiverButtons.map((el, index) => {
+          let timeDistance = index;
+          if (index === 0) {
+            timeDistance = 1;
+            console.log(timeDistance, "!!!");
+          }
+
+          // if (BGNavigationalRiverButtons?.length - 1 === index) {
+          //   timeDistance = index * 2;
+          //   console.log(timeDistance, "!!!");
+          // }
+
           return (
             <SVG.BGNavigationalRiverButton
               key={uuidv4()}
               text={el}
-              index={index}
+              timeDistance={timeDistance}
             />
           );
         })}

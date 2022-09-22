@@ -1,13 +1,16 @@
 .BGNavigationalRiverButton {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
     color: #fff;
     filter: drop-shadow(3px 3px 3px rgba(255, 255, 255, 1));
     cursor: pointer;
 }
 
-.BGNavigationalRiverButton:hover {
+.BGNavigationalRiverButton__text:hover {
     filter: drop-shadow(0px 12px 12px rgba(255, 255, 255, 1));
     cursor: pointer;
     font-size: 2rem;
+}
+
+.BGNavigationalRiverButton__text {
 }

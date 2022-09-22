@@ -49,10 +49,6 @@ function App() {
         <SVG.BGUpholderConnectorXer />
         <SVG.BGNavigationalAntennae />
         <SVG.BGNavigationalRiver />
-        <SVG.BGNavigationalRiverButtons />
-
-
-        
         <div className="App__title">
           {!content && (
             <>
