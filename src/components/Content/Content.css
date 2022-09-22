@@ -4,7 +4,7 @@
     /* z precedence (max = 9) */
     /* pos */
     position: absolute;
-    top: 40%; right: 0; bottom: 0; left: 35%;
+    top: 35%; right: 0; bottom: 0; left: 35%;
     /* box */
     margin-left: auto;
     overflow-y: scroll;
