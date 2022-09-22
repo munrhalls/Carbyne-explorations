@@ -33,7 +33,9 @@ export const Content = {
   MyProgrammingWorks: function () {
     return (
       <>
-        <TableOfContents items={["Oxus Flashcards", "Vimeo Searcher"]} />
+        <TableOfContents
+          items={["Oxus Flashcards", "Carbyne Explorations", "Vimeo Searcher"]}
+        />
         <div className="Content">
           <div className="MyProgrammingWorks">
             <div className="MyProgrammingWorks__item">
@@ -41,15 +43,24 @@ export const Content = {
               <p>You can view the app here: </p>
               <p>
                 <a href="https://oxus.netlify.app/" target="_blank">
-                  Oxus Flashcards
+                  OXUS FLASHCARDS
                 </a>
               </p>
               <p>
                 This is a large-scale, real-world web application, complete with
-                rich design components, animations, full UI and UX
-                functionality, <i>users and content database</i>,
-                authentication... all revolving around enabling a super simple,
-                no-nonsense, easy-to-use electronic version of flashcards.
+                rich{" "}
+                <span className="--bold">
+                  design (my design) components, animations, full UI and UX
+                  functionality, users and content database, authentication,
+                  full mobile responsiveness and a very-wide ranging array of
+                  solutions that address pragmatic concerns, such as e.g.
+                  minimizing requests to the server, writing custom hooks,
+                  finding ways to maximally simplify the data model, component
+                  communications and code organization, avoiding pitfalls such
+                  as derived state in React state, and so on
+                </span>
+                ... all revolving around enabling a super simple, no-nonsense,
+                easy-to-use electronic version of flashcards.
               </p>
 
               <p>
@@ -133,6 +144,7 @@ export const Content = {
             </div>
 
             <div className="Content__segregatorLine"></div>
+
             <div className="MyProgrammingWorks__item">
               <h1>CARBYNE EXPLORATIONS</h1>
               <p>
@@ -179,10 +191,44 @@ export const Content = {
                 bag.
               </p>
             </div>
+
+            <div className="Content__segregatorLine"></div>
+
             <div className="MyProgrammingWorks__item">
-              <h1></h1>
+              <h1>VIMEO SEARCHER</h1>
+              <p>You can check the app here:</p>
+              <p>
+                <a href="https://vimeo-searcher.netlify.app/" target="_blank">
+                  VIMEO SEARCHER
+                </a>
+              </p>
+              <p>
+                This app just searches{" "}
+                <a href="https://vimeo.com/watch" target="_blank">
+                  Vimeo
+                </a>{" "}
+                videos, utilizing Vimeo{" "}
+                <a href="https://en.wikipedia.org/wiki/API" target="_blank">
+                  API
+                </a>
+                .
+              </p>
+              <p>
+                Design and everything else in that app, is solely performed by
+                me.
+              </p>
+              <p>
+                This is a very simple app. However, it still features addressing
+                important pragmatic concerns, such as minimizing requests to the
+                server with the use of local storage, and so on.
+              </p>
+              <p>
+                I wanted to utilize youtube API and I did - however, youtube has
+                put much of its API behind a paywall, the free API usage options
+                are very limited, so I did Vimeo instead. However, Vimeo's API
+                is slightly more complicated, so it was good practice {": )"}
+              </p>
             </div>
-            <div></div>
           </div>
         </div>
       </>

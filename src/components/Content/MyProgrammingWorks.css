@@ -27,3 +27,11 @@
 .MyProgrammingWorks__item a:hover {
     transform: scale(1.1);
 }
+
+.--italic {
+    font-style: italic;
+}
+
+.--bold {
+    font-weight: bold;
+}
