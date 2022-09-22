@@ -1,3 +1,4 @@
+import React from "react";
 // globals
 import { useSphere } from "./Contexts/SphereProvider";
 import useWindowHeight from "./Hooks/useWindowHeight";
@@ -9,12 +10,14 @@ import "./App.css";
 import ScannerLoader from "./components/ScannerLoader/ScannerLoader";
 import { SVG } from "./Stylers/SVG/SVG";
 import { Content } from "./components/Content/Content";
+import { v4 as uuidV4 } from "uuid";
 
 function App() {
   const { loading, content } = useSphere();
   useIntroAnim();
 
   console.log(content);
+
   const BGNavigationalRiverButtons = [
     "Effectiveness",
     "Music for work",
@@ -70,21 +73,21 @@ function App() {
               BGNavigationalRiverButtons={BGNavigationalRiverButtons}
             />
           </SVG.BGNavigationalRiver>
-
           {!content && <Content.Welcome />}
 
           {BGNavigationalRiverButtons.map((navBtn) => {
+            const navBtnCaps = navBtn?.toUpperCase().trim();
             return (
-              navBtn?.toUpperCase().trim() === content &&
-              (function () {
-                return contentComps[
-                  BGNavigationalRiverButtons.indexOf(content) - 1
-                ];
-              })()
+              <React.Fragment key={uuidV4()}>
+                {navBtnCaps === content &&
+                  contentComps[
+                    BGNavigationalRiverButtons.map((el) =>
+                      el.toUpperCase().trim()
+                    ).indexOf(content)
+                  ]}
+              </React.Fragment>
             );
           })}
-          {content === "MY POEMS" && <Content.Poems />}
-          {content === "MY PROGRAMMING WORKS" && <Content.MyProgrammingWorks />}
         </>
       </ScannerLoader>
     </div>
