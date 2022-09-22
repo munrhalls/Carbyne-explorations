@@ -628,7 +628,7 @@ export const SVG = {
       </svg>
     );
   },
-  BGNavigationalRiver: function () {
+  BGNavigationalRiver: function ({ children }) {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
@@ -691,7 +691,7 @@ export const SVG = {
           strokeLinejoin="round"
         />
 
-        <SVG.BGNavigationalRiverButtons />
+        {children}
       </svg>
     );
   },
