@@ -103,28 +103,81 @@ export const Content = {
                 .
               </p>
               <p>
-                Nothing else was used in this project. It's mostly pure React,
-                CSS (BEM technique) and Javascript, and usage of concepts such
-                as utilizing React's compositional nature or React context API
-                and so on. It's wholly coded in React hooks, in terms of data
-                model, including even database communication.
+                Nothing else was used in this project. For me, it has been an
+                enormously huge project to complete, I had so much to learn in
+                order to be able to do even 1/5th of it. It's been extremely
+                challenging, given that I've started with nearly 0 React skills
+                (especially with the new-for-me hooks), however it was also a
+                continuous, colorful, varied, stimulating learning experience,
+                on many, many levels that, for me, went quite far beyond just
+                coding and learning to code.
               </p>
               <p>
-                It features coherent usage of foundational and advanced React
-                library concepts usage, very solid fundamentals of javascript,
-                problem solving capabilities, code architecture skills. It also
-                showcases solid degree of design skills, practical
-                resourcefulness, experiential, pragmatic creativity, a range of
-                important supplementary skills such as using version control
-                system (GIT) or hosting and the ability to integrate all of that
-                into a concrete, finished, completed, large-scale, real-world
-                programming project.
+                This project is mostly pure React,CSS (BEM technique) and
+                Javascript, and usage of concepts such as utilizing React's
+                compositional nature or React context API and so on. It's wholly
+                coded in React hooks, in terms of data model, including even
+                database communication.
+              </p>
+              <p>
+                It features pragmatically coherent usage of foundational and
+                advanced React library concepts usage, very solid fundamentals
+                of javascript, problem solving capabilities, code architecture
+                skills. It also showcases solid degree of design skills,
+                practical resourcefulness, experiential, pragmatic creativity, a
+                range of important supplementary skills such as using version
+                control system (GIT) or hosting and the ability to integrate all
+                of that into a concrete, finished, completed, large-scale,
+                real-world programming project.
               </p>
             </div>
 
             <div className="Content__segregatorLine"></div>
             <div className="MyProgrammingWorks__item">
-              <h1>Vimeo Searcher</h1>
+              <h1>CARBYNE EXPLORATIONS</h1>
+              <p>
+                That's this very blog, that you're reading right now, Dear
+                Reader{" : ) "}I have completed it to its current state in about
+                10-12 days of intense training and learning endeavors.
+              </p>
+              <p>
+                Before, I knew absolutely nothing about writing my own{" "}
+                <a href="https://en.wikipedia.org/wiki/Scalable_Vector_Graphics">
+                  SVG's
+                </a>
+                . I didn't even intend to, at all, to get into SVG's. I had a
+                vision for this app and initially, I thought that it should be
+                mostly doable with some resourceful CSS usage.
+              </p>
+              <p>
+                At some point, I was doing so much hacky work with CSS and
+                React, just to make some simple graphics, I realized it could
+                literally be almost as simple to learn SVG's.
+              </p>
+              <p>
+                It most certainly, in every sense of the word, wasn't as simple
+                in any way, shape or form - however, great many styling ways,
+                shapes and forms became so much easier for me to write, once I
+                began to get a grasp of how to work effectively with SVG's.
+              </p>
+              <p>
+                Every single graphic element in this blog app - Carbyne
+                Explorations - has been performed in SVG's, solely by me.{" "}
+              </p>
+              <p>
+                Carbyne Explorations is a name I came up with because I liked
+                how it rang, to me, I feel like it resonates with the ideas of
+                being a fierce, persistent, curious learner - like carbyne, just
+                plowing and plowing and plowing and plowing and plowing and
+                plowing, and plowing, and then plowing some more, and then
+                plowing after that just to get some plowing done after plowing,
+                until whatever's not yet understood, is understood and
+                gradually, step by step by step, by another tiny small step,
+                taken from the "can't and have absolutely no idea how, none
+                whatsoever, zero and it looks like some gigantic mountain" bag,
+                into the "can very well and feel comfortable performing that"
+                bag.
+              </p>
             </div>
             <div className="MyProgrammingWorks__item">
               <h1></h1>
