@@ -9,14 +9,15 @@ export const Content = {
     const content = useSphere();
     return (
       <>
-        <TableOfContents />
+        <TableOfContents items={poems.map((poem) => poem.title)} />
         <div className="Content">
           <div className="ContentPoems">
             <h1 className="ContentPoems__metaTitle">MY POEMS.</h1>
             {poems.map((poem, i) => {
               return (
-                <div className="ContentPoems__poem">
-                  {poem}
+                <div key={uuidv4()} className="ContentPoems__poem">
+                  {poem?.content}
+
                   {i !== poems?.length - 1 && (
                     <div className="Content__segregatorLine"></div>
                   )}
