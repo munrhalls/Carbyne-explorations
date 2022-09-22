@@ -3,6 +3,7 @@ import React from "react";
 import useWindowHeight from "../../Hooks/useWindowHeight";
 import useWindowWidth from "../../Hooks/useWindowWidth";
 import { useSphere } from "../../Contexts/SphereProvider";
+import { v4 as uuidv4 } from "uuid";
 // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
 
 export const SVG = {
@@ -692,7 +693,7 @@ export const SVG = {
       </svg>
     );
   },
-  BGNavigationalRiverButton: function ({ text }) {
+  BGNavigationalRiverButton: function ({ text, index }) {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
@@ -701,6 +702,9 @@ export const SVG = {
     const contentLink = text?.toUpperCase().trim();
     // contentLink?.style?.textTransform = "uppercase";
     console.log(contentLink);
+
+    const offset = `${text.length + index * 10}`;
+    console.log(offset);
 
     return (
       <svg
@@ -714,13 +718,14 @@ export const SVG = {
         <text
           className="BGNavigationalRiverButton__text"
           fill="#fff"
+          dx={offset}
           onClick={() => setContent(contentLink)}
         >
           {/* <textPath alignmentBaseline="top" xlinkHref="#curve2" fill="##fff"> */}
           {text}
           {/* </textPath> */}
           <animateMotion
-            dur="60s"
+            dur="15s"
             repeatCount="indefinite"
             path={`M${width} ${height * 0.14447154471544716}
           L ${width * 0.9890859481582538} ${height * 0.15176151761517614}
@@ -747,10 +752,19 @@ export const SVG = {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
+
+    const BGNavigationalRiverButtons = ["Poetry", "Articles"];
     return (
       <>
-        <SVG.BGNavigationalRiverButton text="Poetry" />
-        <SVG.BGNavigationalRiverButton text="Articles" />
+        {BGNavigationalRiverButtons.map((el, index) => {
+          return (
+            <SVG.BGNavigationalRiverButton
+              key={uuidv4()}
+              text={el}
+              index={index}
+            />
+          );
+        })}
       </>
     );
   },
