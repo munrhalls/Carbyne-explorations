@@ -31,6 +31,22 @@ export const Content = {
     );
   },
   MyProgrammingWorks: function () {
-    return <div className="Content">programming works</div>;
+    return (
+      <div className="Content">
+        <div className="MyProgrammingWorks">
+          <div className="MyProgrammingWorks__flashcards">
+            <h1>Oxus Flashcards</h1>
+            <a href="https://oxus.netlify.app/" target="_blank" />
+          </div>
+          <div className="MyProgrammingWorks__vimeoSearcher">
+            <h1>Vimeo Searcher</h1>
+          </div>
+          <div className="MyProgrammingWorks__vimeoSearcher">
+            <h1></h1>
+          </div>
+          <div></div>
+        </div>
+      </div>
+    );
   },
 };
