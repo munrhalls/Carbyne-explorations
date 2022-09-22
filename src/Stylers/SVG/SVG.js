@@ -703,7 +703,7 @@ export const SVG = {
     // contentLink?.style?.textTransform = "uppercase";
     console.log(contentLink);
 
-    const offset = `${text.length + index * 10}`;
+    const offset = `${index * 100 + text.length * 2}`;
     console.log(offset);
 
     return (
@@ -753,7 +753,15 @@ export const SVG = {
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
-    const BGNavigationalRiverButtons = ["Poetry", "Articles"];
+    const BGNavigationalRiverButtons = [
+      "My poems",
+      "ArticlesArticlesArticlesArticlesArticlesArticlesArticles",
+      "About practical effectiveness",
+      "Books I value the most",
+      "Music for work",
+      "Art I like ",
+    ];
+
     return (
       <>
         {BGNavigationalRiverButtons.map((el, index) => {
