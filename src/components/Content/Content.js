@@ -1,16 +1,19 @@
 import React from "react";
 import { useSphere } from "../../Contexts/SphereProvider";
+import { poems } from "./../../Data/DataPoems";
 
 export const Content = {
   Poems: function () {
     const content = useSphere();
-
     return (
       <div className="Content">
         <div className="ContentPoems">
           <h1 className="ContentPoems__metaTitle">MY POEMS.</h1>
+          {poems.map((poem) => {
+            return poem;
+          })}
 
-          <div className="ContentPoems__poem">
+          {/* <div className="ContentPoems__poem">
             <h1 className="ContentPoems__poem__title">LIQUID AIR ABUSER</h1>
             <p>Sober liquids flow through, the veins of airy vastness.</p>
             Winds work a little bit weird, in these channels.
@@ -129,7 +132,7 @@ export const Content = {
             <p>
               <span>So says the chatter.</span>
             </p>
-          </div>
+          </div> */}
 
           {/* <h1 className="ContentPoems__poem__title"></h1>
           <p className="--flat"></p>
