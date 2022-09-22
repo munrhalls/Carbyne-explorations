@@ -12,7 +12,7 @@ import { Content } from "./components/Content/Content";
 
 function App() {
   const { loading, content } = useSphere();
-  // useIntroAnim();
+  useIntroAnim();
 
   console.log(content);
 
@@ -71,6 +71,7 @@ function App() {
           </div>
 
           {content === "MY POEMS" && <Content.Poems />}
+          {content === "MY PROGRAMMING WORKS" && <Content.MyProgrammingWorks />}
         </>
       </ScannerLoader>
     </div>

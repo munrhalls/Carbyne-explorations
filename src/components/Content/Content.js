@@ -10,6 +10,7 @@ export const Content = {
     return (
       <>
         <TableOfContents items={poems.map((poem) => poem.title)} />
+
         <div className="Content">
           <div className="ContentPoems">
             <h1 className="ContentPoems__metaTitle">MY POEMS.</h1>
@@ -28,5 +29,8 @@ export const Content = {
         </div>
       </>
     );
+  },
+  MyProgrammingWorks: function () {
+    return <div className="Content">programming works</div>;
   },
 };
