@@ -48,13 +48,101 @@ export const Content = {
             <p>There's only one problem, with these, though:</p>
             they exist.
             <p>What drinks fit on the table, when telling such stories?</p>{" "}
-            <br></br>
-            <h3>Poem by: MUNRHALLS.</h3>
-            <br></br>
-            <br></br>
           </div>
 
           <div className="Content__segregatorLine"></div>
+
+          <div className="ContentPoems__poem">
+            <h1 className="ContentPoems__poem__title">
+              CHATTER CHATS WITH MIND
+            </h1>
+            <p>
+              <span>"What?", </span>
+              <span>says chatter.</span>
+            </p>
+            <p>
+              <span>"Nothing",</span>
+              <span>answers chatter.</span>
+            </p>
+
+            <p>
+              <span>All chatter is about,</span>
+              <span>the various angles and contours,</span>
+              <span>degrees and shades,</span>
+              <span>shadows and brighter spots,</span>
+
+              <span>uncollected collecting, </span>
+              <span>of unexpected expectations, </span>
+              <span>of surprising surprises,</span>
+              <span>growing in the fields of the expected,</span>
+
+              <span>of the undulating tipping points,</span>
+              <span>in the colorfully undulating geometries </span>
+              <span>of absolutely nothing.</span>
+            </p>
+            <p>
+              <span>Sometimes,</span>
+              <span>searches hide,</span>
+              <span>what's sought after,</span>
+              <span>by the seeker.</span>
+            </p>
+            <p>
+              <span>Sometimes,</span>
+              <span>the unbecoming of the seeker's search,</span>
+              <span>is the becoming,</span>
+              <span>of what's sought. </span>
+            </p>
+            <p>
+              <span>Fullest fullness,</span>
+              <span>isn't found.</span>
+            </p>
+            <p>
+              <span>Like chatter,</span>
+              <span>it dwells in nothing.</span>
+            </p>
+            <p>
+              <span>Why then,</span>
+              <span>isn't it found in the chatter,</span>
+              <span>since both are about </span>
+              <span>absolutely nothing?</span>
+            </p>
+
+            <p>
+              <span>Unlike fullness,</span>
+              <span>the answer is found, </span>
+              <span>since it can be sought.</span>
+            </p>
+
+            <p>
+              <span>It proclaims:</span>
+              <span>"the reason is that chatter</span>
+              <span>can only refer to</span>
+
+              <span>what may seem,</span>
+              <span>while fullness can refer to much less,</span>
+              <span>since it can only relate </span>
+
+              <span>to everything,</span>
+              <span>and nothing more".</span>
+            </p>
+
+            <p>
+              <span>So says the chatter.</span>
+            </p>
+          </div>
+
+          {/* <h1 className="ContentPoems__poem__title"></h1>
+          <p className="--flat"></p>
+          <p>
+          <span></span></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p> */}
         </div>
       </div>
     );
