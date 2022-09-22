@@ -14,3 +14,8 @@
 .ContentPoems__poem__title {
     font-weight: bold;
 }   
+
+.ContentPoems__poem p {
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+}

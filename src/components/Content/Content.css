@@ -2,16 +2,13 @@
 
 .Content {
     /* z precedence (max = 9) */
-    z-index: 0;
     /* pos */
     position: absolute;
-    top: 15%;
-    right: 0;
-    bottom: 0;
+    top: 40%; right: 0; bottom: 0; left: 35%;
     /* box */
-    height: 100%;
-    width: 100%;
     margin-left: auto;
-    background-color: #c0c0c0; 
+    overflow: scroll;
+    max-height: 100vh;
+    z-index: 9;
 }
 @import './MobileContent.css'

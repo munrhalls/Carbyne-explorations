@@ -5,7 +5,6 @@ import useWindowWidth from "./Hooks/useWindowWidth";
 import useIntroAnim from "./Hooks/useIntroAnim";
 // components
 import "./App.css";
-import Nav from "./components/Nav/Nav";
 // stylers
 // interactive informers
 import ScannerLoader from "./components/ScannerLoader/ScannerLoader";
