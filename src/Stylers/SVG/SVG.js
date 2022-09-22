@@ -702,7 +702,7 @@ export const SVG = {
     const { setContent } = useSphere();
 
     const contentLink = text?.toUpperCase().trim();
-    // contentLink?.style?.textTransform = "uppercase";
+
     const offset = `${10 * timeDistance + Math.ceil(text.length) / 3}`;
     const tspans = text?.split(" ");
 
@@ -718,10 +718,10 @@ export const SVG = {
         <text
           className="BGNavigationalRiverButton__text"
           fill="#fff"
-          textLength="5rem"
+          textLength="2.5rem"
           lengthAdjust="spacingAndGlyphs"
           dx="-15"
-          dy="-10"
+          dy="-15"
           onClick={() => setContent(contentLink)}
         >
           {/* <textPath alignmentBaseline="top" xlinkHref="#curve2" fill="##fff"> */}
@@ -729,8 +729,8 @@ export const SVG = {
             return (
               <tspan
                 key={uuidv4()}
-                dy={`${index * 8}`}
-                x="0"
+                dy={`${index * 10}`}
+                x="-5"
                 className="BGNavigationalRiverButton__text__tspan"
               >
                 {textPart}
@@ -770,13 +770,12 @@ export const SVG = {
     const width = `${useWindowWidth()}`;
 
     const BGNavigationalRiverButtons = [
-      "My poems",
-      "Articles",
-      "About practical effectiveness",
-      "Books I value the most",
+      "Effectiveness",
       "Music for work",
-      "Art I like ",
       "Practical meditation",
+      "Best books",
+      "Articles",
+      "My poems",
     ];
 
     return (
@@ -784,14 +783,8 @@ export const SVG = {
         {BGNavigationalRiverButtons.map((el, index) => {
           let timeDistance = index;
           if (index === 0) {
-            timeDistance = 1;
-            console.log(timeDistance, "!!!");
+            timeDistance = 0;
           }
-
-          // if (BGNavigationalRiverButtons?.length - 1 === index) {
-          //   timeDistance = index * 2;
-          //   console.log(timeDistance, "!!!");
-          // }
 
           return (
             <SVG.BGNavigationalRiverButton
