@@ -19,7 +19,8 @@
 }
 
 .TableOfContents:hover {
-    transform: scale(1.1) translateX(-10%) translateY(30%);
+    transform: scale(1.25) translateX(-10%) translateY(30%);
+    max-height: 40%;
     opacity: 1;
 }
 
