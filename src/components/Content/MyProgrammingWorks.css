@@ -35,3 +35,27 @@
 .--bold {
     font-weight: bold;
 }
+
+.--hoverJk a {
+    display: initial;
+    cursor: not-allowed;
+}
+.--hoverJk span {
+    display: none;
+}
+
+.--hoverJk:hover a {
+    display: none
+}
+
+.--hoverJk:hover span{
+    display: block;
+    font-size: 1rem;
+    color: #777;
+    opacity: .7;
+    cursor:wait;
+}
+
+
+
+

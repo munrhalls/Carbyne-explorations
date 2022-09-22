@@ -152,6 +152,25 @@ export const Content = {
                 Reader{" : ) "}I have completed it to its current state in about
                 10-12 days of intense training and learning endeavors.
               </p>
+              <p>Well, here's the link anyway:</p>
+              <p className="--hoverJk">
+                <a
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                  }}
+                  href="https://carbyne-explorations.netlify.app/"
+                  target="blank"
+                >
+                  CARBYNE EXPLORATIONS
+                </a>
+
+                <span>
+                  Kidding {" :) "} That's the web app you're experiencing right
+                  now, you're here already!
+                </span>
+              </p>
+
               <p>
                 Before, I knew absolutely nothing about writing my own{" "}
                 <a href="https://en.wikipedia.org/wiki/Scalable_Vector_Graphics">
