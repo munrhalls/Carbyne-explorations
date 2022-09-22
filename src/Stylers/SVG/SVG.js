@@ -691,8 +691,7 @@ export const SVG = {
           strokeLinejoin="round"
         />
 
-        <SVG.BGNavigationalRiverButton text="Poetry" />
-        {/* <SVG.BGNavigationalRiverButton text="Articles" /> */}
+        <SVG.BGNavigationalRiverButtons />
       </svg>
     );
   },
@@ -708,7 +707,7 @@ export const SVG = {
 
     return (
       <svg
-        className="BGNavigationalRiver SVG"
+        className="BGNavigationalRiverButton SVG"
         version="1.1"
         height={height}
         width={width}
@@ -716,7 +715,7 @@ export const SVG = {
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
         <text
-          className="BGNavigationalRiverButton"
+          className="BGNavigationalRiverButton__text"
           fill="#fff"
           onClick={() => setContent(contentLink)}
         >
@@ -745,6 +744,17 @@ export const SVG = {
           />
         </text>
       </svg>
+    );
+  },
+  BGNavigationalRiverButtons: function () {
+    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
+    const height = `${useWindowHeight()}`;
+    const width = `${useWindowWidth()}`;
+    return (
+      <>
+        <SVG.BGNavigationalRiverButton dx="0" text="Poetry" />
+        <SVG.BGNavigationalRiverButton dx="-100" text="Articles" />
+      </>
     );
   },
   BGblanketOutline: function () {

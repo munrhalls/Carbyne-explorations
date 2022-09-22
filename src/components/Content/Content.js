@@ -1,5 +1,10 @@
 import React from "react";
+import { useSphere } from "../../Contexts/SphereProvider";
 
-export default function Content() {
-  return <div className="Content">Carbyne</div>;
-}
+export const Content = {
+  Poems: function () {
+    const content = useSphere();
+
+    return <div className="Content">POEMS</div>;
+  },
+};

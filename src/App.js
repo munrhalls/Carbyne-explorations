@@ -15,6 +15,7 @@ import { SVG } from "./Stylers/SVG/SVG";
 function App() {
   const { loading, content } = useSphere();
   // useIntroAnim();
+
   console.log(content);
   return (
     <div
@@ -50,7 +51,6 @@ function App() {
         <SVG.BGNavigationalAntennae />
         <SVG.BGNavigationalRiver />
 
-        <Nav />
         <div className="App__title">
           {!content && (
             <>
@@ -60,7 +60,7 @@ function App() {
             </>
           )}
         </div>
-
+      
         {content === "POETRY" && (
           <div className="Content">
             <h1>MY POEMS.</h1>
