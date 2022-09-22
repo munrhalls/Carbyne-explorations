@@ -9,11 +9,13 @@ export const Content = {
       <div className="Content">
         <div className="ContentPoems">
           <h1 className="ContentPoems__metaTitle">MY POEMS.</h1>
-          {poems.map((poem) => {
+          {poems.map((poem, i) => {
             return (
               <>
                 {poem}
-                <div className="Content__segregatorLine"></div>
+                {i !== poems?.length - 1 && (
+                  <div className="Content__segregatorLine"></div>
+                )}
               </>
             );
           })}
