@@ -702,8 +702,8 @@ export const SVG = {
     const contentLink = text?.toUpperCase().trim();
     // contentLink?.style?.textTransform = "uppercase";
     console.log(contentLink);
-
-    const offset = `${index * 100 + text.length * 2}`;
+    const distanceUnit = width * 0.2;
+    const offset = `${index * distanceUnit}`;
     console.log(offset);
 
     return (
@@ -718,7 +718,6 @@ export const SVG = {
         <text
           className="BGNavigationalRiverButton__text"
           fill="#fff"
-          dx={offset}
           onClick={() => setContent(contentLink)}
         >
           {/* <textPath alignmentBaseline="top" xlinkHref="#curve2" fill="##fff"> */}
@@ -726,6 +725,7 @@ export const SVG = {
           {/* </textPath> */}
           <animateMotion
             dur="15s"
+            begin={`${index}s`}
             repeatCount="indefinite"
             path={`M${width} ${height * 0.14447154471544716}
           L ${width * 0.9890859481582538} ${height * 0.15176151761517614}
@@ -755,11 +755,12 @@ export const SVG = {
 
     const BGNavigationalRiverButtons = [
       "My poems",
-      "ArticlesArticlesArticlesArticlesArticlesArticlesArticles",
+      "Articles",
       "About practical effectiveness",
       "Books I value the most",
       "Music for work",
       "Art I like ",
+      "Practical meditation",
     ];
 
     return (
