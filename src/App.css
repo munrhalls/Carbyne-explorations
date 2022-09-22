@@ -1,8 +1,7 @@
 @import './Reset.css';
 /* comps */
 @import './components/Content/Content.css';
-
-/* purely stylers */
+@import './components/TableOfContents/TableOfContents.css';
 @import './Stylers/Stylers.css';
 /* anims */
 @import './Animators/ScannerAnim.css';
