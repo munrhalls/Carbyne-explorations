@@ -100,12 +100,22 @@ export const SVG = {
           L${width * 0.237175} ${height * 0.975}
           L${width * 0.2375} ${height}
 
-        
         `}
           fill="none"
           stroke="#fff"
           strokeLinejoin="round"
           strokeWidth={`${width / 12.5}`}
+        />
+
+        <path
+          d={`M${width * 0.04993252361673414} ${height * 0.037241379310344824}
+          L${width * 0.024291497975708502} ${height * 0.28413793103448276}
+          L${width * 0.09446693657219973} ${height * 0.5131034482758621}
+          L${width * 0.024291497975708502} ${height * 0.28413793103448276}
+          L${width * 0.13002680965147453} ${height * 0.35501355013550134}
+          L${width * 0.09446693657219973} ${height * 0.5131034482758621}
+        `}
+          fill="#000"
         />
       </svg>
     );
