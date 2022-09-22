@@ -1,3 +1,5 @@
+@import './ContentPoems.css';
+
 .Content {
     /* z precedence (max = 9) */
     z-index: 0;

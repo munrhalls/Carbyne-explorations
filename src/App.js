@@ -35,43 +35,46 @@ function App() {
       }
     >
       <ScannerLoader active={loading}>
-        <SVG.BGanimStarDots />
-        <SVG.BGblanket />
-        <SVG.BGCaveLine />
-        <SVG.BGCaveRavineWhiteLaces />
-        <SVG.BGCaveLineFill />
-        <SVG.BGCircle />
-        <SVG.BGCaveSteps />
-        <SVG.BGCaveDots />
-        <SVG.BGTitleLayerLine />
-        <SVG.BGblanketOutline />
-        <SVG.BGcontentContainer />
-        <SVG.AppTitle />
-        <SVG.BGUpholderConnectorXer />
-        <SVG.BGNavigationalAntennae />
-        <SVG.BGNavigationalRiver>
-          <SVG.BGNavigationalRiverButtons
-            BGNavigationalRiverButtons={[
-              "Effectiveness",
-              "Music for work",
-              "Practical meditation",
-              "Best books",
-              "Articles",
-              "My programming works",
-              "My poems",
-            ]}
-          />
-        </SVG.BGNavigationalRiver>
-        <div className="App__title">
-          {!content && (
-            <>
-              <h1>WELCOME</h1>
-              <h1>I AM MUNRHALLS</h1>
-              <h1>THIS IS MY REPOSITORY AND BLOG</h1>
-            </>
-          )}
-        </div>
-        if (content === 'POEMS') return <Content.Poems />
+        <>
+          <SVG.BGanimStarDots />
+          <SVG.BGblanket />
+          <SVG.BGCaveLine />
+          <SVG.BGCaveRavineWhiteLaces />
+          <SVG.BGCaveLineFill />
+          <SVG.BGCircle />
+          <SVG.BGCaveSteps />
+          <SVG.BGCaveDots />
+          <SVG.BGTitleLayerLine />
+          <SVG.BGblanketOutline />
+          <SVG.BGcontentContainer />
+          <SVG.AppTitle />
+          <SVG.BGUpholderConnectorXer />
+          <SVG.BGNavigationalAntennae />
+          <SVG.BGNavigationalRiver>
+            <SVG.BGNavigationalRiverButtons
+              BGNavigationalRiverButtons={[
+                "Effectiveness",
+                "Music for work",
+                "Practical meditation",
+                "Best books",
+                "Articles",
+                "My programming works",
+                "My poems",
+              ]}
+            />
+          </SVG.BGNavigationalRiver>
+          <div className="App__title">
+            {!content && (
+              <>
+                <h1>WELCOME</h1>
+                <h1>I AM MUNRHALLS</h1>
+                <h1>THIS IS MY REPOSITORY AND BLOG</h1>
+              </>
+            )}
+          </div>
+
+          {content === "MY POEMS" && <Content.Poems />}
+        </>
       </ScannerLoader>
     </div>
   );

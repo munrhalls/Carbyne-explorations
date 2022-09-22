@@ -1,6 +1,7 @@
 @import './Reset.css';
 /* comps */
-@import './components/Nav/Nav.css';
+@import './components/Content/Content.css';
+
 /* purely stylers */
 @import './Stylers/Stylers.css';
 /* anims */
@@ -8,6 +9,9 @@
 /* globals */
 @import './components/ScannerLoader/ScannerLoader.css';
 @import './Fonts/Fonts.css';
+/* being mobile friendly */
+@import './components/Content/MobileContent.css';
+
 
 * {
   box-sizing: border-box;

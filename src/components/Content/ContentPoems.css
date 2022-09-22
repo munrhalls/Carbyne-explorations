@@ -1,0 +1,16 @@
+.ContentPoems {
+
+}
+
+.ContentPoems__metaTitle {
+
+}
+
+.ContentPoems__poem {
+    margin-top: 1rem;
+    max-width: 12rem;
+}
+
+.ContentPoems__poem__title {
+    font-weight: bold;
+}   

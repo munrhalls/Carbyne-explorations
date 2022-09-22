@@ -8,7 +8,7 @@ export function useSphere() {
 
 export default function SphereProvider({ children }) {
   const [loading, setLoading] = useState(false);
-  const [content, setContent] = useState("POETRY");
+  const [content, setContent] = useState("MY POEMS");
 
   const value = { loading, setLoading, setContent, content };
 
