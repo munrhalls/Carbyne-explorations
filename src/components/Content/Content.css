@@ -15,6 +15,7 @@
 
 .Content__segregatorLine {
     height: 1px;
-    border: 1px solid #aaa;
+    background: #aaa;
+    width: 60%;
 }
 @import './MobileContent.css'
