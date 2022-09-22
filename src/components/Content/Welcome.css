@@ -1,0 +1,21 @@
+.Welcome {
+    padding: 1rem;
+}
+
+.Welcome h1 {
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.Welcome p {
+    margin: 0.5rem;
+}
+
+.Welcome ul {   
+    margin-top: 1rem;
+    padding-left: 2rem;
+}
+
+.Welcome li {   
+    list-style:circle;
+}

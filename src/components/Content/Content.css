@@ -1,5 +1,7 @@
-@import './ContentPoems.css';
+@import './Poems.css';
 @import './MyProgrammingWorks.css';
+@import './Welcome.css';
+
 
 .Content {
     /* z precedence (max = 9) */

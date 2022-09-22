@@ -70,15 +70,8 @@ function App() {
               BGNavigationalRiverButtons={BGNavigationalRiverButtons}
             />
           </SVG.BGNavigationalRiver>
-          <div className="App__title">
-            {!content && (
-              <>
-                <h1>WELCOME</h1>
-                <h1>I AM MUNRHALLS</h1>
-                <h1>THIS IS MY REPOSITORY AND BLOG</h1>
-              </>
-            )}
-          </div>
+
+          {!content && <Content.Welcome />}
 
           {BGNavigationalRiverButtons.map((navBtn) => {
             return (
