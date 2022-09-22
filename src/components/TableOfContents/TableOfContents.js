@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export default function TableOfContents() {
   return (
-    <div>TableOfContents</div>
-  )
+    <div>
+      TableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContentsTableOfContents
+    </div>
+  );
 }
