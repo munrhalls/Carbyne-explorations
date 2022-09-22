@@ -1,4 +1,5 @@
 @import './ContentPoems.css';
+@import './MyProgrammingWorks.css';
 
 .Content {
     /* z precedence (max = 9) */
@@ -17,5 +18,6 @@
     height: 1px;
     background: #aaa;
     width: 70%;
+    margin: 2rem 0;
 }
 @import './MobileContent.css'

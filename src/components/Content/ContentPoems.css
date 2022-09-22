@@ -7,8 +7,8 @@
 
 .ContentPoems__poem {
     margin-top: 2rem;
+    padding-top: 1rem;
     max-width: 15rem;   
-    margin-bottom: 2rem;
 }   
 
 .ContentPoems__poem__title {

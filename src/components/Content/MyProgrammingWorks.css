@@ -1,5 +1,12 @@
 .MyProgrammingWorks {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    height: 100%;
 }
+.MyProgrammingWorks__item {
+    height: 100%;
+}
+.MyProgrammingWorks__item h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+} 
