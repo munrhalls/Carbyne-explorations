@@ -15,6 +15,24 @@ function App() {
   useIntroAnim();
 
   console.log(content);
+  const BGNavigationalRiverButtons = [
+    "Effectiveness",
+    "Music for work",
+    "Practical meditation",
+    "Best books",
+    "Articles",
+    "My programming works",
+    "My poems",
+  ];
+  const contentComps = [
+    "Effectiveness",
+    "Music for work",
+    "Practical meditation",
+    "Best books",
+    "Articles",
+    <Content.MyProgrammingWorks />,
+    <Content.Poems />,
+  ];
 
   return (
     <div
@@ -49,15 +67,7 @@ function App() {
           <SVG.BGNavigationalAntennae />
           <SVG.BGNavigationalRiver>
             <SVG.BGNavigationalRiverButtons
-              BGNavigationalRiverButtons={[
-                "Effectiveness",
-                "Music for work",
-                "Practical meditation",
-                "Best books",
-                "Articles",
-                "My programming works",
-                "My poems",
-              ]}
+              BGNavigationalRiverButtons={BGNavigationalRiverButtons}
             />
           </SVG.BGNavigationalRiver>
           <div className="App__title">
@@ -70,6 +80,16 @@ function App() {
             )}
           </div>
 
+          {BGNavigationalRiverButtons.map((navBtn) => {
+            return (
+              navBtn?.toUpperCase().trim() === content &&
+              (function () {
+                return contentComps[
+                  BGNavigationalRiverButtons.indexOf(content) - 1
+                ];
+              })()
+            );
+          })}
           {content === "MY POEMS" && <Content.Poems />}
           {content === "MY PROGRAMMING WORKS" && <Content.MyProgrammingWorks />}
         </>
