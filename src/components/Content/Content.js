@@ -32,25 +32,28 @@ export const Content = {
   },
   MyProgrammingWorks: function () {
     return (
-      <div className="Content">
-        <div className="MyProgrammingWorks">
-          <div className="MyProgrammingWorks__item">
-            <h1>Oxus Flashcards</h1>
-            <a href="https://oxus.netlify.app/" target="_blank">
-              Oxus Flashcards{" "}
-            </a>
-          </div>
+      <>
+        <TableOfContents />
+        <div className="Content">
+          <div className="MyProgrammingWorks">
+            <div className="MyProgrammingWorks__item">
+              <h1>Oxus Flashcards</h1>
+              <a href="https://oxus.netlify.app/" target="_blank">
+                Oxus Flashcards{" "}
+              </a>
+            </div>
 
-          <div className="Content__segregatorLine"></div>
-          <div className="MyProgrammingWorks__item">
-            <h1>Vimeo Searcher</h1>
+            <div className="Content__segregatorLine"></div>
+            <div className="MyProgrammingWorks__item">
+              <h1>Vimeo Searcher</h1>
+            </div>
+            <div className="MyProgrammingWorks__item">
+              <h1></h1>
+            </div>
+            <div></div>
           </div>
-          <div className="MyProgrammingWorks__item">
-            <h1></h1>
-          </div>
-          <div></div>
         </div>
-      </div>
+      </>
     );
   },
 };
