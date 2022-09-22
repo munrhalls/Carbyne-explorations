@@ -248,6 +248,10 @@ export const Content = {
             <li>My poems</li>
             <li>My programming works</li>
           </ul>
+          <p>
+            To check them out, use the drifting text-buttons in the black
+            top-left section. They're the first two.
+          </p>
           <p>Hope you enjoy my blog.</p>
           <p>Cheers,</p>
           <p>Munrhalls</p>
