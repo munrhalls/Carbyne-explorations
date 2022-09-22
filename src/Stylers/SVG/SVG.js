@@ -742,8 +742,8 @@ export const SVG = {
           fill="#fff"
           textLength="2.5rem"
           lengthAdjust="spacingAndGlyphs"
-          dx="-15"
-          dy="-15"
+          dx="0"
+          dy="-10"
           onClick={() => setContent(contentLink)}
         >
           {/* <textPath alignmentBaseline="top" xlinkHref="#curve2" fill="##fff"> */}
