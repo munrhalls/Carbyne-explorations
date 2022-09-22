@@ -704,26 +704,40 @@ export const SVG = {
     const contentLink = text?.toUpperCase().trim();
     // contentLink?.style?.textTransform = "uppercase";
     const offset = `${10 * timeDistance + Math.ceil(text.length) / 3}`;
+    const tspans = text?.split(" ");
 
     return (
       <svg
         className="BGNavigationalRiverButton"
         version="1.1"
-        height={height}
-        width={width}
+        // height={height}
+        // width={width}
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
         <text
           className="BGNavigationalRiverButton__text"
           fill="#fff"
-          textLength="1.75rem"
+          textLength="5rem"
+          lengthAdjust="spacingAndGlyphs"
           dx="-15"
           dy="-10"
           onClick={() => setContent(contentLink)}
         >
           {/* <textPath alignmentBaseline="top" xlinkHref="#curve2" fill="##fff"> */}
-          {text}
+          {tspans.map((textPart, index) => {
+            return (
+              <tspan
+                key={uuidv4()}
+                dy={`${index * 8}`}
+                x="0"
+                className="BGNavigationalRiverButton__text__tspan"
+              >
+                {textPart}
+              </tspan>
+            );
+          })}
+
           {/* </textPath> */}
           <animateMotion
             dur="360s"
