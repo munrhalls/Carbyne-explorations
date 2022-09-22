@@ -53,6 +53,8 @@ export const Content = {
             <br></br>
             <br></br>
           </div>
+
+          <div className="Content__segregatorLine"></div>
         </div>
       </div>
     );

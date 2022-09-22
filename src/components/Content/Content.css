@@ -12,4 +12,9 @@
     max-height: 100vh;
     z-index: 9;
 }
+
+.Content__segregatorLine {
+    height: 1px;
+    border: 1px solid #aaa;
+}
 @import './MobileContent.css'
