@@ -11,6 +11,7 @@ import ScannerLoader from "./components/ScannerLoader/ScannerLoader";
 import { useSphere } from "./Contexts/SphereProvider";
 import { SVG } from "./Stylers/SVG/SVG";
 import { Content } from "./components/Content/Content";
+import TableOfContents from "./components/TableOfContents/TableOfContents";
 
 function App() {
   const { loading, content } = useSphere();
@@ -72,6 +73,7 @@ function App() {
             )}
           </div>
 
+          {content && <TableOfContents />}
           {content === "MY POEMS" && <Content.Poems />}
         </>
       </ScannerLoader>
