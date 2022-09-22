@@ -1,5 +1,7 @@
+import React from "react";
+
 const poemOne = (
-  <div className="ContentPoems__poem">
+  <>
     <h1 className="ContentPoems__poem__title">LIQUID AIR ABUSER</h1>
     <p>Sober liquids flow through, the veins of airy vastness.</p>
     Winds work a little bit weird, in these channels.
@@ -32,12 +34,12 @@ const poemOne = (
     There are stories, that are, actually, not fiction.
     <p>There's only one problem, with these, though:</p>
     they exist.
-    <p>What drinks fit on the table, when telling such stories?</p>{" "}
-  </div>
+    <p>What drinks fit on the table, when telling such stories?</p>
+  </>
 );
 
 const poemTwo = (
-  <div className="ContentPoems__poem">
+  <>
     <h1 className="ContentPoems__poem__title">CHATTER CHATS WITH MIND</h1>
     <p>
       <span>"What?", </span>
@@ -112,7 +114,7 @@ const poemTwo = (
     <p>
       <span>So says the chatter.</span>
     </p>
-  </div>
+  </>
 );
 
 export const poems = [poemOne, poemTwo];
