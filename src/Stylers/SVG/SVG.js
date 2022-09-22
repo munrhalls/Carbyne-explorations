@@ -629,7 +629,6 @@ export const SVG = {
   },
   BGNavigationalRiver: function () {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
-
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
@@ -690,8 +689,6 @@ export const SVG = {
           fill="none"
           strokeLinejoin="round"
         />
-
-        <SVG.BGNavigationalRiverButtons />
       </svg>
     );
   },
@@ -752,8 +749,8 @@ export const SVG = {
     const width = `${useWindowWidth()}`;
     return (
       <>
-        <SVG.BGNavigationalRiverButton dx="0" text="Poetry" />
-        <SVG.BGNavigationalRiverButton dx="-100" text="Articles" />
+        <SVG.BGNavigationalRiverButton text="Poetry" />
+        <SVG.BGNavigationalRiverButton text="Articles" />
       </>
     );
   },
