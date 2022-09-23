@@ -3,7 +3,6 @@ import { useSphere } from "../../Contexts/SphereProvider";
 import { poems } from "./../../Data/DataPoems";
 import TableOfContents from "../TableOfContents/TableOfContents";
 import { v4 as uuidv4 } from "uuid";
-import useIntersectionObserver from "../../Hooks/useIntersectionObserver";
 
 export const Content = {
   Welcome: function () {

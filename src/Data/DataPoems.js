@@ -41,7 +41,6 @@ const poemOne = {
     </>
   ),
 };
-
 const poemTwo = {
   title: "CHATTER CHATS WITH MIND",
   content: (
@@ -124,4 +123,186 @@ const poemTwo = {
   ),
 };
 
+const poemThree = {
+  title: "INVENTOR'S TOUCH",
+  content: (
+    <>
+      <p>
+        <span>"Quicker, quicker, QUICK!!!",</span>
+        <span>the crowds hear.</span>
+      </p>
+      <p>
+        <span>"Faster than fastest,</span>
+        <span>faster still,</span>
+        <span>always fastest,</span>
+        <span>and even faster,</span>
+        <span>and then,</span>
+        <span>still faster!!!",</span>
+        <span>the crowd's champions,</span>
+        <span>proclaim.</span>
+      </p>
+
+      <p>The byword of the day.</p>
+
+      <p>
+        <span>It this not an invention,</span>
+        <span>ingeniously gently crafted, </span>
+        <span>and even more creatively packaged?</span>
+      </p>
+
+      <p>
+        <span>Sublime, of the highest kind,</span>
+        <span>to convince so many,</span>
+        <span>of what is but a claim.</span>
+      </p>
+
+      <p>
+        <span>A claim that's not checked,</span>
+        <span>or even possible to be checked,</span>
+        <span>since there's no time,</span>
+        <span>for the crowd.</span>
+      </p>
+
+      <p>
+        <span>Ironic, since the crowds,</span>
+        <span>otherwise ever patient and gentle,</span>
+        <span>now swim in time,</span>
+        <span>every second and every step of their way,</span>
+        <span>yet never seem to have it,</span>
+        <span>lost in the dispersion,</span>
+        <span>of their now.</span>
+      </p>
+
+      <p>
+        <span>By the byword,</span>
+        <span>crowd only has time,</span>
+        <span>to accelerate,</span>
+        <span>while running out of time,</span>
+        <span>to accelerate. </span>
+      </p>
+
+      <p>
+        <span>Everyone accelerates,</span>
+        <span>into partial acceleration.</span>
+      </p>
+
+      <p>
+        <span>Speeding up further into, </span>
+        <span>parts of partial acceleration.</span>
+      </p>
+
+      <p>
+        <span>To make more parts of,</span>
+        <span>partial acceleration,</span>
+        <span>within,</span>
+        <span>already partial acceleration. </span>
+      </p>
+
+      <p>
+        <span>Again and again,</span>
+        <span>and again,</span>
+        <span>and again,</span>
+        <span>again.</span>
+      </p>
+
+      <p>
+        <span>Sublime ways craft such,</span>
+        <span>craft of perpetuating</span>
+        <span>the decelerating ways,</span>
+        <span>packaged into robust claims </span>
+        <span>of dust-crafted,</span>
+        <span>dirt-fidgeting,</span>
+        <span>realest real,</span>
+        <span>acceleration.</span>
+      </p>
+
+      <p>
+        <span>Touch the speed itself,</span>
+        <span>and you sense,</span>
+        <span>it's slowness. </span>
+      </p>
+
+      <p>
+        <span>Touch the slowest slow, </span>
+        <span>and then still,</span>
+        <span>and you will find time,</span>
+        <span>to find more time,</span>
+        <span>in that time of stillness.</span>
+      </p>
+      <p>
+        <span>You will take it back,</span>
+        <span>from what accelerates you,</span>
+        <span>to give it away,</span>
+        <span>into claims,</span>
+        <span>which will then,</span>
+        <span>accelerate you,</span>
+        <span>instead of the claims.</span>
+      </p>
+
+      <p>
+        <span>Such is the claim,</span>
+        <span>of whoever wants to experience,</span>
+        <span>the inventor's touch.</span>
+      </p>
+
+      <p>
+        <span>Did you get it?</span>
+      </p>
+
+      <p>
+        <span>If you got it, </span>
+        <span>what was gotten? </span>
+      </p>
+
+      <p>
+        <span>That's right,</span>
+        <span>a claim!</span>
+      </p>
+
+      <p>
+        <span>How is looking for the inventor's touch,</span>
+        <span>in a claim,</span>
+        <span>not more of being inside,</span>
+        <span>of another invention,</span>
+        <span>of what is not your own?</span>
+      </p>
+
+      <p>
+        <span>Claims claim,</span>
+        <span>while inventing,</span>
+        <span>requires only one thing:</span>
+        <span>nothing and time.</span>
+      </p>
+
+      <p>
+        <span>"That's two things, </span>
+        <span>not one!", shouts</span>
+        <span>the diligent observer.</span>
+      </p>
+
+      <p>
+        <span>That's how claims work,</span>
+        <span>claims another claim.</span>
+      </p>
+
+      <p>
+        <span>If you understand that,</span>
+        <span>you can hand yourself,</span>
+        <span>inventions that are </span>
+        <span>not more claims.</span>
+      </p>
+
+      <p>
+        <span>That's just another claim.</span>
+      </p>
+
+      <p>
+        <span>Invent your way </span>
+        <span>out of claims of any kind,</span>
+        <span>and then, </span>
+        <span>invent no claims.</span>
+      </p>
+    </>
+  ),
+};
 export const poems = [poemOne, poemTwo];
