@@ -10,6 +10,7 @@
 @import './AppTitle.css';
 @import './BGNavigationalRiver';
 @import './BGNavigationalRiverButton';
+@import './LightningAnim.css';
 
 .SVG {
   /* z-precedence */

@@ -9,7 +9,7 @@ export default function TableOfContents({ items }) {
         {items?.map((item) => (
           <li className="TableOfContents__list__item" key={uuidv4()}>
             {item}
-          </li> 
+          </li>
         ))}
       </ul>
     </div>

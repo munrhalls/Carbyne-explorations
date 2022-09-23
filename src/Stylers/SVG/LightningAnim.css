@@ -1,0 +1,9 @@
+.LightningAnim {
+    animation: hide 1.5 linear 1.5 1 forwards;
+}
+
+@keyframes hide {
+    to {
+        opacity: 0;
+    }
+}

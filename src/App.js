@@ -30,8 +30,7 @@ function App() {
     "My poems",
   ];
   const BGNavigationalRiverButtonsColors = [
-    // darkerblue
-    "darkblue",
+    "#2e38ff",
     "gold",
 
     "orchid",
@@ -41,7 +40,7 @@ function App() {
     "teal",
     "green",
     "lightblue",
-    "#2e38ff",
+    "darkblue",
   ];
 
   const contentComps = [
@@ -86,6 +85,7 @@ function App() {
           <SVG.AppTitle />
           <SVG.BGUpholderConnectorXer />
           <SVG.BGNavigationalAntennae />
+
           <SVG.BGNavigationalRiver>
             <SVG.BGCircle />
             <SVG.BGNavigationalRiverButtons
@@ -93,6 +93,7 @@ function App() {
               BGNavigationalRiverButtons={BGNavigationalRiverButtons}
             />
           </SVG.BGNavigationalRiver>
+
           {!content && <Content.Welcome />}
 
           {BGNavigationalRiverButtons.map((navBtn) => {

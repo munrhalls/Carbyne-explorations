@@ -221,7 +221,7 @@ export const SVG = {
 
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
-    const globColor = useSphere();
+    const { globColor } = useSphere();
 
     return (
       <svg
@@ -232,27 +232,25 @@ export const SVG = {
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <path
-          d={`M ${width * 0.08638743455497382} ${height * 0.8482384823848238}
-          L ${width * 0.1649214659685864} ${height * 0.3699186991869919}
-          L ${width * 0.2356020942408377} ${height * 0.3319783197831978}
-    `}
+        {/* <path
           fill="none"
-          stroke="green"
-          strokeLinejoin="round"
-          strokeWidth="1"
-        >
+          stroke="lightgrey"
+          d="M 40,50 C20,-50 180,150 180,50 C180-50 20,150 20,50 z"
+        /> */}
+
+        {/* <circle r="1" fill="blue">
           <animateMotion
             dur="1s"
             repeatCount="1"
-            path={`M ${width * 0.08638743455497382} ${
-              height * 0.8482384823848238
-            }
-            L ${width * 0.1649214659685864} ${height * 0.3699186991869919}
-            L ${width * 0.2356020942408377} ${height * 0.3319783197831978}
-      `}
+            path={`M 0 ${height} 
+            L ${width * 0.11925465838509317} ${height * 0.7005420054200542} 
+            L ${width * 0.12173913043478261} ${height * 0.5284552845528455} 
+            L ${width * 0.2608695652173913} ${height * 0.43089430894308944} 
+            L ${width * 0.22111801242236026} ${height * 0.23983739837398374} 
+            L ${width * 0.3105590062111801} ${height * 0.2032520325203252} 
+            `}
           />
-        </path>
+        </circle> */}
       </svg>
     );
   },

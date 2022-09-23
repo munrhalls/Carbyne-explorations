@@ -15,6 +15,28 @@
 * {
   box-sizing: border-box;
 }
+
+::-webkit-scrollbar-thumb {
+  background-color: #fff;
+}
+::-webkit-scrollbar-track {
+  background-color: #000;
+}
+::-webkit-scrollbar-corner {
+  background-color: #000;
+}
+
+::-webkit-scrollbar {
+  width: .1rem;
+  height: .1rem;
+}
+.App {
+  -ms-overflow-style: auto;
+  scrollbar-color: #000 #fff;
+  scrollbar-width: thin;
+}
+
+
 .App {
   font-family: 'Josefin Sans', 'Anke','Good Times Rg', 'Sofachrome Rg';
   position: relative;
