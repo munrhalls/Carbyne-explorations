@@ -1,7 +1,9 @@
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
+import useIntersectionObserver from "../../Hooks/useIntersectionObserver";
 
 export default function TableOfContents({ items }) {
+  useIntersectionObserver();
   return (
     <div className="TableOfContents">
       <h3 className="TableOfContents__metaTitle">TABLE OF CONTENTS</h3>

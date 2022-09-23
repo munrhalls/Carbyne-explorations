@@ -3,6 +3,7 @@ import { useSphere } from "../../Contexts/SphereProvider";
 import { poems } from "./../../Data/DataPoems";
 import TableOfContents from "../TableOfContents/TableOfContents";
 import { v4 as uuidv4 } from "uuid";
+import useIntersectionObserver from "../../Hooks/useIntersectionObserver";
 
 export const Content = {
   Welcome: function () {
@@ -32,6 +33,7 @@ export const Content = {
   },
   Poems: function () {
     const content = useSphere();
+
     return (
       <>
         <TableOfContents items={poems.map((poem) => poem.title)} />
