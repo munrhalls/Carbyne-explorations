@@ -274,6 +274,23 @@ export const Content = {
                 is slightly more complicated, so it was good practice {": )"}
               </p>
             </div>
+
+            <div className="Content__segregatorLine"></div>
+
+            <div className="MyProgrammingWorks__item">
+              <h1>Snake</h1>
+              <p>
+                Simple snake game, from a long time ago. I used to write snake
+                as training warm up, getting myself into a coding mood.
+              </p>
+              <p>You can check it here:</p>
+
+              <p>
+                <a href="https://munrhalls.github.io/snake/" target="_blank">
+                  SNAKE
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </>
