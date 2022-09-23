@@ -30,7 +30,7 @@ function App() {
     "Music for work",
     "Practical meditation",
     "Best books",
-    "Workflow skills",
+    <Content.WorkflowSkills />,
     <Content.MyProgrammingWorks />,
     <Content.Poems />,
   ];
