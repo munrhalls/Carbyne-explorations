@@ -295,11 +295,25 @@ export const Content = {
     return (
       <div className="Content">
         <div className="BookChoices">
-          <p>Mood choices</p>
-          <p>Music, sound choices</p>
-          <p>Approach choices</p>
-          <p>How it comes together for some kinda personal rhytm</p>
-          <h1>WORKFLOW SKILLS</h1>
+          <h1>Book choices</h1>
+        </div>
+      </div>
+    );
+  },
+  PracticalMeditation: function () {
+    return (
+      <div className="Content">
+        <div className="PracticalMeditation">
+          <h1>PracticalMeditation</h1>
+        </div>
+      </div>
+    );
+  },
+  SleepWaterFoodExercisingResting: function () {
+    return (
+      <div className="Content">
+        <div className="SleepWaterFoodExercisingResting">
+          <h1>SleepWaterFoodExercisingResting</h1>
         </div>
       </div>
     );

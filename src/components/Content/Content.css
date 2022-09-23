@@ -1,8 +1,11 @@
 @import './Welcome.css';
 @import './Poems.css';
 @import './MyProgrammingWorks.css';
-@import './WorkflowSkillss.css';
+@import './WorkflowSkills.css';
 @import './BookChoices.css';
+@import './PracticalMeditation.css';
+@import './SleepWaterFoodExercisingResting.css';
+
 
 
 .Content {
