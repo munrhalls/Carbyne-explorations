@@ -342,6 +342,25 @@ export const Content = {
                 </a>
               </p>
             </div>
+
+            <div className="Content__segregatorLine"></div>
+
+            <div className="MyProgrammingWorks__item">
+              <h1>Trying out Gatsby, a few blog entries</h1>
+              <p>
+                That's not really a project. It's just setting up Gatsby and
+                hardly even that. It has a few unfinished articles at the
+                moment. However, it is a near-future stepping stone for me to
+                create a framework such as Gatsby, or something similar,
+                entirely on my own.
+              </p>
+              <p>You can check it here:</p>
+              <p>
+                <a href="https://carbyne-explorer.netlify.app/" target="_blank">
+                  Blog using Gatsby framework
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </>
