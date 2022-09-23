@@ -187,7 +187,7 @@ export const SVG = {
 
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
-    const { globColor } = useSphere();
+    const { globColor, setGlobColor, setContent } = useSphere();
 
     return (
       <svg
@@ -207,6 +207,11 @@ export const SVG = {
           strokeWidth="7.5"
           fillOpacity={`${globColor ? 0.5 : 1}`}
           fill={`${globColor ? globColor : "#fff"}`}
+          onClick={() => {
+            console.log("???");
+            setGlobColor("");
+            setContent(null);
+          }}
         />
       </svg>
     );

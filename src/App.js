@@ -78,7 +78,6 @@ function App() {
           <SVG.BGCaveLine />
           <SVG.BGClepsidreBridgeway />
           <SVG.BGCaveLineFill />
-          <SVG.BGCircle />
           <SVG.BGCaveSteps />
           <SVG.BGCaveDots />
           <SVG.BGTitleLayerLine />
@@ -88,6 +87,7 @@ function App() {
           <SVG.BGUpholderConnectorXer />
           <SVG.BGNavigationalAntennae />
           <SVG.BGNavigationalRiver>
+            <SVG.BGCircle />
             <SVG.BGNavigationalRiverButtons
               colors={BGNavigationalRiverButtonsColors}
               BGNavigationalRiverButtons={BGNavigationalRiverButtons}

@@ -1,0 +1,7 @@
+.BGCircle circle {
+    cursor: pointer;    
+}
+
+.BGCircle circle:hover {
+    fill: #000;
+}
