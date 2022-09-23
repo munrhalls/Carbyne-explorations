@@ -16,14 +16,12 @@ function App() {
   const { loading, content } = useSphere();
   // useIntroAnim();
 
-  console.log(content);
-
   const BGNavigationalRiverButtons = [
     "Effectiveness",
     "Music for work",
     "Practical meditation",
     "Best books",
-    "Articles",
+    "Workflow skills",
     "My programming works",
     "My poems",
   ];
@@ -32,7 +30,7 @@ function App() {
     "Music for work",
     "Practical meditation",
     "Best books",
-    "Articles",
+    "Workflow skills",
     <Content.MyProgrammingWorks />,
     <Content.Poems />,
   ];
