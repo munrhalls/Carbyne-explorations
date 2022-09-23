@@ -654,6 +654,7 @@ export const SVG = {
 
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
+    const { globColor } = useSphere();
 
     return (
       <svg
@@ -670,7 +671,7 @@ export const SVG = {
           
           L ${width * 0.2155525238744884} ${height * 0.23718157181571815}
         `}
-          stroke="#fff"
+          stroke={`${globColor ? globColor : "#fff"}`}
           strokeWidth="1"
         />
       </svg>
