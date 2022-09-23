@@ -732,7 +732,7 @@ export const SVG = {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
-    const { setContent, setGlobColor } = useSphere();
+    const { content, setContent, setGlobColor } = useSphere();
     const contentLink = text?.toUpperCase().trim();
     const offset = `${10 * timeDistance + Math.ceil(text.length) / 3}`;
     const tspans = text?.split(" ");
@@ -751,6 +751,9 @@ export const SVG = {
           style={{
             filter: `drop-shadow(-0 0 4px ${color})`,
             textShadow: `1px 3px 7px ${color}`,
+            fontSize: `${
+              text?.toUpperCase()?.trim() === content ? "1.75rem" : ".75rem"
+            }`,
           }}
           fill="#fff"
           textLength="2.5rem"
