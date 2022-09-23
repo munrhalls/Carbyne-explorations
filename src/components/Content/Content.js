@@ -278,6 +278,27 @@ export const Content = {
             <div className="Content__segregatorLine"></div>
 
             <div className="MyProgrammingWorks__item">
+              <h1>Coffee shop website</h1>
+              <p>
+                That's from 2016, when I wasn't even programming yet, I wasn't
+                even a beginner at that time, however, I was getting my hands
+                dirty with code and projects such as this website, these were my
+                beginnings when it comes to writing practical things. Most of my
+                projects then, they were all about some abstract ridiculous
+                obscure coding thing or concept that just happened to really
+                interest me.
+              </p>
+              <p>You can check it out here:</p>
+              <p>
+                <a href="https://coffee-tabs.netlify.app/" target="_blank">
+                  Coffee website
+                </a>
+              </p>
+            </div>
+
+            <div className="Content__segregatorLine"></div>
+
+            <div className="MyProgrammingWorks__item">
               <h1>Snake</h1>
               <p>
                 Simple snake game, from a long time ago. I used to write snake
