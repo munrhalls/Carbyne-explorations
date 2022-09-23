@@ -4,7 +4,7 @@ const poemOne = {
   title: "LIQUID AIR ABUSER",
   content: (
     <>
-      <h1 className="ContentPoems__poem__title">LIQUID AIR ABUSER</h1>
+      <h1 className="Poems__poem__title">LIQUID AIR ABUSER</h1>
       <p>Sober liquids flow through, the veins of airy vastness.</p>
       Winds work a little bit weird, in these channels.
       <p>
@@ -45,7 +45,7 @@ const poemTwo = {
   title: "CHATTER CHATS WITH MIND",
   content: (
     <>
-      <h1 className="ContentPoems__poem__title">CHATTER CHATS WITH MIND</h1>
+      <h1 className="Poems__poem__title">CHATTER CHATS WITH MIND</h1>
       <p>
         <span>"What?", </span>
         <span>says chatter.</span>
@@ -122,11 +122,11 @@ const poemTwo = {
     </>
   ),
 };
-
 const poemThree = {
   title: "INVENTOR'S TOUCH",
   content: (
     <>
+      <h1 className="Poems__poem__title">INVENTOR'S TOUCH</h1>
       <p>
         <span>"Quicker, quicker, QUICK!!!",</span>
         <span>the crowds hear.</span>
@@ -305,4 +305,5 @@ const poemThree = {
     </>
   ),
 };
-export const poems = [poemOne, poemTwo];
+
+export const poems = [poemOne, poemTwo, poemThree];
