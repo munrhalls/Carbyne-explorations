@@ -12,6 +12,7 @@ export const SVG = {
 
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
+    const { globColor } = useSphere();
 
     return (
       <svg
@@ -36,7 +37,7 @@ export const SVG = {
     L ${width * 0.35}, ${height / 0.5}
     `}
           fill="#000"
-          stroke="#000"
+          stroke={`${globColor ? globColor : "#000"}`}
           strokeOpacity="0.8275"
           strokeLinejoin="round"
           strokeWidth="8"
