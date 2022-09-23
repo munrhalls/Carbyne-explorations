@@ -20,7 +20,7 @@ function App() {
     "Effectiveness",
     "Music for work",
     "Practical meditation",
-    "Best books",
+    "Book choices",
     "Workflow skills",
     "My programming works",
     "My poems",

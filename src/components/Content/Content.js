@@ -291,4 +291,17 @@ export const Content = {
       </div>
     );
   },
+  BookChoices: function () {
+    return (
+      <div className="Content">
+        <div className="BookChoices">
+          <p>Mood choices</p>
+          <p>Music, sound choices</p>
+          <p>Approach choices</p>
+          <p>How it comes together for some kinda personal rhytm</p>
+          <h1>WORKFLOW SKILLS</h1>
+        </div>
+      </div>
+    );
+  },
 };
