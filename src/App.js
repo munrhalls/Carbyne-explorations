@@ -30,19 +30,18 @@ function App() {
     "My poems",
   ];
   const BGNavigationalRiverButtonsColors = [
-    // blue
-    "#0d07c0",
     // darkerblue
-    "#000970",
-    "#000970",
+    "darkblue",
+    "gold",
 
-    "#000970",
-    "#000970",
-    "#000970",
+    "orchid",
+    "brown",
+    "darkkhaki",
 
-    "#000970",
-    "#000970",
-    "#000970",
+    "teal",
+    "green",
+    "lightblue",
+    "#2e38ff",
   ];
 
   const contentComps = [

@@ -761,7 +761,10 @@ export const SVG = {
 
         <text
           className="BGNavigationalRiverButton__text"
-          style={{ filter: `drop-shadow(4px 4px 4px rgba(255, 255, 255, 1))` }}
+          style={{
+            filter: `drop-shadow(-0 0 4px ${color})`,
+            textShadow: `1px 3px 7px ${color}`,
+          }}
           fill="#fff"
           textLength="2.5rem"
           lengthAdjust="spacingAndGlyphs"
