@@ -725,7 +725,7 @@ export const SVG = {
       </svg>
     );
   },
-  BGNavigationalRiverButton: function ({ text, timeDistance }) {
+  BGNavigationalRiverButton: function ({ color, text, timeDistance }) {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
@@ -745,8 +745,23 @@ export const SVG = {
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
+        {/* <style>
+            text {
+              filter: `drop-shadow(3px 3px 3px rgba(255, 255, 255, 1));`
+            }
+        </style> */}
+
+        {/* <style>
+          text {
+            fill: gold;
+            stroke: maroon;
+            stroke-width: 2px;
+          }
+        </style> */}
+
         <text
           className="BGNavigationalRiverButton__text"
+          style={{ filter: `drop-shadow(4px 4px 4px rgba(255, 255, 255, 1))` }}
           fill="#fff"
           textLength="2.5rem"
           lengthAdjust="spacingAndGlyphs"

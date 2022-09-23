@@ -1,7 +1,7 @@
 .BGNavigationalRiverButton {
     font-size: .75rem;
     color: #fff;
-    filter: drop-shadow(3px 3px 3px rgba(255, 255, 255, 1));
+    
     cursor: pointer;
     border: 1px solid #fff;
     z-index: 9;
