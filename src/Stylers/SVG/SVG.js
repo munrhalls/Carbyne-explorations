@@ -182,7 +182,7 @@ export const SVG = {
       </svg>
     );
   },
-  BGCircle: function ({children}) {
+  BGCircle: function () {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
 
     const height = `${useWindowHeight()}`;
@@ -233,13 +233,26 @@ export const SVG = {
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
         <path
-          d={`M 0 0
+          d={`M ${width * 0.08638743455497382} ${height * 0.8482384823848238}
+          L ${width * 0.1649214659685864} ${height * 0.3699186991869919}
+          L ${width * 0.2356020942408377} ${height * 0.3319783197831978}
     `}
           fill="none"
           stroke="green"
           strokeLinejoin="round"
-          strokeWidth="10"
-        />
+          strokeWidth="1"
+        >
+          <animateMotion
+            dur="1s"
+            repeatCount="1"
+            path={`M ${width * 0.08638743455497382} ${
+              height * 0.8482384823848238
+            }
+            L ${width * 0.1649214659685864} ${height * 0.3699186991869919}
+            L ${width * 0.2356020942408377} ${height * 0.3319783197831978}
+      `}
+          />
+        </path>
       </svg>
     );
   },
@@ -671,7 +684,7 @@ export const SVG = {
 
     return (
       <svg
-        className="AppTitle SVG"
+        className="BGUpholderConnectorXer SVG"
         version="1.1"
         height={height}
         width={width}
