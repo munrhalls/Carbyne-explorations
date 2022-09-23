@@ -87,7 +87,9 @@ function App() {
           <SVG.BGUpholderConnectorXer />
           <SVG.BGNavigationalAntennae />
           <SVG.BGNavigationalRiver>
-            <SVG.BGCircle />
+            <SVG.BGCircle>
+              <SVG.LightningAnim />
+            </SVG.BGCircle>
             <SVG.BGNavigationalRiverButtons
               colors={BGNavigationalRiverButtonsColors}
               BGNavigationalRiverButtons={BGNavigationalRiverButtons}

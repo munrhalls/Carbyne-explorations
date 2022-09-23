@@ -182,7 +182,7 @@ export const SVG = {
       </svg>
     );
   },
-  BGCircle: function () {
+  BGCircle: function ({children}) {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
 
     const height = `${useWindowHeight()}`;
@@ -221,6 +221,7 @@ export const SVG = {
 
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
+    const globColor = useSphere();
 
     return (
       <svg
@@ -235,7 +236,7 @@ export const SVG = {
           d={`M 0 0
     `}
           fill="none"
-          stroke="blue"
+          stroke="green"
           strokeLinejoin="round"
           strokeWidth="10"
         />
