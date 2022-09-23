@@ -11,7 +11,14 @@ export default function SphereProvider({ children }) {
   const [content, setContent] = useState("");
   const [globColor, setGlobColor] = useState("");
 
-  const value = { loading, setLoading, setContent, content };
+  const value = {
+    loading,
+    setLoading,
+    setContent,
+    setGlobColor,
+    globColor,
+    content,
+  };
 
   return (
     <SphereContext.Provider value={value}>{children}</SphereContext.Provider>

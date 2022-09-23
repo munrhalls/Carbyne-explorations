@@ -186,6 +186,8 @@ export const SVG = {
 
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
+    const globColor = useSphere();
+    console.log(globColor);
 
     return (
       <svg
@@ -756,7 +758,7 @@ export const SVG = {
           dy="-10"
           onClick={() => {
             setContent(contentLink);
-            setGlobColor(color);
+            setGlobColor(`${color}`);
           }}
         >
           {/* <textPath alignmentBaseline="top" xlinkHref="#curve2" fill="##fff"> */}
