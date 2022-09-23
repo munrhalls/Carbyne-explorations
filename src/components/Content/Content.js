@@ -278,6 +278,36 @@ export const Content = {
             <div className="Content__segregatorLine"></div>
 
             <div className="MyProgrammingWorks__item">
+              <h1>WEB APP WITH ZERO HTML OR CSS, PURELY WITH JS</h1>
+              <p>
+                That project was about enabling the user to drag and drop
+                colorful tiles, associated with same-colored projects and in
+                that way, to see all that matters in a given month at a glance.
+              </p>
+              <p>
+                This project was a huge training undertaking. The idea was to
+                write something huge purely with Javascript and absolutely 0
+                html and 0 css. Not even the index file to insert the Javascript
+                into the html file.
+              </p>
+              <p>
+                It was a long time ago, about 2-3 years. What I remember most
+                vividly, was creating abstractions and means for
+                micro-automations, as creating html and css, that's just tons
+                and tons and tons, and mega-tons of code lines.
+              </p>
+              <p>You can check it out here:</p>
+              <p>
+                <a href="https://month-tiles.netlify.app/" target="_blank">
+                  Monthly clarity at a glance tiles project (training project,
+                  zero html/css, purely with javascript)
+                </a>
+              </p>
+            </div>
+
+            <div className="Content__segregatorLine"></div>
+
+            <div className="MyProgrammingWorks__item">
               <h1>Coffee shop website</h1>
               <p>
                 That's from 2016, when I wasn't even programming yet, I wasn't
