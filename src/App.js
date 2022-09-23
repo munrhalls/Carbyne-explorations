@@ -14,7 +14,7 @@ import { v4 as uuidV4 } from "uuid";
 
 function App() {
   const { loading, content } = useSphere();
-  useIntroAnim();
+  // useIntroAnim();
 
   console.log(content);
 
@@ -57,7 +57,7 @@ function App() {
           <SVG.BGanimStarDots />
           <SVG.BGblanket />
           <SVG.BGCaveLine />
-          <SVG.BGCaveRavineWhiteLaces />
+          <SVG.BGClepsidreBridgeway />
           <SVG.BGCaveLineFill />
           <SVG.BGCircle />
           <SVG.BGCaveSteps />

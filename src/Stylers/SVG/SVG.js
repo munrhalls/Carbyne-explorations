@@ -77,7 +77,7 @@ export const SVG = {
       </svg>
     );
   },
-  BGCaveRavineWhiteLaces: function () {
+  BGClepsidreBridgeway: function () {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
 
     const height = `${useWindowHeight()}`;
@@ -85,7 +85,7 @@ export const SVG = {
 
     return (
       <svg
-        className="BGCaveLine SVG"
+        className="BGClepsidreBridgeway SVG"
         version="1.1"
         height={height}
         width={width}
@@ -108,7 +108,7 @@ export const SVG = {
         />
 
         <path
-          d={`M${width * 0.04723346828609987} ${height * 0.035}
+          d={`M${width * 0.0504} ${height * 0.0}
           L${width * 0.130016729222520108} ${height * 0.35636856368563685}
           L${width * 0.09581646423751687} ${height * 0.5062068965517241}
           L${width * 0.02564102564102564} ${height * 0.3413793103448276}
@@ -119,12 +119,12 @@ export const SVG = {
         />
 
         <path
-          d={`M${width * 0.04723346828609987} ${height * 0.04}
-          L${width * 0.024291497975708502} ${height * 0.28413793103448276}
-          L${width * 0.09446693657219973} ${height * 0.5131034482758621}
-          L${width * 0.02964102564102564} ${height * 0.2888965517241379}
-          L${width * 0.13002680965147453} ${height * 0.2501355013550134}
-          L${width * 0.09446693657219973} ${height * 0.5131034482758621}
+          d={`M${width * 0.0504} ${height * 0.0}
+          L${width * 0.01476394502829426} ${height * 0.3848101265822785}
+          L${width * 0.15036378334680678} ${height * 0.26329113924050634}
+          L${width * 0.0850379951495554} ${height * 0.5569620253164557}
+
+          L${width * 0.0804} ${height * 0.615}
         `}
           fill="#000"
           fillOpacity="0.95"
