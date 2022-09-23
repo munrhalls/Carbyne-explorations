@@ -730,9 +730,7 @@ export const SVG = {
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
     const { setContent, setGlobColor } = useSphere();
-
     const contentLink = text?.toUpperCase().trim();
-
     const offset = `${10 * timeDistance + Math.ceil(text.length) / 3}`;
     const tspans = text?.split(" ");
 
