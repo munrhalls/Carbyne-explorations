@@ -729,7 +729,7 @@ export const SVG = {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
-    const { setContent } = useSphere();
+    const { setContent, setGlobColor } = useSphere();
 
     const contentLink = text?.toUpperCase().trim();
 
@@ -770,7 +770,10 @@ export const SVG = {
           lengthAdjust="spacingAndGlyphs"
           dx="0"
           dy="-10"
-          onClick={() => setContent(contentLink)}
+          onClick={() => {
+            setContent(contentLink);
+            setGlobColor(color);
+          }}
         >
           {/* <textPath alignmentBaseline="top" xlinkHref="#curve2" fill="##fff"> */}
           {tspans.map((textPart, index) => {
