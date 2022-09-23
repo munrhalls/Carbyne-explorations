@@ -108,10 +108,11 @@ export const SVG = {
         />
 
         <path
-          d={`M${width * 0.0504} ${height * 0.0}
+          d={`M${width * 0.0504} ${height * 0.0}  
           L${width * 0.0608} ${height * 0}
+          L${width * 0.0808} ${height * 0}
+          L${width * 0.14593140794223827} ${height * 0.27186206896551724}
 
-          L${width * 0.1395} ${height * 0.277}
           
           L${width * 0.0816} ${height * 0.56}
           L${width * 0.02564102564102564} ${height * 0.3413793103448276}
