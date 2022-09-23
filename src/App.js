@@ -20,13 +20,31 @@ function App() {
     "Effectiveness recipes",
     "Music",
     "Practical meditation",
+
     "Book choices",
     "SleepWaterFood ExercisingResting",
     "Learning skills",
+
     "Workflow skills",
     "My programming works",
     "My poems",
   ];
+  const BGNavigationalRiverButtonsColors = [
+    // blue
+    "#0d07c0",
+    // darkerblue
+    "#000970",
+    "#000970",
+
+    "#000970",
+    "#000970",
+    "#000970",
+
+    "#000970",
+    "#000970",
+    "#000970",
+  ];
+
   const contentComps = [
     <Content.EffectivenessRecipes />,
     <Content.Music />,
@@ -72,6 +90,7 @@ function App() {
           <SVG.BGNavigationalAntennae />
           <SVG.BGNavigationalRiver>
             <SVG.BGNavigationalRiverButtons
+              colors={BGNavigationalRiverButtonsColors}
               BGNavigationalRiverButtons={BGNavigationalRiverButtons}
             />
           </SVG.BGNavigationalRiver>

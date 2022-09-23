@@ -794,7 +794,10 @@ export const SVG = {
       </svg>
     );
   },
-  BGNavigationalRiverButtons: function ({ BGNavigationalRiverButtons }) {
+  BGNavigationalRiverButtons: function ({
+    colors,
+    BGNavigationalRiverButtons,
+  }) {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
@@ -811,6 +814,7 @@ export const SVG = {
             <SVG.BGNavigationalRiverButton
               key={uuidv4()}
               text={el}
+              color={colors[index] || 0}
               timeDistance={timeDistance}
             />
           );
