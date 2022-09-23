@@ -216,6 +216,32 @@ export const SVG = {
       </svg>
     );
   },
+  LightningAnim: function () {
+    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
+
+    const height = `${useWindowHeight()}`;
+    const width = `${useWindowWidth()}`;
+
+    return (
+      <svg
+        className="LightningAnim SVG"
+        version="1.1"
+        height={height}
+        width={width}
+        xmlns="http://www.w3.org/2000/svg"
+        xmlnsXlink="http://www.w3.org/1999/xlink"
+      >
+        <path
+          d={`M 0 0
+    `}
+          fill="none"
+          stroke="blue"
+          strokeLinejoin="round"
+          strokeWidth="10"
+        />
+      </svg>
+    );
+  },
   BGCaveSteps: function () {
     // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
 
