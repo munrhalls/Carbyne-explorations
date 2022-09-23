@@ -318,4 +318,22 @@ export const Content = {
       </div>
     );
   },
+  Music: function () {
+    return (
+      <div className="Content">
+        <div className="Music">
+          <h1>Music</h1>
+        </div>
+      </div>
+    );
+  },
+  EffectivenessRecipes: function () {
+    return (
+      <div className="Content">
+        <div className="EffectivenessRecipes">
+          <h1>EffectivenessRecipes</h1>
+        </div>
+      </div>
+    );
+  },
 };

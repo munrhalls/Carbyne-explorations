@@ -17,8 +17,8 @@ function App() {
   // useIntroAnim();
 
   const BGNavigationalRiverButtons = [
-    "Effectiveness",
-    "Music for work",
+    "Effectiveness recipes",
+    "Music",
     "Practical meditation",
     "Book choices",
     "SleepWaterFood ExercisingResting",
@@ -27,8 +27,8 @@ function App() {
     "My poems",
   ];
   const contentComps = [
-    "Effectiveness",
-    "Music for work",
+    <Content.EffectivenessRecipes />,
+    <Content.Music />,
     <Content.PracticalMeditation />,
     <Content.BookChoices />,
     <Content.SleepWaterFoodExercisingResting />,
