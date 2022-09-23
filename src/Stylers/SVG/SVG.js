@@ -745,20 +745,6 @@ export const SVG = {
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        {/* <style>
-            text {
-              filter: `drop-shadow(3px 3px 3px rgba(255, 255, 255, 1));`
-            }
-        </style> */}
-
-        {/* <style>
-          text {
-            fill: gold;
-            stroke: maroon;
-            stroke-width: 2px;
-          }
-        </style> */}
-
         <text
           className="BGNavigationalRiverButton__text"
           style={{
