@@ -120,7 +120,7 @@ export const SVG = {
           L${width * 0.04993252361673414} ${height * 0.06689655172413793}
           
 
-
+    
         `}
           fill="#000"
           fillOpacity="0.85"
