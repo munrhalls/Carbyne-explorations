@@ -14,7 +14,7 @@ import { v4 as uuidV4 } from "uuid";
 
 function App() {
   const { loading, content } = useSphere();
-  // useIntroAnim();
+  useIntroAnim();
 
   const BGNavigationalRiverButtons = [
     "Effectiveness recipes",

@@ -375,6 +375,7 @@ export const Content = {
           <p>Approach choices</p>
           <p>How it comes together for some kinda personal rhytm</p>
           <h1>WORKFLOW SKILLS</h1>
+          <h1>Content coming...</h1>
         </div>
       </div>
     );
