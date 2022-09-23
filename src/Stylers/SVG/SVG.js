@@ -186,9 +186,9 @@ export const SVG = {
 
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
-    const globColor = useSphere();
+    const {globColor} = useSphere();
     console.log(globColor);
-
+    debugger;
     return (
       <svg
         className="BGCircle SVG"
