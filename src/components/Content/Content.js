@@ -37,11 +37,11 @@ export const Content = {
         <TableOfContents items={poems.map((poem) => poem.title)} />
 
         <div className="Content">
-          <div className="ContentPoems">
-            <h1 className="ContentPoems__metaTitle">MY POEMS.</h1>
+          <div className="Poems">
+            <h1 className="Poems__metaTitle">MY POEMS.</h1>
             {poems.map((poem, i) => {
               return (
-                <div key={uuidv4()} className="ContentPoems__poem">
+                <div key={uuidv4()} className="Poems__poem">
                   {poem?.content}
 
                   {i !== poems?.length - 1 && (

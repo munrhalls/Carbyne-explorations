@@ -1,24 +1,24 @@
-.ContentPoems {
+.Poems {
 }
 
-.ContentPoems__metaTitle {
+.Poems__metaTitle {
 
 }
 
-.ContentPoems__poem {
+.Poems__poem {
     margin-top: 2rem;
     padding-top: 1rem;
     max-width: 15rem;   
 }   
 
-.ContentPoems__poem__title {
+.Poems__poem__title {
     font-weight: bold;
 }   
 
-.ContentPoems__poem p {
+.Poems__poem p {
     padding-bottom: 1rem;
     margin-top: 1rem;
 }
-.ContentPoems__poem span {
+.Poems__poem span {
     display: block;
 }
