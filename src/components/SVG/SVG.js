@@ -918,18 +918,6 @@ export const SVG = {
   CollectedShapesNavbar: function () {
     const { content } = useGlobContext();
 
-    const contentComps = [
-      <Content.EffectivenessRecipes />,
-      <Content.Music />,
-      <Content.PracticalMeditation />,
-      <Content.BookChoices />,
-      <Content.SleepWaterFoodExercisingResting />,
-      <Content.LearningSkills />,
-      <Content.WorkflowSkills />,
-      <Content.MyProgrammingWorks />,
-      <Content.Poems />,
-    ];
-
     return (
       <>
         <SVG.BGanimStarDots />
