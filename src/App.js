@@ -1,6 +1,6 @@
 import React from "react";
 // globals
-import { useGlobContext } from "./Contexts/SphereProvider";
+import { useGlobContext } from "./Contexts/GlobProvider";
 // hooks
 import useIntroAnim from "./Hooks/useIntroAnim";
 import useWindowHeight from "./Hooks/useWindowHeight";

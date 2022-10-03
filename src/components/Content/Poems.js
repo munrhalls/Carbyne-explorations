@@ -1,6 +1,6 @@
 import React from "react";
 import { poems } from "./../../Data/DataPoems";
-import { useGlobContext } from "../../Contexts/SphereProvider";
+import { useGlobContext } from "../../Contexts/GlobProvider";
 import TableOfContents from "../TableOfContents/TableOfContents";
 import { v4 as uuidV4 } from "uuid";
 

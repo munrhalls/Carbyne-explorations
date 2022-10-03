@@ -3,7 +3,7 @@ import IMG__STARS from "./../../Assets/stars.png";
 import React from "react";
 import useWindowHeight from "../../Hooks/useWindowHeight";
 import useWindowWidth from "../../Hooks/useWindowWidth";
-import { useGlobContext } from "../../Contexts/SphereProvider";
+import { useGlobContext } from "../../Contexts/GlobProvider";
 import { v4 as uuidV4 } from "uuid";
 import { Content } from "./../Content/Content";
 

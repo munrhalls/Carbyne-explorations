@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useGlobContext } from "../Contexts/SphereProvider";
+import { useGlobContext } from "../Contexts/GlobProvider";
 
 export default function useIntroAnim() {
   const { setLoading } = useGlobContext();

@@ -1,9 +1,9 @@
 import React, { useContext, useState } from "react";
 
-const SphereContext = React.createContext();
+const GlobContext = React.createContext();
 
 export function useGlobContext() {
-  return useContext(SphereContext);
+  return useContext(GlobContext);
 }
 
 export default function SphereProvider({ children }) {
@@ -20,7 +20,5 @@ export default function SphereProvider({ children }) {
     content,
   };
 
-  return (
-    <SphereContext.Provider value={value}>{children}</SphereContext.Provider>
-  );
+  return <GlobContext.Provider value={value}>{children}</GlobContext.Provider>;
 }

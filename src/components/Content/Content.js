@@ -1,5 +1,5 @@
 import React from "react";
-import { useGlobContext } from "../../Contexts/SphereProvider";
+import { useGlobContext } from "../../Contexts/GlobProvider";
 import Poems from "./Poems";
 import MyProgrammingWorks from "./MyProgrammingWorks";
 
