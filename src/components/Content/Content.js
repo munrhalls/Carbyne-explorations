@@ -1,6 +1,8 @@
 import React from "react";
 import { useGlobContext } from "../../Contexts/SphereProvider";
-import { poems } from "./../../Data/DataPoems";
+import Poems from "./Poems";
+import MyProgrammingWorks from "./MyProgrammingWorks";
+
 import TableOfContents from "../TableOfContents/TableOfContents";
 import { v4 as uuidv4 } from "uuid";
 
@@ -30,32 +32,7 @@ export const Content = {
       </div>
     );
   },
-  Poems: function () {
-    const content = useGlobContext();
 
-    return (
-      <>
-        <TableOfContents items={poems.map((poem) => poem.title)} />
-
-        <div className="Content">
-          <div className="Poems">
-            <h1 className="Poems__metaTitle">MY POEMS.</h1>
-            {poems.map((poem, i) => {
-              return (
-                <div key={uuidv4()} className="Poems__poem">
-                  {poem?.content}
-
-                  {i !== poems?.length - 1 && (
-                    <div className="Content__segregatorLine"></div>
-                  )}
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </>
-    );
-  },
   MyProgrammingWorks: function () {
     return (
       <>
@@ -436,24 +413,12 @@ export const Content = {
   },
   DisplayManager: function () {
     const { content } = useGlobContext();
-    console.log(content);
-    const contentComps = [
-      <Content.EffectivenessRecipes />,
-      <Content.Music />,
-      <Content.PracticalMeditation />,
-      <Content.BookChoices />,
-      <Content.SleepWaterFoodExercisingResting />,
-      <Content.LearningSkills />,
-      <Content.WorkflowSkills />,
-      <Content.MyProgrammingWorks />,
-      <Content.Poems />,
-    ];
 
     return (
       <>
         {!content && <Content.Welcome />}
-        {content === "MY POEMS" && <Content.Poems />}
-        {content === "MY PROGRAMMING WORKS" && <Content.MyProgrammingWorks />}
+        {content === "MY POEMS" && <Poems />}
+        {content === "MY PROGRAMMING WORKS" && <MyProgrammingWorks />}
         {content === "WORKFLOW SKILLS" && <Content.WorkflowSkills />}
 
         {content === "LEARNING SKILLS" && <Content.LearningSkills />}
