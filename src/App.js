@@ -9,11 +9,10 @@ import useWindowWidth from "./Hooks/useWindowWidth";
 import ScannerLoader from "./components/ScannerLoader/ScannerLoader";
 import { SVG } from "./components/SVG/SVG";
 import { Content } from "./components/Content/Content";
-import { v4 as uuidV4 } from "uuid";
 import "./App.css";
 
 function App() {
-  const { loading, content } = useGlobContext();
+  const { loading } = useGlobContext();
   useIntroAnim();
 
   return (
