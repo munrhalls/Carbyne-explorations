@@ -453,6 +453,20 @@ export const Content = {
       <>
         {!content && <Content.Welcome />}
         {content === "MY POEMS" && <Content.Poems />}
+        {content === "MY PROGRAMMING WORKS" && <Content.MyProgrammingWorks />}
+        {content === "WORKFLOW SKILLS" && <Content.WorkflowSkills />}
+
+        {content === "LEARNING SKILLS" && <Content.LearningSkills />}
+        {content === "SLEEPWATERFOOD EXERCISINGRESTING" && (
+          <Content.SleepWaterFoodExercisingResting />
+        )}
+        {content === "BOOK CHOICES" && <Content.BookChoices />}
+
+        {content === "PRACTICAL MEDITATION" && <Content.PracticalMeditation />}
+        {content === "MUSIC" && <Content.Music />}
+        {content === "EFFECTIVENESS RECIPES" && (
+          <Content.EffectivenessRecipes />
+        )}
       </>
     );
   },
