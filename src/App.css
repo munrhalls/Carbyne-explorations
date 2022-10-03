@@ -1,8 +1,8 @@
 @import './Reset.css';
 /* comps */
+@import './components/SVG/SVG.css';
 @import './components/Content/Content.css';
 @import './components/TableOfContents/TableOfContents.css';
-@import './Stylers/Stylers.css';
 /* anims */
 @import './Animators/ScannerAnim.css';
 /* globals */
