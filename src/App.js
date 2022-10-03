@@ -23,13 +23,6 @@ function App() {
         height: `${useWindowHeight()}px`,
         width: `${useWindowWidth()}px`,
       }}
-      // onClick={(e) =>
-      //   console.log(
-      //     e.clientX / e.target.clientWidth,
-      //     "///",
-      //     e.clientY / e.target.clientHeight
-      //   )
-      // }
     >
       <ScannerLoader active={loading}>
         <SVG.CollectedShapesNavbar />
