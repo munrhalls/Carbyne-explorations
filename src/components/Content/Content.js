@@ -434,4 +434,26 @@ export const Content = {
       </div>
     );
   },
+  DisplayManager: function () {
+    const { content } = useGlobContext();
+    console.log(content);
+    const contentComps = [
+      <Content.EffectivenessRecipes />,
+      <Content.Music />,
+      <Content.PracticalMeditation />,
+      <Content.BookChoices />,
+      <Content.SleepWaterFoodExercisingResting />,
+      <Content.LearningSkills />,
+      <Content.WorkflowSkills />,
+      <Content.MyProgrammingWorks />,
+      <Content.Poems />,
+    ];
+
+    return (
+      <>
+        {!content && <Content.Welcome />}
+        {content === "MY POEMS" && <Content.Poems />}
+      </>
+    );
+  },
 };
