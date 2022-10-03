@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import { useSphere } from "../Contexts/SphereProvider";
+import { useGlobContext } from "../Contexts/SphereProvider";
 
 export default function useIntroAnim() {
-  const { setLoading } = useSphere();
+  const { setLoading } = useGlobContext();
 
   useEffect(() => {
     setLoading(true);

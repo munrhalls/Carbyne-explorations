@@ -1,59 +1,20 @@
 import React from "react";
 // globals
-import { useSphere } from "./Contexts/SphereProvider";
-import useWindowHeight from "./Hooks/useWindowHeight";
-import useWindowWidth from "./Hooks/useWindowWidth";
+import { useGlobContext } from "./Contexts/SphereProvider";
 // hooks
 import useIntroAnim from "./Hooks/useIntroAnim";
+import useWindowHeight from "./Hooks/useWindowHeight";
+import useWindowWidth from "./Hooks/useWindowWidth";
 // components
-import "./App.css";
 import ScannerLoader from "./components/ScannerLoader/ScannerLoader";
-import { SVG } from "./Stylers/SVG/SVG";
+import { SVG } from "./components/SVG/SVG";
 import { Content } from "./components/Content/Content";
 import { v4 as uuidV4 } from "uuid";
+import "./App.css";
 
 function App() {
-  const { loading, content } = useSphere();
+  const { loading, content } = useGlobContext();
   useIntroAnim();
-
-  const BGNavigationalRiverButtons = [
-    "Effectiveness recipes",
-    "Music",
-    "Practical meditation",
-
-    "Book choices",
-    "SleepWaterFood ExercisingResting",
-    "Learning skills",
-
-    "Workflow skills",
-    "My programming works",
-    "My poems",
-  ];
-  const BGNavigationalRiverButtonsColors = [
-    "#2e38ff",
-    "gold",
-
-    "orchid",
-    "brown",
-    "darkkhaki",
-
-    "teal",
-    "green",
-    "lightblue",
-    "darkblue",
-  ];
-
-  const contentComps = [
-    <Content.EffectivenessRecipes />,
-    <Content.Music />,
-    <Content.PracticalMeditation />,
-    <Content.BookChoices />,
-    <Content.SleepWaterFoodExercisingResting />,
-    <Content.LearningSkills />,
-    <Content.WorkflowSkills />,
-    <Content.MyProgrammingWorks />,
-    <Content.Poems />,
-  ];
 
   return (
     <div
@@ -71,45 +32,7 @@ function App() {
       }
     >
       <ScannerLoader active={loading}>
-        <>
-          <SVG.BGanimStarDots />
-          <SVG.BGblanket />
-          <SVG.BGCaveLine />
-          <SVG.BGClepsidreBridgeway />
-          <SVG.BGCaveLineFill />
-          <SVG.BGCaveSteps />
-          <SVG.BGCaveDots />
-          <SVG.BGTitleLayerLine />
-          <SVG.BGblanketOutline />
-          <SVG.BGcontentContainer />
-          <SVG.AppTitle />
-          <SVG.BGUpholderConnectorXer />
-          <SVG.BGNavigationalAntennae />
-
-          <SVG.BGNavigationalRiver>
-            <SVG.BGCircle />
-            <SVG.BGNavigationalRiverButtons
-              colors={BGNavigationalRiverButtonsColors}
-              BGNavigationalRiverButtons={BGNavigationalRiverButtons}
-            />
-          </SVG.BGNavigationalRiver>
-
-          {!content && <Content.Welcome />}
-
-          {BGNavigationalRiverButtons.map((navBtn) => {
-            const navBtnCaps = navBtn?.toUpperCase().trim();
-            return (
-              <React.Fragment key={uuidV4()}>
-                {navBtnCaps === content &&
-                  contentComps[
-                    BGNavigationalRiverButtons.map((el) =>
-                      el.toUpperCase().trim()
-                    ).indexOf(content)
-                  ]}
-              </React.Fragment>
-            );
-          })}
-        </>
+        <SVG.CollectedShapesNavbar />
       </ScannerLoader>
     </div>
   );

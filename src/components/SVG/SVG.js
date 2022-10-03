@@ -1,18 +1,17 @@
+// ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
 import IMG__STARS from "./../../Assets/stars.png";
 import React from "react";
 import useWindowHeight from "../../Hooks/useWindowHeight";
 import useWindowWidth from "../../Hooks/useWindowWidth";
-import { useSphere } from "../../Contexts/SphereProvider";
-import { v4 as uuidv4 } from "uuid";
-// ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
+import { useGlobContext } from "../../Contexts/SphereProvider";
+import { v4 as uuidV4 } from "uuid";
+import { Content } from "./../Content/Content";
 
 export const SVG = {
   BGblanket: function () {
-    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
-
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
-    const { globColor } = useSphere();
+    const { globColor } = useGlobContext();
 
     return (
       <svg
@@ -46,8 +45,6 @@ export const SVG = {
     );
   },
   BGCaveLine: function () {
-    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
-
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
@@ -79,8 +76,6 @@ export const SVG = {
     );
   },
   BGClepsidreBridgeway: function () {
-    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
-
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
@@ -142,8 +137,6 @@ export const SVG = {
     );
   },
   BGCaveLineFill: function () {
-    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
-
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
@@ -183,11 +176,9 @@ export const SVG = {
     );
   },
   BGCircle: function () {
-    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
-
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
-    const { globColor, setGlobColor, setContent } = useSphere();
+    const { globColor, setGlobColor, setContent } = useGlobContext();
 
     return (
       <svg
@@ -217,11 +208,9 @@ export const SVG = {
     );
   },
   LightningAnim: function () {
-    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
-
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
-    const { globColor } = useSphere();
+    const { globColor } = useGlobContext();
 
     return (
       <svg
@@ -255,8 +244,6 @@ export const SVG = {
     );
   },
   BGCaveSteps: function () {
-    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
-
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
@@ -305,8 +292,6 @@ export const SVG = {
     );
   },
   BGCaveDots: function () {
-    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
-
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
@@ -467,8 +452,6 @@ export const SVG = {
     );
   },
   BGanimStarDots: function () {
-    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
-
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
@@ -551,8 +534,6 @@ export const SVG = {
     );
   },
   BGTitleLayerLine: function () {
-    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
-
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
@@ -591,8 +572,6 @@ export const SVG = {
     );
   },
   AppTitle: function () {
-    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
-
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
@@ -648,11 +627,9 @@ export const SVG = {
     );
   },
   BGNavigationalAntennae: function () {
-    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
-
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
-    const { globColor } = useSphere();
+    const { globColor } = useGlobContext();
 
     return (
       <svg
@@ -676,8 +653,6 @@ export const SVG = {
     );
   },
   BGUpholderConnectorXer: function () {
-    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
-
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
@@ -706,7 +681,6 @@ export const SVG = {
     );
   },
   BGNavigationalRiver: function ({ children }) {
-    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
@@ -773,10 +747,9 @@ export const SVG = {
     );
   },
   BGNavigationalRiverButton: function ({ color, text, timeDistance }) {
-    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
-    const { content, setContent, setGlobColor } = useSphere();
+    const { content, setContent, setGlobColor } = useGlobContext();
     const contentLink = text?.toUpperCase().trim();
     const offset = `${10 * timeDistance + Math.ceil(text.length) / 3}`;
     const tspans = text?.split(" ");
@@ -813,7 +786,7 @@ export const SVG = {
           {tspans.map((textPart, index) => {
             return (
               <tspan
-                key={uuidv4()}
+                key={uuidV4()}
                 dy={`${index * 10}`}
                 x="-5"
                 className="BGNavigationalRiverButton__text__tspan"
@@ -849,13 +822,51 @@ export const SVG = {
       </svg>
     );
   },
-  BGNavigationalRiverButtons: function ({
-    colors,
-    BGNavigationalRiverButtons,
-  }) {
-    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
+  BGNavigationalRiverButtons: function () {
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
+
+    const BGNavigationalRiverButtons = [
+      "Effectiveness recipes",
+      "Music",
+      "Practical meditation",
+
+      "Book choices",
+      "SleepWaterFood ExercisingResting",
+      "Learning skills",
+
+      "Workflow skills",
+      "My programming works",
+      "My poems",
+    ];
+    const colors = [
+      "#2e38ff",
+      "gold",
+
+      "orchid",
+      "brown",
+      "darkkhaki",
+
+      "teal",
+      "green",
+      "lightblue",
+      "darkblue",
+    ];
+
+    // {BGNavigationalRiverButtons.map((navBtn) => {
+    //   const navBtnCaps = navBtn?.toUpperCase().trim();
+
+    //   return (
+    //     <React.Fragment key={uuidV4()}>
+    //       {navBtnCaps === content &&
+    //         contentComps[
+    //           BGNavigationalRiverButtons.map((el) =>
+    //             el.toUpperCase().trim()
+    //           ).indexOf(content)
+    //         ]}
+    //     </React.Fragment>
+    //   );
+    // })}
 
     return (
       <>
@@ -867,7 +878,7 @@ export const SVG = {
 
           return (
             <SVG.BGNavigationalRiverButton
-              key={uuidv4()}
+              key={uuidV4()}
               text={el}
               color={colors[index] || 0}
               timeDistance={timeDistance}
@@ -878,8 +889,6 @@ export const SVG = {
     );
   },
   BGblanketOutline: function () {
-    // ALL SVG'S BY MUNRHALLS (ME, AUTHOR OF THIS BLOG)
-
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
 
@@ -905,5 +914,49 @@ export const SVG = {
   },
   BGcontentContainer: function () {
     return <div className="BGcontentContainer"></div>;
+  },
+  CollectedShapesNavbar: function () {
+    const { content } = useGlobContext();
+
+    const contentComps = [
+      <Content.EffectivenessRecipes />,
+      <Content.Music />,
+      <Content.PracticalMeditation />,
+      <Content.BookChoices />,
+      <Content.SleepWaterFoodExercisingResting />,
+      <Content.LearningSkills />,
+      <Content.WorkflowSkills />,
+      <Content.MyProgrammingWorks />,
+      <Content.Poems />,
+    ];
+
+    return (
+      <>
+        <SVG.BGanimStarDots />
+        <SVG.BGblanket />
+        <SVG.BGCaveLine />
+
+        <SVG.BGClepsidreBridgeway />
+        <SVG.BGCaveLineFill />
+        <SVG.BGCaveSteps />
+
+        <SVG.BGCaveDots />
+        <SVG.BGTitleLayerLine />
+        <SVG.BGblanketOutline />
+
+        <SVG.BGcontentContainer />
+        <SVG.AppTitle />
+        <SVG.BGUpholderConnectorXer />
+
+        <SVG.BGNavigationalAntennae />
+
+        <SVG.BGNavigationalRiver>
+          <SVG.BGCircle />
+          <SVG.BGNavigationalRiverButtons />
+        </SVG.BGNavigationalRiver>
+
+        {!content && <Content.Welcome />}
+      </>
+    );
   },
 };

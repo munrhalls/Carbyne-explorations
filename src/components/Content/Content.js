@@ -1,5 +1,5 @@
 import React from "react";
-import { useSphere } from "../../Contexts/SphereProvider";
+import { useGlobContext } from "../../Contexts/SphereProvider";
 import { poems } from "./../../Data/DataPoems";
 import TableOfContents from "../TableOfContents/TableOfContents";
 import { v4 as uuidv4 } from "uuid";
@@ -31,7 +31,7 @@ export const Content = {
     );
   },
   Poems: function () {
-    const content = useSphere();
+    const content = useGlobContext();
 
     return (
       <>

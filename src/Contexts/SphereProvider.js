@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 
 const SphereContext = React.createContext();
 
-export function useSphere() {
+export function useGlobContext() {
   return useContext(SphereContext);
 }
 
