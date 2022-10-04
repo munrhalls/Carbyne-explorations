@@ -236,7 +236,7 @@ export default function MyProgrammingWorks() {
             </p>
             <p>You can check it out here:</p>
             <p>
-              <a href="https://month-tiles.netlify.app/" target="_blank">
+              <a href="https://month-glancer.netlify.app" target="_blank">
                 Monthly clarity at a glance tiles project (training project,
                 zero html/css, purely with javascript)
               </a>
