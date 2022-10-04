@@ -308,10 +308,10 @@ export const SVG = {
         <circle
           cx={`${width * 0.21262135922330097}`}
           cy={`${height * 0.8858051420838972} `}
-          r="3"
+          r={`${width * 0.003995}`}
           fill="#000"
           stroke={`${globColor ? globColor : "#000"}`}
-          strokeWidth={`${width * 0.0125}`}
+          strokeWidth={`${width * 0.0175}`}
         />
 
         <circle
