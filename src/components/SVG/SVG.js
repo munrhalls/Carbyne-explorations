@@ -24,17 +24,17 @@ export const SVG = {
       >
         <path
           d={`M 0 0
-      M 0, ${height}
-      L 0, 0
-      L ${width}, 0
-      L ${width}, ${height / 6.5}
-    Q ${width * 0.75}, ${height / 10} ${width * 0.6}, ${height / 8.6}
-    Q ${width * 0.5}, ${height / 7.5} ${width * 0.325}, ${height / 9}
-    Q ${width * 0.1}, ${height / 4.5} ${width * 0.15}, ${height / 2.25}
-    L ${width * 0.15}, ${height / 2.25}
-    L ${width * 0.1}, ${height / 1.25}
-    L ${width * 0.35}, ${height / 0.5}
-    `}
+          M 0, ${height}
+          L 0, 0
+          L ${width}, 0
+          L ${width}, ${height / 6.5}
+          Q ${width * 0.75}, ${height / 10} ${width * 0.6}, ${height / 8.6}
+          Q ${width * 0.5}, ${height / 7.5} ${width * 0.325}, ${height / 9}
+          Q ${width * 0.1}, ${height / 4.5} ${width * 0.15}, ${height / 2.25}
+          L ${width * 0.15}, ${height / 2.25}
+          L ${width * 0.1}, ${height / 1.25}
+          L ${width * 0.35}, ${height / 0.5}
+          `}
           fill="#000"
           stroke={`${globColor ? globColor : "#000"}`}
           strokeOpacity="0.8275"
@@ -220,27 +220,7 @@ export const SVG = {
         width={width}
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
-      >
-        {/* <path
-          fill="none"
-          stroke="lightgrey"
-          d="M 40,50 C20,-50 180,150 180,50 C180-50 20,150 20,50 z"
-        /> */}
-
-        {/* <circle r="1" fill="blue">
-          <animateMotion
-            dur="1s"
-            repeatCount="1"
-            path={`M 0 ${height} 
-            L ${width * 0.11925465838509317} ${height * 0.7005420054200542} 
-            L ${width * 0.12173913043478261} ${height * 0.5284552845528455} 
-            L ${width * 0.2608695652173913} ${height * 0.43089430894308944} 
-            L ${width * 0.22111801242236026} ${height * 0.23983739837398374} 
-            L ${width * 0.3105590062111801} ${height * 0.2032520325203252} 
-            `}
-          />
-        </circle> */}
-      </svg>
+      ></svg>
     );
   },
   BGCaveSteps: function () {
@@ -505,32 +485,6 @@ export const SVG = {
           </pattern>
         </svg>
       </svg>
-
-      // <svg
-      //   className="BGanimStarDots SVG"
-      //   version="1.1"
-      //   height={height}
-      //   width={width}
-      //   xmlns="http://www.w3.org/2000/svg"
-      //   xmlnsXlink="http://www.w3.org/1999/xlink"
-      //   style={{ overflow: `visible` }}
-      // >
-      //   <path
-      //     fill="url(#IMG__STARS)"
-      //     d={`
-      //       M ${0} ${height * 1}
-
-      //       L ${width * 0.15} ${height * 0.7}
-      //       L ${width * 0.25} ${height * 0.7}
-      //       L ${width * 0.25} ${height * 1}
-      //       L ${width * 0.15} ${height * 1}
-
-      //       `}
-      //   />
-      //   <pattern id="IMG__STARS" width="100%" height="100%">
-      //     <image className="BGanimStarDots__path" href={IMG__STARS} />
-      //   </pattern>
-      // </svg>
     );
   },
   BGTitleLayerLine: function () {
@@ -557,17 +511,6 @@ export const SVG = {
           strokeWidth="3"
           strokeLinejoin="round"
         />
-
-        {/* <path
-          d={`M ${width * 0.6005917159763313} ${height * 0.20758620689655173} 
-          L ${width * 0.9940828402366864} ${height * 0.2113793103448276}
-          
-
-          `}
-          stroke="#000"
-          strokeWidth="2"
-          strokeLinejoin="round"
-        /> */}
       </svg>
     );
   },
@@ -586,22 +529,13 @@ export const SVG = {
       >
         <path
           id="curve1"
-          //   d={`M${width * 0.475} ${height * 0.685}
-          //    ${width} ${height * 0.15}
-          // `}
           d={`M${width * 0.4943253467843632} ${height * 0.2247371273712737} 
           L ${width * 0.6355611601513241} ${height * 0.21441192411924118} 
           `}
           fill="transparent"
         />
 
-        <text
-          className="AppTitle__textOne"
-          width="500"
-          // x={width * 0.475}
-          // y={height * 0.185}
-          fill="#000"
-        >
+        <text className="AppTitle__textOne" width="500" fill="#000">
           <textPath alignmentBaseline="bottom" xlinkHref="#curve1" fill="#aaa">
             carbyne
           </textPath>
@@ -609,9 +543,6 @@ export const SVG = {
 
         <path
           id="curve2"
-          //   d={`M${width * 0.475} ${height * 0.685}
-          //    ${width} ${height * 0.15}
-          // `}
           d={`M${width * 0.4005422446406053} ${height * 0.1942818428184282} 
           L ${width * 0.8612862547288777} ${height * 0.15821138211382114} 
           `}
@@ -758,8 +689,6 @@ export const SVG = {
       <svg
         className="BGNavigationalRiverButton"
         version="1.1"
-        // height={height}
-        // width={width}
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
@@ -782,7 +711,6 @@ export const SVG = {
             setGlobColor(`${color}`);
           }}
         >
-          {/* <textPath alignmentBaseline="top" xlinkHref="#curve2" fill="##fff"> */}
           {tspans.map((textPart, index) => {
             return (
               <tspan
@@ -796,26 +724,25 @@ export const SVG = {
             );
           })}
 
-          {/* </textPath> */}
           <animateMotion
             dur="360s"
             begin={-offset * 3}
             repeatCount="indefinite"
             path={`M${width} ${height * 0.14447154471544716}
-          L ${width * 0.9890859481582538} ${height * 0.15176151761517614}
-          Q ${width * 0.77207366984993179} ${height * 0.082113821138211}
-          ${width * 0.6207366984993179} ${height * 0.052113821138211}
-          L ${width * 0.39154160982264663} ${height * 0.03517615176151762}
+            L ${width * 0.9890859481582538} ${height * 0.15176151761517614}
+            Q ${width * 0.77207366984993179} ${height * 0.082113821138211}
+            ${width * 0.6207366984993179} ${height * 0.052113821138211}
+            L ${width * 0.39154160982264663} ${height * 0.03517615176151762}
 
-          L ${width * 0.296043656207367} ${height * 0.04533062330623306}
-          L ${width * 0.19781718963165076} ${height * 0.04502168021680217}
-          Q ${width * 0.1206139154160982} ${height * 0.04959349593495936}
-          ${width * 0.1406139154160982} ${height * 0.064959349593495936}
+            L ${width * 0.296043656207367} ${height * 0.04533062330623306}
+            L ${width * 0.19781718963165076} ${height * 0.04502168021680217}
+            Q ${width * 0.1206139154160982} ${height * 0.04959349593495936}
+            ${width * 0.1406139154160982} ${height * 0.064959349593495936}
 
-          Q ${width * 0.05594815825375171} ${height * 0.25799457994579946}
-          ${width * 0.04594815825375171} ${height * 0.5799457994579946}
-          L ${width * 0.03957708049113233} ${height * 0.7967479674796748}
-          L ${width * 0.014106412005457026} ${height * 0.9227642276422764}
+            Q ${width * 0.05594815825375171} ${height * 0.25799457994579946}
+            ${width * 0.04594815825375171} ${height * 0.5799457994579946}
+            L ${width * 0.03957708049113233} ${height * 0.7967479674796748}
+            L ${width * 0.014106412005457026} ${height * 0.9227642276422764}
         `}
           />
         </text>
@@ -852,21 +779,6 @@ export const SVG = {
       "lightblue",
       "darkblue",
     ];
-
-    // {BGNavigationalRiverButtons.map((navBtn) => {
-    //   const navBtnCaps = navBtn?.toUpperCase().trim();
-
-    //   return (
-    //     <React.Fragment key={uuidV4()}>
-    //       {navBtnCaps === content &&
-    //         contentComps[
-    //           BGNavigationalRiverButtons.map((el) =>
-    //             el.toUpperCase().trim()
-    //           ).indexOf(content)
-    //         ]}
-    //     </React.Fragment>
-    //   );
-    // })}
 
     return (
       <>
@@ -916,34 +828,28 @@ export const SVG = {
     return <div className="BGcontentContainer"></div>;
   },
   CollectedShapesNavbar: function () {
-    const { content } = useGlobContext();
-
     return (
       <>
         <SVG.BGanimStarDots />
         <SVG.BGblanket />
         <SVG.BGCaveLine />
-
         <SVG.BGClepsidreBridgeway />
+
         <SVG.BGCaveLineFill />
         <SVG.BGCaveSteps />
-
         <SVG.BGCaveDots />
         <SVG.BGTitleLayerLine />
-        <SVG.BGblanketOutline />
 
+        <SVG.BGblanketOutline />
         <SVG.BGcontentContainer />
         <SVG.AppTitle />
         <SVG.BGUpholderConnectorXer />
-
         <SVG.BGNavigationalAntennae />
 
         <SVG.BGNavigationalRiver>
           <SVG.BGCircle />
           <SVG.BGNavigationalRiverButtons />
         </SVG.BGNavigationalRiver>
-
-        {!content && <Content.Welcome />}
       </>
     );
   },
