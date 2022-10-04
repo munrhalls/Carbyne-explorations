@@ -139,6 +139,7 @@ export const SVG = {
   BGCaveLineFill: function () {
     const height = `${useWindowHeight()}`;
     const width = `${useWindowWidth()}`;
+    const { globColor } = useGlobContext();
 
     return (
       <svg
@@ -309,7 +310,7 @@ export const SVG = {
           cy={`${height * 0.8858051420838972} `}
           r="3"
           fill="#000"
-          stroke="black"
+          stroke={`${globColor ? globColor : "#000"}`}
           strokeWidth={`${width * 0.0125}`}
         />
 
