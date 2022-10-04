@@ -3,8 +3,6 @@
 @import './components/SVG/SVG.css';
 @import './components/Content/Content.css';
 @import './components/TableOfContents/TableOfContents.css';
-/* anims */
-@import './Animators/ScannerAnim.css';
 /* globals */
 @import './components/ScannerLoader/ScannerLoader.css';
 @import './Fonts/Fonts.css';

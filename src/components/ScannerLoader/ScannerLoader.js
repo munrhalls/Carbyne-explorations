@@ -1,6 +1,6 @@
 import React from "react";
 // animators
-import ScannerAnim from "../../Animators/ScannerAnim";
+import ScannerAnim from "./ScannerAnim";
 
 export default function ScannerLoader({ children, active }) {
   return (

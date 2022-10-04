@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import useWindowHeight from "../Hooks/useWindowHeight";
-import useInterval from "../Hooks/useInterval";
+import useWindowHeight from "../../Hooks/useWindowHeight";
+import useInterval from "../../Hooks/useInterval";
 
 export default function ScannerAnim() {
   let [count, setCount] = useState(0);
