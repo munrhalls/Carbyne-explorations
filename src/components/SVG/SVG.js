@@ -172,7 +172,6 @@ export const SVG = {
           strokeLinejoin="round"
           strokeWidth="1"
         />
-
         <path
           d={`M ${width * 0.2381489841986456},${height * 0.8021680216802168} 
         L${width * 0.2381489841986456 + 0} , ${
@@ -191,7 +190,6 @@ export const SVG = {
           stroke="black"
           strokeWidth="2"
         />
-
         {/* 45 deg quadrant symbol */}
         <path
           d={`M ${width * 0.2381489841986456},${height * 0.8251680216802168} 
@@ -201,7 +199,6 @@ export const SVG = {
           stroke="black"
           strokeWidth="2"
         />
-
         {/* empty dot below */}
         <circle
           cx={`${width * 0.2381489841986456}`}
@@ -211,7 +208,6 @@ export const SVG = {
           stroke="black"
           strokeWidth="2"
         />
-
         {/* 3 black dots */}
         <circle
           cx={`${width * 0.2381489841986456}`}
@@ -221,7 +217,6 @@ export const SVG = {
           stroke="black"
           strokeWidth="2"
         />
-
         <circle
           cx={`${width * 0.2381489841986456}`}
           cy={`${height * 0.9651680216802168} `}
@@ -230,7 +225,6 @@ export const SVG = {
           stroke="black"
           strokeWidth="2"
         />
-
         <path
           d={`M ${width * 0.2381489841986456}, ${height * 0.8051680216802168} 
           Q ${width * 0.22611551528878821},${height * 0.6498240866035182} 
@@ -239,7 +233,6 @@ export const SVG = {
           stroke="black"
           strokeWidth="2"
         />
-
         <path
           d={`M ${width * 0.22300469483568075},${height * 0.6691184210526315}
           Q 
@@ -252,7 +245,6 @@ export const SVG = {
           strokeWidth="3"
           strokeLinejoin="round"
         />
-
         <path
           d={`M ${width * 0.2136150234741784},${height * 0.6825657894736842}
           Q 
@@ -264,6 +256,36 @@ export const SVG = {
           stroke="black"
           strokeWidth="6"
           strokeLinejoin="round"
+        />
+        <rect
+          x={`${width * 0.1713192488262915}`}
+          y={`${height * 0.6701842105263158}`}
+          height={`${height * 0.0125}`}
+          width={`${width * 0.0125}`}
+          fill="black"
+          stroke="black"
+          strokeWidth="2"
+          strokeLinejoin="round"
+        />
+        <rect
+          x={`${width * 0.19206145966709348}`}
+          y={`${height * 0.7050067658998647}`}
+          height={`${height * 0.0075}`}
+          width={`${width * 0.0075}`}
+          fill="black"
+          stroke="#000"
+          strokeWidth="2"
+          strokeLinejoin="round"
+        />
+
+        <rect
+          x={`${width * 0.20486555697823303}`}
+          y={`${height * 0.7293640054127198}`}
+          height={`${height * 0.00375}`}
+          width={`${width * 0.00375}`}
+          fill="none"
+          stroke="#000"
+          strokeWidth="1"
         />
       </svg>
     );
