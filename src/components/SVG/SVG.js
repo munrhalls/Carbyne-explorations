@@ -287,6 +287,40 @@ export const SVG = {
           stroke="#000"
           strokeWidth="1"
         />
+
+        <path
+          d={`M ${width * 0.2123076923076923},${height * 0.9807577807848444}
+          Q 
+          ${width * 0.20102564102564102},${height * 0.9404600811907984}
+          ${width * 0.21025641025641026},${height * 0.918809201623816}
+          
+          Q 
+          ${width * 0.2164102564102564},${height * 0.8917456021650879}
+          ${width * 0.21025641025641026},${height * 0.8809201623815968}
+          `}
+          fill="#000"
+          stroke="black"
+          strokeWidth="1"
+          strokeLinejoin="round"
+        />
+
+        <circle
+          cx={`${width * 0.21262135922330097}`}
+          cy={`${height * 0.8858051420838972} `}
+          r="3"
+          fill="#000"
+          stroke="black"
+          strokeWidth={`${width * 0.0125}`}
+        />
+
+        <circle
+          cx={`${width * 0.21196222455403987}`}
+          cy={`${height * 0.8259675236806495} `}
+          r={`${width * 0.00021196222455403987}`}
+          fill="#000"
+          stroke="black"
+          strokeWidth={`${width * 0.0125}`}
+        />
       </svg>
     );
   },
