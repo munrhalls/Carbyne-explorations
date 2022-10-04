@@ -2,7 +2,7 @@ import React from "react";
 // globals
 import { useGlobContext } from "./Contexts/GlobProvider";
 // hooks
-import useIntroAnim from "./Hooks/useIntroAnim";
+import useIntroLoadingTime from "./Hooks/useIntroLoadingTime";
 import useWindowHeight from "./Hooks/useWindowHeight";
 import useWindowWidth from "./Hooks/useWindowWidth";
 // components
@@ -14,7 +14,7 @@ import "./App.css";
 
 function App() {
   const { loading } = useGlobContext();
-  useIntroAnim();
+  useIntroLoadingTime();
 
   return (
     <div
@@ -25,7 +25,7 @@ function App() {
       }}
     >
       <ScannerLoader active={loading}>
-        <SVG.CollectedShapesNavbar />
+        <SVG.NAVBARFromCollectedShapes />
         <Content.DisplayManager />
       </ScannerLoader>
     </div>

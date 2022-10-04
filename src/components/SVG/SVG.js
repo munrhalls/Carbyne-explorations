@@ -827,7 +827,7 @@ export const SVG = {
   BGcontentContainer: function () {
     return <div className="BGcontentContainer"></div>;
   },
-  CollectedShapesNavbar: function () {
+  NAVBARFromCollectedShapes: function () {
     return (
       <>
         <SVG.BGanimStarDots />
