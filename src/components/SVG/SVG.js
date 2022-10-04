@@ -172,6 +172,19 @@ export const SVG = {
           strokeLinejoin="round"
           strokeWidth="1"
         />
+
+        <path
+          d={`M ${width * 0.2381489841986456},${height * 0.8021680216802168} 
+        L${width * 0.2381489841986456 + 0} , ${height * 0.8021680216802168 + 25}
+        L${width * 0.2381489841986456 + 25} , ${height * 0.8021680216802168 + 0}
+        L${width * 0.2381489841986456 + 0} , ${height * 0.8021680216802168 - 25}
+        L${width * 0.2381489841986456 - 25} , ${
+            height * 0.8021680216802168 - 0
+          }`}
+          fill="none"
+          stroke="black"
+          strokeWidth="5"
+        />
       </svg>
     );
   },
@@ -252,6 +265,7 @@ export const SVG = {
           height={`${width * 0.0085}`}
           fill="#fff"
         />
+
         <rect
           className="BGCaveSteps__rectangle"
           x={`${width * 0.0675}`}
