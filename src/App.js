@@ -9,6 +9,7 @@ import useWindowWidth from "./Hooks/useWindowWidth";
 import ScannerLoader from "./components/ScannerLoader/ScannerLoader";
 import { SVG } from "./components/SVG/SVG";
 import { Content } from "./components/Content/Content";
+// style
 import "./App.css";
 
 function App() {
