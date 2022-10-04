@@ -175,15 +175,95 @@ export const SVG = {
 
         <path
           d={`M ${width * 0.2381489841986456},${height * 0.8021680216802168} 
-        L${width * 0.2381489841986456 + 0} , ${height * 0.8021680216802168 + 25}
-        L${width * 0.2381489841986456 + 25} , ${height * 0.8021680216802168 + 0}
-        L${width * 0.2381489841986456 + 0} , ${height * 0.8021680216802168 - 25}
-        L${width * 0.2381489841986456 - 25} , ${
+        L${width * 0.2381489841986456 + 0} , ${
+            height * 0.8021680216802168 + height * 0.025
+          }
+        L${width * 0.2381489841986456 + width * 0.025} , ${
+            height * 0.8021680216802168 + 0
+          }
+        L${width * 0.2381489841986456 + 0} , ${
+            height * 0.8021680216802168 - height * 0.025
+          }
+        L${width * 0.2381489841986456 - width * 0.025} , ${
             height * 0.8021680216802168 - 0
           }`}
           fill="none"
           stroke="black"
-          strokeWidth="5"
+          strokeWidth="2"
+        />
+
+        {/* 45 deg quadrant symbol */}
+        <path
+          d={`M ${width * 0.2381489841986456},${height * 0.8251680216802168} 
+        L ${width * 0.2381489841986456},${height * 0.8651680216802168} 
+       `}
+          fill="none"
+          stroke="black"
+          strokeWidth="2"
+        />
+
+        {/* empty dot below */}
+        <circle
+          cx={`${width * 0.2381489841986456}`}
+          cy={`${height * 0.8851680216802168} `}
+          r="3"
+          fill="none"
+          stroke="black"
+          strokeWidth="2"
+        />
+
+        {/* 3 black dots */}
+        <circle
+          cx={`${width * 0.2381489841986456}`}
+          cy={`${height * 0.9251680216802168} `}
+          r="3"
+          fill="#000"
+          stroke="black"
+          strokeWidth="2"
+        />
+
+        <circle
+          cx={`${width * 0.2381489841986456}`}
+          cy={`${height * 0.9651680216802168} `}
+          r="3"
+          fill="#000"
+          stroke="black"
+          strokeWidth="2"
+        />
+
+        <path
+          d={`M ${width * 0.2381489841986456}, ${height * 0.8051680216802168} 
+          Q ${width * 0.22611551528878821},${height * 0.6498240866035182} 
+          ${width * 0.23611551528878821},${height * 0.6998240866035182}
+          `}
+          stroke="black"
+          strokeWidth="2"
+        />
+
+        <path
+          d={`M ${width * 0.22300469483568075},${height * 0.6691184210526315}
+          Q 
+          ${width * 0.2136150234741784},${height * 0.6513157894736842}
+          ${width * 0.20187793427230047},${height * 0.6369078947368421}
+
+          `}
+          fill="none"
+          stroke="black"
+          strokeWidth="3"
+          strokeLinejoin="round"
+        />
+
+        <path
+          d={`M ${width * 0.2136150234741784},${height * 0.6825657894736842}
+          Q 
+          ${width * 0.18779342723004694},${height * 0.600328947368421}
+          ${width * 0.20892018779342722},${height * 0.6299342105263158}
+
+          `}
+          fill="none"
+          stroke="black"
+          strokeWidth="6"
+          strokeLinejoin="round"
         />
       </svg>
     );
