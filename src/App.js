@@ -18,12 +18,6 @@ function App() {
 
   return (
     <div
-      onClick={(e) =>
-        console.log(
-          e.clientX / window.innerWidth,
-          e.clientY / window.innerHeight
-        )
-      }
       className="App"
       style={{
         height: `${useWindowHeight()}px`,
