@@ -28,6 +28,7 @@ export default function TableOfContents({ items }) {
           </li>
         ))}
       </ul>
+      <p className="TableOfContents__UIhint">Click to scroll</p>
     </div>
   );
 }

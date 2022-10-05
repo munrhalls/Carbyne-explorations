@@ -10,7 +10,7 @@ export default function MyProgrammingWorks() {
           "Oxus Flashcards",
           "Carbyne Explorations",
           "Vimeo Searcher",
-          "WEB APP WITH ZERO HTML OR CSS, PURELY WITH JS",
+          "Web app with ONLY Javascript",
           "Coffee shop website",
           "Snake",
           "Trying out Gatsby, a few blog entries",
@@ -224,7 +224,7 @@ export default function MyProgrammingWorks() {
           <div className="Content__segregatorLine"></div>
 
           <div data-scroll="3" className="MyProgrammingWorks__item">
-            <h1>WEB APP WITH ZERO HTML OR CSS, PURELY WITH JS</h1>
+            <h1>Web app with ONLY Javascript</h1>
             <p>
               That project was about enabling the user to drag and drop colorful
               tiles, associated with same-colored projects and in that way, to
