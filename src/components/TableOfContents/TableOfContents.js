@@ -12,13 +12,14 @@ export default function TableOfContents({ items }) {
   console.log(items);
   return (
     <div
-      className="TableOfContents"
       style={{ border: `6px solid ${globColor}` }}
+      className="TableOfContents"
     >
       <h3 className="TableOfContents__metaTitle">Table of contents</h3>
       <ul className="TableOfContents__list">
         {items?.map((item, i) => (
           <li
+            style={{ color: ` ${globColor}` }}
             onClick={() => scrollTo(i)}
             className="TableOfContents__list__item"
             key={uuidv4()}
