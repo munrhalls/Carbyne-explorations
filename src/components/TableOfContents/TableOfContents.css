@@ -17,7 +17,8 @@
     align-items: center;
 
     background-color: #000;
-    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
     color: #fff;
     text-align: center;
 
@@ -26,8 +27,20 @@
     z-index: 10;
 }
 
+ /* Hide scrollbar for Chrome, Safari and Opera */
+ .TableOfContents::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .TableOfContents {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  } 
+
+
 .TableOfContents:hover {
-    height: 50%;
+    height: fit-content;
     max-height: 50%;
 }
 
