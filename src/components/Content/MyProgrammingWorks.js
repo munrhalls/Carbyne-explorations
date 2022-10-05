@@ -6,11 +6,19 @@ export default function MyProgrammingWorks() {
   return (
     <>
       <TableOfContents
-        items={["Oxus Flashcards", "Carbyne Explorations", "Vimeo Searcher"]}
+        items={[
+          "Oxus Flashcards",
+          "Carbyne Explorations",
+          "Vimeo Searcher",
+          "WEB APP WITH ZERO HTML OR CSS, PURELY WITH JS",
+          "Coffee shop website",
+          "Snake",
+          "Trying out Gatsby, a few blog entries",
+        ]}
       />
       <div className="Content">
         <div className="MyProgrammingWorks">
-          <div className="MyProgrammingWorks__item">
+          <div data-scroll="0" className="MyProgrammingWorks__item">
             <h1>Oxus Flashcards</h1>
             <p>You can view the app here: </p>
             <p>
@@ -111,7 +119,7 @@ export default function MyProgrammingWorks() {
 
           <div className="Content__segregatorLine"></div>
 
-          <div className="MyProgrammingWorks__item">
+          <div data-scroll="1" className="MyProgrammingWorks__item">
             <h1>CARBYNE EXPLORATIONS</h1>
             <p>
               That's this very blog, that you're reading right now, Dear Reader
@@ -178,7 +186,7 @@ export default function MyProgrammingWorks() {
 
           <div className="Content__segregatorLine"></div>
 
-          <div className="MyProgrammingWorks__item">
+          <div data-scroll="2" className="MyProgrammingWorks__item">
             <h1>VIMEO SEARCHER</h1>
             <p>You can check the app here:</p>
             <p>
@@ -215,7 +223,7 @@ export default function MyProgrammingWorks() {
 
           <div className="Content__segregatorLine"></div>
 
-          <div className="MyProgrammingWorks__item">
+          <div data-scroll="3" className="MyProgrammingWorks__item">
             <h1>WEB APP WITH ZERO HTML OR CSS, PURELY WITH JS</h1>
             <p>
               That project was about enabling the user to drag and drop colorful
@@ -245,7 +253,7 @@ export default function MyProgrammingWorks() {
 
           <div className="Content__segregatorLine"></div>
 
-          <div className="MyProgrammingWorks__item">
+          <div data-scroll="4" className="MyProgrammingWorks__item">
             <h1>Coffee shop website</h1>
             <p>
               That's from 2016, when I wasn't even programming yet, I wasn't
@@ -266,7 +274,7 @@ export default function MyProgrammingWorks() {
 
           <div className="Content__segregatorLine"></div>
 
-          <div className="MyProgrammingWorks__item">
+          <div data-scroll="5" className="MyProgrammingWorks__item">
             <h1>Snake</h1>
             <p>
               Simple snake game, from a long time ago. I used to write snake as
@@ -283,7 +291,7 @@ export default function MyProgrammingWorks() {
 
           <div className="Content__segregatorLine"></div>
 
-          <div className="MyProgrammingWorks__item">
+          <div data-scroll="6" className="MyProgrammingWorks__item">
             <h1>Trying out Gatsby, a few blog entries</h1>
             <p>
               That's not really a project. It's just setting up Gatsby and

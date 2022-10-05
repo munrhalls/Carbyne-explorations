@@ -305,7 +305,7 @@ export const SVG = {
           strokeLinejoin="round"
         />
 
-        <circle
+        <circle 
           cx={`${width * 0.21262135922330097}`}
           cy={`${height * 0.8858051420838972} `}
           r={`${width * 0.003995}`}

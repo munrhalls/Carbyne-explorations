@@ -16,7 +16,7 @@ export default function Poems() {
           <h1 className="Poems__metaTitle">MY POEMS.</h1>
           {poems.map((poem, i) => {
             return (
-              <div key={uuidV4()} className="Poems__poem">
+              <div key={uuidV4()} data-scroll={`${i}`} className="Poems__poem">
                 {poem?.content}
 
                 {i !== poems?.length - 1 && (
