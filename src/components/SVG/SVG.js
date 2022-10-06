@@ -873,7 +873,7 @@ export const SVG = {
             xlinkHref="#curve"
             fill={`${color}`}
           >
-            ```` ```` ````
+            ``... ... ....``
           </textPath>
 
           <textPath
