@@ -862,6 +862,29 @@ export const SVG = {
             setGlobColor(`${color}`);
           }}
         >
+          {/* d={`m ${-width * 0.025}, ${-width * 0.05}  
+            q ${-width * 0.15} 
+            ${width * 0.15} 
+            ${width * 0.1} ${width * 0.105}} `} */}
+          <path id="curve" d="m -5,5 q -15 30 75 15" />
+          <textPath
+            className="BGNavigationalRiverButton__text_textPath"
+            alignmentBaseline="top"
+            xlinkHref="#curve"
+            fill={`${color}`}
+          >
+            ```` ```` ````
+          </textPath>
+
+          <textPath
+            className="BGNavigationalRiverButton__text_textPath2"
+            alignmentBaseline="top"
+            xlinkHref="#curve"
+            fill={`${color}`}
+          >
+            |
+          </textPath>
+
           {tspans.map((textPart, index) => {
             return (
               <tspan
@@ -879,8 +902,8 @@ export const SVG = {
             dur="360s"
             begin={-offset * 3}
             repeatCount="indefinite"
-            path={`M${width} ${height * 0.14447154471544716}
-            L ${width * 0.9890859481582538} ${height * 0.15176151761517614}
+            path={`M${width} ${height * 0.0}
+            L ${width * 0.9890859481582538} ${height * 0.05176151761517614}
             Q ${width * 0.77207366984993179} ${height * 0.082113821138211}
             ${width * 0.6207366984993179} ${height * 0.052113821138211}
             L ${width * 0.39154160982264663} ${height * 0.03517615176151762}
