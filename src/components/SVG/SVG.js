@@ -305,7 +305,7 @@ export const SVG = {
           strokeLinejoin="round"
         />
 
-        <circle 
+        <circle
           cx={`${width * 0.21262135922330097}`}
           cy={`${height * 0.8858051420838972} `}
           r={`${width * 0.003995}`}
@@ -695,7 +695,7 @@ export const SVG = {
         <path
           id="curve2"
           d={`M${width * 0.4005422446406053} ${height * 0.1942818428184282} 
-          L ${width * 0.8612862547288777} ${height * 0.15821138211382114} 
+          L ${width * 0.8612862547288777} ${height * 0.149521138211382114} 
           `}
           fill="transparent"
         />
