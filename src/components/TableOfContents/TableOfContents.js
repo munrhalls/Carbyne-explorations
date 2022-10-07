@@ -12,7 +12,7 @@ export default function TableOfContents({ items }) {
   console.log(items);
   return (
     <div
-      style={{ border: `6px solid ${globColor}` }}
+      style={{ border: `3px solid ${globColor}` }}
       className="TableOfContents"
     >
       <h3 className="TableOfContents__metaTitle">Table of contents</h3>
