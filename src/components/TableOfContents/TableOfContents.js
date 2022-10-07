@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { useGlobContext } from "../../Contexts/GlobProvider";
-import BtnDot from "./BtnDot";
 
 export default function TableOfContents({ items }) {
   const { globColor } = useGlobContext();
@@ -12,13 +11,12 @@ export default function TableOfContents({ items }) {
   }
   console.log(items);
   return (
-    <div className="TableOfContents">
-      <div className="TableOfContents__metaTitle">
-        <BtnDot />
-        <h3 className="TableOfContents__metaTitle__text">Table of Contents</h3>
-      </div>
-
-      {/* <ul className="TableOfContents__list">
+    <div
+      style={{ border: `3px solid ${globColor}` }}
+      className="TableOfContents"
+    >
+      <h3 className="TableOfContents__metaTitle">Table of contents</h3>
+      <ul className="TableOfContents__list">
         {items?.map((item, i) => (
           <li
             style={{ color: ` ${globColor}` }}
@@ -30,7 +28,7 @@ export default function TableOfContents({ items }) {
           </li>
         ))}
       </ul>
-      <p className="TableOfContents__UIhint">Click to scroll</p> */}
+      <p className="TableOfContents__UIhint">Click to scroll</p>
     </div>
   );
 }
