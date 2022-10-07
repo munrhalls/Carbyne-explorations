@@ -8,9 +8,9 @@ import useWindowWidth from "./Hooks/useWindowWidth";
 // components
 import ScannerLoader from "./components/ScannerLoader/ScannerLoader";
 import { SVG } from "./components/SVG/SVG";
-import { Content } from "./components/Content/Content";
 // style
 import "./App.css";
+import { ContentManager } from "./components/ContentManager/ContentManager";
 
 function App() {
   const { loading } = useGlobContext();
@@ -32,7 +32,7 @@ function App() {
     >
       <ScannerLoader active={loading}>
         <SVG.NAVBARFromCollectedShapes />
-        <Content.DisplayManager />
+        <ContentManager.CurrentItem />
       </ScannerLoader>
     </div>
   );

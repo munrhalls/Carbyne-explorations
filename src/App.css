@@ -1,14 +1,12 @@
 @import './Reset.css';
 /* comps */
 @import './components/SVG/SVG.css';
-@import './components/Content/Content.css';
+@import './components/Categories/Categories.css';
 @import './components/TableOfContents/TableOfContents.css';
+@import './components/ContentManager/ContentManager.css';
 /* globals */
 @import './components/ScannerLoader/ScannerLoader.css';
 @import './Fonts/Fonts.css';
-/* being mobile friendly */
-@import './components/Content/MobileContent.css';
-
 
 * {
   box-sizing: border-box;
@@ -39,6 +37,7 @@
 .App {
   font-family: 'Josefin Sans', 'Anke','Good Times Rg', 'Sofachrome Rg';
   position: relative;
+  overflow-y: hidden;
 }
 
 .App__title {

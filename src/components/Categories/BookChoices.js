@@ -2,8 +2,8 @@ import React from "react";
 
 export default function BookChoices() {
   return (
-    <div className="Content">
-      <div className="BookChoices">
+    <div className="ContentManager">
+      <div className="Category">
         <h1>Book choices</h1>
       </div>
     </div>

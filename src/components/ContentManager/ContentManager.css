@@ -1,0 +1,20 @@
+
+.ContentManager {
+    /* z precedence (max = 9) */
+    /* pos */
+    position: absolute;
+    top: 35%; right: 0; bottom: 0; left: 35%;
+    /* box */
+    margin-left: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 100vh;
+    z-index: 9;
+}
+
+.ContentManager__segregatorLine {
+    height: 1px;
+    background: #aaa;
+    width: 70%;
+    margin: 2rem 0;
+}

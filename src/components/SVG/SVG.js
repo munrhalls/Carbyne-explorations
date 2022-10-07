@@ -5,7 +5,7 @@ import useWindowHeight from "../../Hooks/useWindowHeight";
 import useWindowWidth from "../../Hooks/useWindowWidth";
 import { useGlobContext } from "../../Contexts/GlobProvider";
 import { v4 as uuidV4 } from "uuid";
-import { Content } from "./../Content/Content";
+import { Content } from "../ContentManager/ContentManager";
 
 export const SVG = {
   BGblanket: function () {
