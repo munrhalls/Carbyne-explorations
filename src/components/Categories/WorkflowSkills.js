@@ -68,8 +68,8 @@ export default function WorkflowSkills() {
           </p>
           <h2>The problem</h2>
           <p>
-            It's a very difficulty skill to master, to know what is what and
-            which is which, when considerin speed of working.{" "}
+            It's a very difficult skill to master, to know what is what and
+            which is which, when considering the speed of working.{" "}
           </p>
 
           <h1>UNFINISHED DRAFT, FULL VERSION COMING...</h1>
