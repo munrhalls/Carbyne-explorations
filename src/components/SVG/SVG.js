@@ -189,50 +189,50 @@ export const SVG = {
           }`}
           fill="none"
           stroke="black"
-          strokeWidth="2"
+          strokeWidth="1"
         />
         {/* 45 deg quadrant symbol */}
-        <path
+        {/* <path
           d={`M ${width * 0.2381489841986456},${height * 0.8251680216802168} 
         L ${width * 0.2381489841986456},${height * 0.8651680216802168} 
        `}
           fill="none"
-          stroke="black"
-          strokeWidth="2"
-        />
+          stroke={`${globColor}`}
+          strokeWidth="1"
+        /> */}
         {/* empty dot below */}
-        <circle
+        {/* <circle
           cx={`${width * 0.2381489841986456}`}
           cy={`${height * 0.8851680216802168} `}
-          r="3"
+          r="1"
           fill="none"
-          stroke="black"
-          strokeWidth="2"
-        />
+          stroke={`${globColor}`}
+          strokeWidth="1"
+        /> */}
         {/* 3 black dots */}
-        <circle
+        {/* <circle
           cx={`${width * 0.2381489841986456}`}
           cy={`${height * 0.9251680216802168} `}
-          r="3"
+          r="1"
           fill="#000"
-          stroke="black"
-          strokeWidth="2"
+          stroke={`${globColor}`}
+          strokeWidth="1"
         />
         <circle
           cx={`${width * 0.2381489841986456}`}
           cy={`${height * 0.9651680216802168} `}
-          r="3"
+          r="1"
           fill="#000"
-          stroke="black"
-          strokeWidth="2"
+          stroke={`${globColor}`}
+          strokeWidth="1"
         />
         <path
           d={`M ${width * 0.2381489841986456}, ${height * 0.8051680216802168} 
           Q ${width * 0.22611551528878821},${height * 0.6498240866035182} 
           ${width * 0.23611551528878821},${height * 0.6998240866035182}
           `}
-          stroke="black"
-          strokeWidth="2"
+          stroke={`${globColor}`}
+          strokeWidth="1"
         />
         <path
           d={`M ${width * 0.22300469483568075},${height * 0.6691184210526315}
@@ -242,7 +242,7 @@ export const SVG = {
 
           `}
           fill="none"
-          stroke="black"
+          stroke={`${globColor}`}
           strokeWidth="3"
           strokeLinejoin="round"
         />
@@ -321,7 +321,7 @@ export const SVG = {
           fill="#000"
           stroke="black"
           strokeWidth={`${width * 0.0125}`}
-        />
+        /> */}
       </svg>
     );
   },
