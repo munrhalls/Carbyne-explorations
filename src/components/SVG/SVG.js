@@ -909,11 +909,11 @@ export const SVG = {
       "Music",
       "Practical meditation",
 
-      "Book choices",
       "SleepWaterFood ExercisingResting",
       "Learning skills",
 
       "Workflow skills",
+      "Book choices",
       "My programming works",
       "My poems",
     ];
@@ -922,11 +922,12 @@ export const SVG = {
       "gold",
 
       "orchid",
-      "brown",
+      "green",
       "darkkhaki",
 
       "teal",
-      "green",
+
+      "brown",
       "lightblue",
       "darkblue",
     ];
