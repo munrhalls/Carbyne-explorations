@@ -88,7 +88,8 @@ export const SVG = {
         xmlns="http://www.w3.org/2000/svg"
         xmlnsXlink="http://www.w3.org/1999/xlink"
       >
-        <path
+        {/* white col */}
+        {/* <path
           d={`M 0, 0
           Q${width * 0.09} ${height * 0.45} ${width * 0.245} ${height * 0.75}
           L${width * 0.245} ${height * 0.8}
@@ -101,7 +102,7 @@ export const SVG = {
           stroke="#fff"
           strokeLinejoin="round"
           strokeWidth={`${width / 12.5}`}
-        />
+        /> */}
 
         <path
           d={`M${width * 0.0504} ${height * 0.0}  
@@ -115,11 +116,10 @@ export const SVG = {
           L${width * 0.01476394502829426} ${height * 0.3848101265822785}
           L${width * 0.04993252361673414} ${height * 0.06689655172413793}
           
-
-    
         `}
           fill="#000"
           fillOpacity="0.85"
+          s
         />
 
         <path
@@ -130,7 +130,7 @@ export const SVG = {
 
           L${width * 0.0804} ${height * 0.615}
         `}
-          fill="#000"
+          fill="#111"
           fillOpacity="0.95"
         />
       </svg>
@@ -862,9 +862,6 @@ export const SVG = {
             setGlobColor(`${color}`);
           }}
         >
-
-
-
           {tspans.map((textPart, index) => {
             return (
               <tspan
