@@ -3,16 +3,30 @@
 .TableOfContents {
     position: fixed;
     top: 20%;
-    right: 2.5%;
+    right: 6.61%;
     left: 65%;
 }
 
 .TableOfContents__metaTitle {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 3px 0;
     height: 2rem;
-
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .TableOfContents__metaTitle__text {
+    font-size: .75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    flex: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .TableOfContents__metaTitle__text {
+        font-size: .5rem;
+    }
+    
 }

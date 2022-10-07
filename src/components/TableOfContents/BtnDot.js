@@ -12,7 +12,7 @@ export default function BtnDot() {
         className="BtnDot__dot"
         cx="1rem"
         cy="1rem"
-        r="1rem"
+        r=".75rem"
         fill="#000"
       />
     </svg>
