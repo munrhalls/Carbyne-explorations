@@ -1,3 +1,18 @@
+@import './BtnDot.css';
+
 .TableOfContents {
-    
+    position: fixed;
+    top: 20%;
+    right: 2.5%;
+    left: 65%;
+}
+
+.TableOfContents__metaTitle {
+    height: 2rem;
+
+    display: flex;
+    justify-content: center;
+}
+
+.TableOfContents__metaTitle__text {
 }

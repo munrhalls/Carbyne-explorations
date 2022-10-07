@@ -12,10 +12,7 @@ export default function TableOfContents({ items }) {
   }
   console.log(items);
   return (
-    <div
-      style={{ border: `3px solid ${globColor}` }}
-      className="TableOfContents"
-    >
+    <div className="TableOfContents">
       <div className="TableOfContents__metaTitle">
         <BtnDot />
         <h3 className="TableOfContents__metaTitle__text">Table of Contents</h3>
