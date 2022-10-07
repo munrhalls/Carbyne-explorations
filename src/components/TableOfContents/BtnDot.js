@@ -10,8 +10,8 @@ export default function BtnDot() {
     >
       <circle
         className="BtnDot__dot"
-        cx="1rem"
-        cy="1rem"
+        cx=".75rem"
+        cy=".75rem"
         r=".75rem"
         fill="#000"
       />
