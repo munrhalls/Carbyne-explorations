@@ -979,6 +979,7 @@ export const SVG = {
   BGcontentContainer: function () {
     return <div className="BGcontentContainer"></div>;
   },
+
   NAVBARFromCollectedShapes: function () {
     return (
       <>

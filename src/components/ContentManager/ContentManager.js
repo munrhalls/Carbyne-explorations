@@ -1,5 +1,6 @@
 import React from "react";
 import { useGlobContext } from "../../Contexts/GlobProvider";
+import TableOfContents from "../TableOfContents/TableOfContents";
 import Poems from "./../Categories/Poems";
 import MyProgrammingWorks from "./../Categories/MyProgrammingWorks";
 import WorkflowSkills from "./../Categories/WorkflowSkills";
