@@ -119,7 +119,6 @@ export const SVG = {
         `}
           fill="#000"
           fillOpacity="0.85"
-          s
         />
 
         <path
