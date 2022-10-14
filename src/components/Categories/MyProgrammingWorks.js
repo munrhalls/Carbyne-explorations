@@ -42,13 +42,24 @@ export default function MyProgrammingWorks() {
             ... all revolving around enabling a super simple, no-nonsense,
             easy-to-use electronic version of flashcards.
           </p>
+          <p>
+            To be sure, it is also lacking in many, many respects. UI/UX...too
+            many effects and that's to mention just one lacking aspect.
+            Code...well, clearly, someone was performing a React training
+            project, haha.
+          </p>
+          <p>Still, it has some nice solutions that I'm pleased with.</p>
 
           <p>
             Everything in this app has been designed, coded and implemented
             solely by me over the course of about 2 months of intense learning,
             training and development.
           </p>
-
+          <p>
+            That's what this project really is: a bunch of training reps,
+            organized around doing my best to drive home a larger-scale,
+            real-world, useful React app with database.
+          </p>
           <p>
             The app is written in
             <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
