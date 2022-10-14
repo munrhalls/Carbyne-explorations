@@ -31,7 +31,11 @@ export default function Welcome() {
         knowledge or proofs, instead, it is about seeking ways to expand the
         causal skill of acquiring skills.
       </Subtitle>
-      <Subtitle>I am Munrhalls. This is my blog.</Subtitle>
+      <Subtitle>
+        These sharings are as forthcoming, as they are subjective. Consider it a
+        journey into a dreamspace of different kind.
+      </Subtitle>
+      <Subtitle>I am Munrhalls. This is my blog. Enjoy.</Subtitle>
     </Welcome>
   );
 }
