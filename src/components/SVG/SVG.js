@@ -848,24 +848,24 @@ export const SVG = {
             filter: `drop-shadow(-0 0 4px ${color})`,
             textShadow: `1px 3px 7px ${color}`,
             fontSize: `${
-              text?.toUpperCase()?.trim() === content ? "1.75rem" : ".75rem"
+              text?.toUpperCase()?.trim() === content ? "1.75rem" : "1.25rem"
             }`,
           }}
           fill="#fff"
           textLength="2.5rem"
           lengthAdjust="spacingAndGlyphs"
           dx="0"
-          dy="-10"
+          dy="-20"
           onClick={() => {
             setContent(contentLink);
             setGlobColor(`${color}`);
           }}
         >
-          {tspans.map((textPart, index) => {
+          {tspans.map((textPart) => {
             return (
               <tspan
                 key={uuidV4()}
-                dy={`${index * 10}`}
+                dy={`${tspans.length * 6}`}
                 x="-5"
                 className="BGNavigationalRiverButton__text__tspan"
               >
@@ -904,14 +904,14 @@ export const SVG = {
     const width = `${useWindowWidth()}`;
 
     const BGNavigationalRiverButtons = [
-      "Effectiveness recipes",
+      "Effectiveness",
       "Music",
       "Practical meditation",
 
-      "SleepWaterFood ExercisingResting",
+      "SWFER",
       "Learning skills",
-
       "Workflow skills",
+
       "Book choices",
       "My programming works",
       "My poems",

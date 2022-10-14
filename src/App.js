@@ -1,16 +1,12 @@
 import React from "react";
-// globals
-import { useGlobContext } from "./Contexts/GlobProvider";
-// hooks
 import useIntroLoadingTime from "./Hooks/useIntroLoadingTime";
 import useWindowHeight from "./Hooks/useWindowHeight";
 import useWindowWidth from "./Hooks/useWindowWidth";
-// components
-import ScannerLoader from "./components/ScannerLoader/ScannerLoader";
+import { useGlobContext } from "./Contexts/GlobProvider";
 import { SVG } from "./components/SVG/SVG";
-// style
-import "./App.css";
 import { ContentManager } from "./components/ContentManager/ContentManager";
+import ScannerLoader from "./components/ScannerLoader/ScannerLoader";
+import "./App.css";
 
 function App() {
   const { loading } = useGlobContext();
