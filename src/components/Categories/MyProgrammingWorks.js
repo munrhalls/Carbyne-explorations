@@ -27,38 +27,14 @@ export default function MyProgrammingWorks() {
             </a>
           </p>
           <p>
-            This is a large-scale, real-world web application, complete with
-            rich{" "}
-            <span className="--bold">
-              design (my design) components, animations, full UI and UX
-              functionality, users and content database, authentication, full
-              mobile responsiveness and a very-wide ranging array of solutions
-              that address pragmatic concerns, such as e.g. minimizing requests
-              to the server, writing custom hooks, finding ways to maximally
-              simplify the data model, component communications and code
-              organization, avoiding pitfalls such as derived state in React
-              state, and so on
-            </span>
-            ... all revolving around enabling a super simple, no-nonsense,
-            easy-to-use electronic version of flashcards.
+            This was a learning project. I started with zero React skills and
+            build a larger, intermediate level web app with practically useful
+            functionality, database and user authentication.
           </p>
           <p>
-            To be sure, it is also lacking in many, many respects. UI/UX...too
-            many effects and that's to mention just one lacking aspect.
             Code...well, clearly, someone was performing a React training
-            project, haha.
-          </p>
-          <p>Still, it has some nice solutions that I'm pleased with.</p>
-
-          <p>
-            Everything in this app has been designed, coded and implemented
-            solely by me over the course of about 2 months of intense learning,
-            training and development.
-          </p>
-          <p>
-            That's what this project really is: a bunch of training reps,
-            organized around doing my best to drive home a larger-scale,
-            real-world, useful React app with database.
+            project. Still, it has some nice solutions that I'm pleased with,
+            given that I was learning.
           </p>
           <p>
             The app is written in
@@ -96,31 +72,12 @@ export default function MyProgrammingWorks() {
             .
           </p>
           <p>
-            Nothing else was used in this project. For me, it has been an
-            enormously huge project to complete, I had so much to learn in order
-            to be able to do even 1/5th of it. It's been extremely challenging,
-            given that I've started with nearly 0 React skills (especially with
-            the new-for-me hooks), however it was also a continuous, colorful,
-            varied, stimulating learning experience, on many, many levels that,
-            for me, went quite far beyond just coding and learning to code.
-          </p>
-          <p>
-            This project is mostly pure React,CSS (BEM technique) and
-            Javascript, and usage of concepts such as utilizing React's
-            compositional nature or React context API and so on. It's wholly
-            coded in React hooks, in terms of data model, including even
-            database communication.
-          </p>
-          <p>
-            It features pragmatically coherent usage of foundational and
-            advanced React library concepts usage, very solid fundamentals of
-            javascript, problem solving capabilities, code architecture skills.
-            It also showcases solid degree of design skills, practical
-            resourcefulness, experiential, pragmatic creativity, a range of
-            important supplementary skills such as using version control system
-            (GIT) or hosting and the ability to integrate all of that into a
-            concrete, finished, completed, large-scale, real-world programming
-            project.
+            Nothing else was used in this project. For me, it has been a very,
+            very large and challenging project to complete, I had so much to
+            learn in order to be able to do even 1/5th of it. It's been very
+            difficult in the beginning, given that I've started with nearly 0
+            React skills (especially with the new-for-me hooks), however I
+            focused on the process and simply enjoyed learning.
           </p>
         </div>
 
@@ -131,7 +88,7 @@ export default function MyProgrammingWorks() {
           <p>
             That's this very blog, that you're reading right now, Dear Reader
             {" : ) "}I have completed it to its current state in about 10-12
-            days of intense training and learning endeavors.
+            days of training and learning endeavors.
           </p>
           <p>Well, here's the link anyway:</p>
           <p className="--hoverJk">
@@ -231,24 +188,11 @@ export default function MyProgrammingWorks() {
         <div className="Content__segregatorLine"></div>
 
         <div data-scroll="3" className="Category__item">
-          <h1>Web app with ONLY Javascript</h1>
-          <p>
-            That project was about enabling the user to drag and drop colorful
-            tiles, associated with same-colored projects and in that way, to see
-            all that matters in a given month at a glance.
-          </p>
-          <p>
-            This project was a huge training undertaking. The idea was to write
-            something huge purely with Javascript and absolutely 0 html and 0
-            css. Not even the index file to insert the Javascript into the html
-            file.
-          </p>
-          <p>
-            It was a long time ago, about 2-3 years. What I remember most
-            vividly, was creating abstractions and means for micro-automations,
-            as creating html and css, that's just tons and tons and tons, and
-            mega-tons of code lines.
-          </p>
+          <h1>
+            Web app with ONLY Javascript, zero html/css files (all html/css in
+            JS)
+          </h1>
+
           <p>You can check it out here:</p>
           <p>
             <a href="https://month-glancer.netlify.app" target="_blank">
@@ -262,14 +206,7 @@ export default function MyProgrammingWorks() {
 
         <div data-scroll="4" className="Category__item">
           <h1>Coffee shop website</h1>
-          <p>
-            That's from 2016, when I wasn't even programming yet, I wasn't even
-            a beginner at that time, however, I was getting my hands dirty with
-            code and projects such as this website, these were my beginnings
-            when it comes to writing practical things. Most of my projects then,
-            they were all about some abstract ridiculous obscure coding thing or
-            concept that just happened to really interest me.
-          </p>
+          <p>Random coffee web page from 2016. *Very* humble beginnings.</p>
           <p>You can check it out here:</p>
           <p>
             <a href="https://coffee-tabs.netlify.app/" target="_blank">
@@ -300,10 +237,8 @@ export default function MyProgrammingWorks() {
         <div data-scroll="6" className="Category__item">
           <h1>Trying out Gatsby, a few blog entries</h1>
           <p>
-            That's not really a project. It's just setting up Gatsby and hardly
-            even that. It has a few unfinished articles at the moment. However,
-            it is a near-future stepping stone for me to create a framework such
-            as Gatsby, or something similar, entirely on my own.
+            That's not really a project. I just tried out Gatsby and wrote a few
+            articles. That's about it.
           </p>
           <p>You can check it here:</p>
           <p>

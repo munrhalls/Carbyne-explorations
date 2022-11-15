@@ -51,9 +51,9 @@ export default function WorkflowSkills() {
             speed and, simulatenously, decelerates real speed.
           </P>
           <P>
-            What is that subtle, derailing tendency, exactly? More importantly,
-            what can one practice to become better at spotting it?
+            What is that subtle, derailing tendency, exactly?
           </P>
+          <P></P>
         </div>
 
         <div className="Content__segregatorLine"></div>
