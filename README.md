@@ -3,19 +3,9 @@
 https://carbyne-explorations.netlify.com
 Carbyne Explorations. My blog.
 Ancient galaxy-theme UI. Custom. React + SVG.
+100% solo project.
 
-Still in development but live already. Some text pieces roam the screen, at the very least.
-All SVG graphics, background graphics, animations, all icons, design, website and app are all authored & written by me - Munrhalls.
-
-LESSONS:
-- SVG. The way I did them...insanely time-consuming. So much work. And automating it with click coords and console logs? Gimme a break. That cannot be right. 
-- Holy %#$%$#. That took literal eras.
-- For now, I did what I needed to with SVG's. Later - again - that core motive - LEARN BEFORE DOING / CODE SOON ENOUGH - on SVG's.
-- SVG as one React nested component (dot notation). Absurd, ridiculous nonsense. Yes, I can update easily - but overall, it's # @%*&#%* annoying to deal with 239472394789327423784723895389 lines of code. I don't care that they are all distinct components. It's still too large. 
-- Nested components and BIG STUFF - idk man, I don't see that. Next time, splitting that.
-
-- I need a way to framework UI first. If it's gonna be custom, great. Awesome. BUT IT'S STILL FASTER TO GET SOME EQUIVALENT OF STYLES FRAMEWORK FIRST, rather than hand-coding consistency stuff every instance where that consistency is required. 
-- Good thing, it's still early enough in the project. Can fix.
+In development.
 
 
 
