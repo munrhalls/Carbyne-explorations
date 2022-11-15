@@ -306,4 +306,161 @@ const poemThree = {
   ),
 };
 
-export const poems = [poemOne, poemTwo, poemThree];
+const poemFour = {
+  title: "RYSOWANY RYS PORYSOWAŁ OŁÓWEK",
+  content: (
+    <>
+      <h1 className="Poems__poem__title">RYSOWANY RYS PORYSOWAŁ OŁÓWEK</h1>
+      <p>
+        <span>Rysował się rysem rysowniczym,</span>
+        <span>ołówek, sam z siebie,</span>
+        <span>wewnątrz ołówka,</span>
+        <span>który nim nie był.</span>
+      </p>
+      <p>
+        <span>W efekcie, takiż szum rysów,</span>
+        <span>w rysach innych rysów, z których każdy, </span>
+        <span>sam też już się porysował,</span>
+        <span>z tego całego niczego powstał,</span>
+        <span>że z nieistniejącego ołówka, </span>
+        <span>powstał ołówek istniejący całkiem bardzo,</span>
+        <span>wręcz prawie.</span>
+      </p>
+      <p>
+        <span>Dlaczego niestniejący rys ołówka,</span>
+        <span>próbuje wrysować swoje nieistnienie,</span>
+        <span>w istnienie?</span>
+      </p>
+      <p>
+        <span>Po co mu istnieć,</span>
+        <span>skoro jest tylko rysem,</span>
+        <span>na białej kartce papieru?</span>
+      </p>
+      <p>
+        <span>W tym torze myślenia,</span>
+        <span>tak samo prezentuje się,</span>
+        <span>biała kartka papieru...</span>
+        <span>i nieskończenie biała jest biel, </span>
+        <span>pustki jej istnienia.</span>
+      </p>
+      <p>
+        <span>Z pustki w coś, </span>
+        <span>z czegoś w pustkę,</span>
+        <span>sens odkryje tu tylko tancerz,</span>
+        <span>lecz w tym wydarzeniu,</span>
+        <span>ujrzy również nie tyle sens,</span>
+        <span>co nieskończoność i niewyczerpalność,</span>
+        <span>sensów w sensie.</span>
+      </p>
+      <p>
+        <span>Sens tworzy swój sens,</span>
+        <span>sam w sobie,</span>
+        <span>lecz tylko tu.</span>
+      </p>
+      <p>
+        <span>Tutaj.</span>
+      </p>
+      <p>
+        <span>W tym miejscu.</span>
+      </p>
+      <p>
+        <span>W żadnym innym,</span>
+        <span>tylko tym, </span>
+        <span>które jest każdym miejscem.</span>
+      </p>
+      <p>
+        <span>W tym miejscu.</span>
+      </p>
+      <p>
+        <span>Tu. </span>
+      </p>
+      <p>
+        <span>Tutaj i tylko tutaj, </span>
+        <span>gdyż to miejsce swego miejsca,</span>
+        <span>nie ma i ma jednocześnie,</span>
+        <span>będąc lokalizacją wszystkich lokalizacji,</span>
+        <span>lecz niczym innym.</span>
+      </p>
+      <p>
+        <span>Naturalnie i z definicji,</span>
+        <span>taka lokalizacja swych współrzędnych posiadać nie może,</span>
+        <span>tak jak nie ma współrzędnej mogącej istnieć poza nią.</span>
+      </p>
+      <p>
+        <span>Kiedy widzisz "tu",</span>
+        <span>widzisz nieskończony sens,</span>
+        <span>nawet w nieskończenie trywialnym.</span>
+      </p>
+      <p>
+        <span>Kiedy nie widzisz "tu",</span>
+        <span>oceany sensu mogłyby być wylane przed Tobą, </span>
+        <span>a Tobie nadal czuć byłoby tylko...</span>
+        <span>suchość niespełnionego pragnienia.</span>
+      </p>
+      <p>
+        <span>Co poza nim chowa nieskończone bezkresy sensu?</span>
+      </p>
+      <p>
+        <span>Odpowiedź jest jest jedna..</span>
+        <span>zupełnie nic,</span>
+        <span>lecz znów,</span>
+        <span>właśnie tylko to nic!</span>
+      </p>
+      <p>
+        <span>Cichymi czynami ironii,</span>
+        <span>która sama swoje rysy porysowuje,</span>
+        <span>zasuwana jest kurtyna,</span>
+        <span>dzięki czemu wydaje się być realna,</span>
+        <span>jak ogrom świata sam w sobie.</span>
+      </p>
+      <p>
+        <span>Wydywanie się,</span>
+        <span>wydaje to,</span>
+        <span>czego nie ma.</span>
+      </p>
+      <p>
+        <span>Tu,</span>
+        <span>dokładnie tutaj i zawsze...</span>
+        <span>za tą kurtyną wydawania się,</span>
+        <span>rysują się rysy tego co,</span>
+        <span>jest,</span>
+        <span>było i będzie,</span>
+        <span>zawsze i wszędzie,</span>
+        <span>perfekcyjne realne.</span>
+      </p>
+      <p>
+        <span>Tu, dokładnie tutaj,</span>
+        <span>chowa się sens.</span>
+      </p>
+      <p>
+        <span>Zawsze i wszędzie.</span>
+      </p>
+      <p>
+        <span>We wszystkim co kiedykolwiek,</span>
+        <span>jest, było lub będzie.</span>
+      </p>
+      <p>
+        <span>Lecz znów...</span>
+        <span>nigdzie indziej.</span>
+      </p>
+      <p>
+        <span>Drzwi do sensu otwierają się,</span>
+        <span>tylko w jednym kierunku.</span>
+      </p>
+      <p>
+        <span>Kierunku, który jest wszystkim.</span>
+      </p>
+      <p>
+        <span>Nie ma innego kierunku,</span>
+        <span>niż kierunek wszystkiego, </span>
+        <span>dlatego sens sensu,</span>
+        <span>rozumie tylko ten,</span>
+        <span>kto słyszy muzykę,</span>
+        <span>tą prawie słyszalną,</span>
+        <span>rysując swe rysy w rysach,</span>
+        <span>w rytm.</span>
+      </p>
+    </>
+  ),
+};
+export const poems = [poemOne, poemTwo, poemThree, poemFour];
