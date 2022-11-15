@@ -1,9 +1,13 @@
 # Carbyne Explorations
 
-Website: (https://carbyne-explorations.netlify.com)
+https://carbyne-explorations.netlify.com
 Carbyne Explorations. My blog.
+Ancient galaxy-theme UI. Custom. React + SVG.
+100% solo project.
 
-All SVG graphics, background graphics, animations, all icons, design, website and app are all authored & written by me - Munrhalls.
+In development.
+
+
 
 ## Available Scripts
 
