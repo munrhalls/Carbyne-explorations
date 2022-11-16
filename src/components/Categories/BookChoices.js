@@ -8,6 +8,7 @@ export default function BookChoices() {
         items={[
           "The Art of Learning, by Josh Waitzkin",
           "Extreme Ownership, by J. Willink & L. Babin",
+          "Principles, by R. Dalio",
         ]}
       />
 
@@ -257,6 +258,147 @@ export default function BookChoices() {
             matches that level of real-world applicability.
           </p>
           <p>Putting it in my own terms - book's awesome. Study it. Benefit.</p>
+        </div>
+
+        <div data-scroll="2" className="Category__item">
+          <h1>Principles</h1>
+          <h2>by Ray Dalio</h2>
+          <p>
+            The essence of this book is to shift your thinking and perspective
+            from "do X" perspective, to a perspective where "X is a set of
+            results, what machine produces X set of results".
+          </p>
+          <p>
+            The machine here, is a way of operating or a method of doing things.
+            It's an organized set of processes that produce a set of results.
+            You see, you can have such machine with anything. It's just a
+            concept - a set of processes that are assembled in a functionally
+            strategic way, to create a functional mechanism, that generates what
+            you want relative to a problem.
+          </p>
+          <p>
+            Instead of "solve problem X", think in terms of "what machine (way
+            of doing) generates a set of results that equals the solution to
+            problem X".{" "}
+          </p>
+          <p>
+            Like with Extreme Ownership, I experimented heavily with ideas from
+            this book and much of that experimentation took place, again, in
+            chess. I wanted to craft a mental chess machine - a collection of
+            mental SOP's (Standard Operating Procedures), that'd generate a set
+            of mental-process-results that equaled a much higher level of play.{" "}
+          </p>
+          <p>
+            Most of those experiments failed. They were very time-consuming and
+            intense, and I could rarely find anything to hold a firm grip on -
+            to hold onto.
+          </p>
+          <p>
+            Over the years, I came back to these experimentation, for some
+            periods of time and ultimately, I did find *some* answers, that
+            *did*, actually present me with what I was looking for, for all that
+            time.
+          </p>
+          <p>
+            For one, what people say about chess is completely and utter
+            nonsense. It's hard to say...but that includes even some of the
+            great players.
+          </p>
+          <p>
+            Discourse about chess wears the vocabulary that is the polar
+            opposite of getting to the nitty-gritty, raw, true, elemental
+            components of what actually happens with the direct activites
+            related to playing chess. (As usual, this has to do with ego and the
+            need to justify and promote one's investments of time, energy and
+            choice - with stories that magnify its importance. The ego is all
+            about that - that what we're doing is super important because then
+            the ego can feel safer, less prone to being judged.){" "}
+          </p>
+          <p>
+            It's this level - what these activites are, directly and stripped of
+            all "big terms" and "chess concepts" - that actually matter, if
+            someone wants to assemble a better way of conducting all of those
+            actities in a match of chess.
+          </p>
+          <h3>
+            Wait, what are talking about? I thought this was about R. Dalio's
+            book.
+          </h3>
+          <p>
+            You'll need a lot of patience to get through to what this book
+            actually means - so guess I'm unintentionally giving you a taste of
+            that.
+          </p>
+          <p>
+            However, that ability - to look at problem X and see it as a "what
+            set of causal processes (machine) generates a set of results X that
+            equals solving that problem that much more easily" - to think in all
+            kinds of terms that are more or less equivalent to the prior
+            statement - feels nothing short of ecstatic.
+          </p>
+          <p>
+            It is that feeling that I want to convey, though I don't quite know
+            how and I can imagine, I have not succeeded at all on that end, with
+            the pieces of text thrown at you, so far.
+          </p>
+          <p>
+            This book states "There are far more things, than there are types of
+            things". It is about crafting principles for how to move yourself
+            from operating on things, to the level of operating on types of
+            things.
+          </p>
+          <p>
+            With the experience of this book, assuming you dive deeply into it
+            and make it into an experiential journey for yourself - I believe
+            it's doable, over time. To operate on types of things, much more
+            than operating on thing.
+          </p>
+          <p>
+            It essentialy turns all the problems of life, into types of problems
+            of life and crafting and tending to, machines for dealing with those
+            problems.{" "}
+          </p>
+          <h3>
+            Of course, life's way too complicated for that - but it's not too
+            complicated to make it somewhat less complicated.{" "}
+          </h3>
+          <p>
+            You can develop ways of operating or paradigms for daily life, that
+            move you from solving problems, to solving types of problems with
+            engineering causal processes, as again, there are many more things
+            than there are types of things.
+          </p>
+          <h3>
+            There are systematic and available ways of organically engineering,
+            choosing, thinking, doing and training, to continuously keep
+            accomplishing just that.
+          </h3>
+          <p>That's the point of this book.</p>
+          <p>
+            This book, itself, has a machine-like feeling to it, at least for
+            me. Guess what, I love it - it, no doubt, comes from a very rare
+            visionary who, being one of the wealthiest people alive, has proven
+            these ideas by making billions, and starting and succeeding, from
+            absolute, ground zero poverty to an utterly effective, succesful
+            company, not once, but twice.{" "}
+          </p>
+          <p>
+            This book is a collection of principles about principles, in a way.
+            It's recursive, in a way (have to put something for the IT friends).
+            It's about how to make principles into not rules to follow but into
+            functional instruments that enable conducing organizational
+            craftmanship upon them, such that new, directly useful, functional
+            mechanisms arise.
+          </p>
+          <p>
+            These functional mechanisms generate results, like a factory. That,
+            in turn, makes it that much easier to solve problems because you
+            don't have to deal with them one-by-one, you can just deal with the
+            types and handle exceptions, where needed. Sum total, this massively
+            improves your temporal turnover - the rate of (useful returns /
+            cost) ofyour actions.
+          </p>
+          <p>This book is one of the best resources I've ever found.</p>
         </div>
       </div>
     </>
