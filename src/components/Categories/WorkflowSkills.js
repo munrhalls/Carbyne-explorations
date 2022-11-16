@@ -8,7 +8,14 @@ export default function WorkflowSkills() {
   `;
   return (
     <>
-      <TableOfContents items={["Introduction", "Take your time in a hurry"]} />
+      <TableOfContents
+        items={[
+          "Introduction",
+          "Take your time in a hurry",
+          "Anatomy of unrealized mis-recognition point causing confusion where the person can't tell what they're confused about",
+          "One to one, same name placeholders railroad",
+        ]}
+      />
 
       <div className="Category">
         <div data-scroll="0" className="Category__item">
@@ -333,7 +340,11 @@ export default function WorkflowSkills() {
             trigger being triggered, all the way to the final destination stop
             point.
           </p>
-          <p>Why use: minimizes things to keep track of. Whenever possible, it's useful to minimize the sum of things to keep track of. That makes it easier to track things that need to be tracked.</p>
+          <p>
+            Why use: minimizes things to keep track of. Whenever possible, it's
+            useful to minimize the sum of things to keep track of. That makes it
+            easier to track things that need to be tracked.
+          </p>
         </div>
       </div>
     </>
