@@ -79,6 +79,164 @@ export default function BookChoices() {
         <div data-scroll="1" className="Category__item">
           <h1>Extreme Ownership</h1>
           <h2>by Jocko Willink, Leif Babin</h2>
+          <p>
+            I don't have time, right now, to do this book justice. This book,
+            and its follow up called "The Dichotomy of Leadership", are among
+            the most potent, practical, useful, real pieces of text that can be
+            read, that I know of.
+          </p>
+          <p>
+            First, the concept of extreme ownership is exactly what it sounds
+            like - everything is 100% your fault, no matter what. This point
+            alone, is very humbling - but this specific kind of humility is by
+            far one of the most effective accelerators of success in pretty much
+            anything.
+          </p>
+          <p>
+            All motion and energy flows in the direction of how to solve actual
+            problems, not on who or what to blame those problems for.
+          </p>
+          <p>That's what this concept shifts.</p>
+          <p>
+            If this casues you cognitive dissonance - sounds like an absurd -
+            that everything is 100% your fault no matter what - that's exactly
+            the point because it's opposite of strategic.{" "}
+          </p>
+          <p>
+            The point isn't about what's technically truest. The point is about
+            what's technically truest in terms of strategic benefit.
+          </p>
+          <p>
+            When you assume that everything is 100% your fault, no matter what -
+            it doesn't matter that it isn't technically truest - you benefit
+            from an incredibly more effective perspective.
+          </p>
+          <p>
+            Your own efforts and thinking flow as directly and 100% towards
+            solving actual problems, as you can take on that perspective - that
+            everything is 100% your fault no matter what.{" "}
+          </p>
+          <p>
+            The point isn't about what I (ego) thinks about what's technically
+            truest about who or what is at fault.
+          </p>
+          <p>
+            The point is about thinking makes me most effective in terms of
+            confronting and solving actual problems for myself and my team.
+          </p>
+          <p>
+            The problem with battle - and that's the real, actual context from
+            which the lessons presented in this book were acquired - is that
+            when you lose or fail, it doesn't matter who or what was at fault,
+            you're all dead.
+          </p>
+          <p>
+            The point of being extreme about owning all the problems and faults,
+            no matter who actually caused what - is that it makes everything
+            about solving the actual problems easier, simpler and more
+            effective.
+          </p>
+          <p>No one blames. Everyone owns problems.</p>
+          <p>Individually, it applies all the same.</p>
+          <p>
+            It leaves no room to waste energy on blaming. There is nothing and
+            no one to blame for anything, period.
+          </p>
+          <p>
+            What's fascinating about this book, is what happens when you truly
+            read actively and imagine yourself being in those scenarios, having
+            to make dynamic, effective, immediate choices, under such
+            unimaginable pressures and convoluted complications.
+          </p>
+          <p>
+            Cover & Move, Simple, Prioritize & Execute, Decentralized Command.
+          </p>
+          <h3>The four Laws of Combat.</h3>
+          <p>
+            These points or patterns, became a course of intense experimentation
+            on my part. I tried all kinds of experiments in programming, in
+            chess, in even simple daily scenarios and at work, to use these to
+            an effect.
+          </p>
+          <p>
+            In chess, it turns out, cover & move is incomparably better than
+            just "protect your pieces". I tried sharing this but quickly
+            realized, people have a hard time getting distinctions, sometimes.
+            However, such distinctions are among the most useful.
+          </p>
+          <h3>I'll give an example.</h3>
+          <p>
+            When you cover, say in chess, it's not protect. It's cover. These
+            ARE slightly - and very importantly - different concepts. That cover
+            protects pieces but it's a different concept. It's launching all
+            kinds of preventive measures at a given possibility. It's NOT just
+            matching movement lines of an exposed piece with another piece, such
+            that upon trading, the former presents capture-for-capture, instead
+            of capture-for-free, for the opponent.
+          </p>
+          <p>
+            With that difference, you see the board differently, through the
+            lens of a concept, that contains said nuanced distinction.
+          </p>
+          <p>
+            Now, you see protecting an exposed piece in more ways. Now you can
+            protect it with tempo (time), or with an attack of your own, or with
+            Zwischenzug - an intercepting move. Everything is suddenly a
+            slightly different picture - and a much more useful one, to make
+            solid moves on the board.
+          </p>
+          <h3>Another example.</h3>
+          <p>
+            Long ago, I worked a warehouse/market job. Late shift's over, we
+            have to sort an unspeakable mayhem at the warehouse. In fact, not we
+            - I have to. Alone.
+          </p>
+          <p>
+            It wasn't a pretty scenario. It was a scenario with great
+            time-pressure and few hands available to do all the insurmountable
+            amount of work left, in order to close the market.
+          </p>
+          <p>
+            Instead of trying to sort the mess, or just jumping at that task - I
+            did something in between. Pick small scope - literally draw a circle
+            around something with my mind - and only sort that, forget
+            everything else. Then the next thing. Then the next.
+          </p>
+          <p>
+            Over and over, each time making sure that I pick, what small scope I
+            circle with my mind as the next to-do - is something that makes
+            everything else a bit easier to sorter after that. Doing it in
+            order, making a domino effect out of it.
+          </p>
+          <p>
+            30 minutes earlier, I was starting at a fairly orderly warehouse.
+            The unspeakable mayhem at the warehouse was gone, due to the actions
+            of one man, in this case, me, as I will humbly remark (alright, if
+            somebody's got trouble with that, - back off and you do such a
+            thing, I don't care that it was at a super basic warehouse job; that
+            was one of those scenarios of literally absurd, unrealistic
+            challenge and I made it happen because I was reading and training
+            myself - just as anyone else can - on solid, real, quality materials
+            - such as this book!).
+          </p>
+          <p>This was Prioritize & Execute in action. The 3rd Law of Combat.</p>
+          <h3>In short, this book is, what I will call, a true multiplier.</h3>
+          <p>
+            Multiplier in terms of getting more out of the same input and
+            choice-making capital, by the means of providing tested, proven,
+            authentic, raw, real ideas, ideas that actually work. It's very,
+            very rare for ideas, from any book, to actually work - as I've
+            painfully taught myself over the years of experimenting and trying
+            out various resources. With the books plague - the reality of
+            sounds-great-boomer-in-practice smart-ass-pseudo-wise books, this
+            book, written by two NAVY Seals, is about as close to THE exception,
+            as it gets.
+          </p>
+          <p>
+            In terms of realness, directness and usefulness, this book - and its
+            follow-up, The Dichotomy of Leadership - I hardly see anything that
+            matches that level of real-world applicability.
+          </p>
         </div>
       </div>
     </>

@@ -34,7 +34,9 @@
     text-align: center;
     text-transform: uppercase;
 } 
-
+.Category__item h3 { 
+    font-weight: bold;
+}
 .Category__item p {
     margin: 1rem;
     max-width: 30rem;
