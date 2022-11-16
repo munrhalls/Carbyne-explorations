@@ -338,7 +338,7 @@ const poemThree = {
 
       <p>
         <span>when paradoxes claim,</span>
-        <span>they kind of don't.</span>
+        <span>they really don't.</span>
       </p>
     </>
   ),
