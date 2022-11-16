@@ -6,6 +6,7 @@ export default function BookChoices() {
     <>
       <TableOfContents
         items={[
+          "Introduction",
           "The Art of Learning, by Josh Waitzkin",
           "Extreme Ownership, by J. Willink & L. Babin",
           "Principles, by R. Dalio",
@@ -14,6 +15,91 @@ export default function BookChoices() {
 
       <div className="Category">
         <div data-scroll="0" className="Category__item">
+          <p>
+            It's called book choices because the contents below are fruits of
+            book choosing, not book reading.
+          </p>
+          <p>
+            Book reading is among the most harmful, destructive and dangerous
+            activities - obviously a point most people would heavily disagree
+            with, yet it's obvious and trite.{" "}
+          </p>
+          <p>
+            When you read books, you accumulate road signs. When even one of
+            these road signs is wrong - it can lead you terribly astray. Just
+            because you think you discern the true from false, doesn't mean you
+            do. Just because you think you sift the high quality from the poor
+            quality, doesn't mean you do.
+          </p>
+          <p>
+            Many people think they do sift the true from the false but then they
+            parrot book ideas that don't pass even the most basic tests, or even
+            realistic common sense, when it comes usefulness and practicality of
+            whatever it is that they read or listen to.
+          </p>
+          <p>
+            More, reading a book is an ROI (return on investment) choice. If the
+            intended ROI is the fun and thrill of a story, that's perfectly
+            alright. When it's more than that, this is where it's instantly
+            extremely dangerous because there are very few books that don't just
+            seem excellent but instead, actually are excellent.
+          </p>
+          <h3>Wrong suggestion is infinitely worse than no suggestion.</h3>
+          <p>
+            A book is like a collection of suggestions, some obvious and direct,
+            some indirect or unintentional even.
+          </p>
+          <p>
+            You can sift true from false, good from bad, effective from
+            ineffective all you want but a book is like a collection of road
+            signs. It takes just one wrong sign to a bad route. It takes just
+            one moment of inattention and poor-studying, to acquire a wrong sign
+            - and now your GPS of ideas, your map of how things work - has a
+            bug, a false idea taken as true idea, in your system.
+          </p>
+          <h3>
+            Book is an ROI (Return on investment) choice more than anything
+            else.
+          </h3>
+          <p>
+            {" "}
+            In the same time you could be studying that book, you could be
+            studying some other book, that might be a much more efficient and
+            effective resource for you and your current preparation point - and
+            thus, an incomparably bigger ROI.
+          </p>
+          <p>
+            Furthermore, you greatest sum total ROI of accumulated potential set
+            of daily activities may or may not involve studying any book/books,
+            for a given portion of the calendar.{" "}
+          </p>
+          <p>
+            In short, I want to convey my personal opinion that choosing a book
+            is an extremely dangerous, careful choice - as if choosing wrong
+            meant choosing poison.
+          </p>
+          <p>
+            In my view, wrong book choice is like a poison - it can very easily
+            waste time but worse, it can give you a negative, even ruining ROI
+            by the means of providing false, inaccurate road signs to apply -
+            and some of these can get through your filters, even if you are
+            careful, you do the checks and you don't just accept what you read.{" "}
+          </p>
+          <p>
+            It is hard to say and I don't mean to offend anyone but... most
+            books are an exercise in uselessness and inaccuracy, if we're going
+            to be direct and honest. Most books are good to parrot - the repeat
+            and sound smart tactics that gratify the ego - but abysmal to
+            actually apply and experience useful, real, lasting returns from.
+          </p>
+          <p>
+            That's why I call it book choices instead of just books. Reading
+            books is useless and extremely destructive. Carefully choosing books
+            to study, is what's actually beneficial. And that's simply my
+            opinion.
+          </p>
+        </div>
+        <div data-scroll="1" className="Category__item">
           <h1>The Art of Learning</h1>
           <h2>by Josh Waitzkin</h2>
           <p>
@@ -82,7 +168,7 @@ export default function BookChoices() {
 
         <div className="Content__segregatorLine"></div>
 
-        <div data-scroll="1" className="Category__item">
+        <div data-scroll="2" className="Category__item">
           <h1>Extreme Ownership</h1>
           <h2>by Jocko Willink, Leif Babin</h2>
           <p>
@@ -260,7 +346,7 @@ export default function BookChoices() {
           <p>Putting it in my own terms - book's awesome. Study it. Benefit.</p>
         </div>
 
-        <div data-scroll="2" className="Category__item">
+        <div data-scroll="3" className="Category__item">
           <h1>Principles</h1>
           <h2>by Ray Dalio</h2>
           <p>
