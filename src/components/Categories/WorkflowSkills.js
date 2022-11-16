@@ -32,7 +32,7 @@ export default function WorkflowSkills() {
           <h3>
             The purpose of training and developing real workflow skills is to be
             able to effectively and efficiently solve problems with ineffective
-            and inefficient work.{" "}
+            and inefficient work.
           </h3>
           <p>
             The most effective and efficient way to solve those problems is to
@@ -51,7 +51,7 @@ export default function WorkflowSkills() {
             stream of activities aimed at a achieving a given goal-state, such
             that the said stream is as close to the shape of optimal
             effectiveness and efficiency ratio, as availably possible in the
-            current moment.{" "}
+            current moment.
           </h3>
           <p>
             In practice, this is all about making solving work problems easier.
@@ -74,7 +74,7 @@ export default function WorkflowSkills() {
           </p>
           <h3>
             Wait, wait, wait...this is just an introduction and it's already
-            getting insanely theoretical, what the heck's going on in here?
+            getting insanely theoretical, what the heck's going on in here?.
           </h3>
 
           <p>
@@ -86,6 +86,79 @@ export default function WorkflowSkills() {
             curious observation in that for every concept, there are universals
             and particulars.
           </p>
+          <h3>
+            Why are we talking about Aristotle, the heck's that got to do with
+            workflow skills? Is this is a joke?.
+          </h3>
+          <p>
+            You see, no. My entire point is that workflow skills are about
+            developing and using the right tools. Workflow skills aren't about
+            trying harder.
+          </p>
+          <p>
+            When someone claims "alright homeboy, meanwhile you NEED TO GET
+            STUFF DONE, NOT DEVELOP THEORIES AND TALK @#$@ OUT OF YOUR @#$#@".
+          </p>
+          <p>
+            My answer: "aight toughboy, you go dig with bare hands, meanwhile I
+            find myself a spade, let's who'll come out real and get it done
+            faster".{" "}
+          </p>
+          <p>
+            Understand one thing: tools are very unreal. They don't exist.
+            Somebody had to assemble ideas to develop a tool. These ideas were
+            ALWAYS extremely abstract and less real than what was already there.
+          </p>
+          <h3>
+            My point is: tools come from neither dreaming nor pseudo-"realism".{" "}
+            .
+          </h3>
+          <p>
+            Tools come from a mental domain, where opposing thoughts - unreal
+            and real - dance closely together, to give birth to something
+            practical.
+          </p>
+          <p>
+            That's what practical is, actually: it's the convergence point,
+            where the real and unreal, abstract and concrete, potential and
+            realized, actually meet, in a manner directly usable and suitable
+            for the task at hand.
+          </p>
+          <p>
+            My task at hand, is introducing ideas and creating a climate that
+            makes everything else about further communication about what
+            workflow skills work and why, easier or unnecessary.{" "}
+          </p>
+          <p>
+            Hence, I am providing context - a framework, within which these
+            guidelines, principles and tools about workflow skills, actually
+            operate.
+          </p>
+          <p>
+            That context is meant to make it that much easier and more direct,
+            to be able to apply and use the tools I provide here but it's not
+            needed - you don't require it, you can just start using the tools,
+            experimenting with them, in whatever order, by whatever appears
+            interesting to you.
+          </p>
+          <p>
+            Neither close-minded false and fake "realist" (who has nothing to do
+            with realism, by the way), nor fantasy-minded, impractical "dreamer"
+            (who has nothing to do with any skillful dreaming, by the way), have
+            anything to do with developing tools.
+          </p>
+          <p>
+            Balancing these two opposing forces - unreal, abstract ideas and
+            rawness of reality - is what enables making tools.
+          </p>
+          <h3>
+            Mindset, the mental attitude, is THE tool...because this is the tool
+            that has the potential to make other tools..
+          </h3>
+          <p>
+            Your perspective. Your frame. Not what you see but from where you
+            see it.
+          </p>
           <p>
             I'm likely paraphrasing but for the needs of this introduction,
             universals are aspects of a concept that are present and influential
@@ -95,7 +168,7 @@ export default function WorkflowSkills() {
             Particulars, are aspects of a concept that are present only in a
             specific instance or type of instances of that same concept.
           </p>
-          <h3>What is this nonsense?</h3>
+          <h3>What is this nonsense.?</h3>
           <p>
             I completely understand how it can look to some people - if you
             don't feel curious, I encourage you to skip directly to the tools I
@@ -138,7 +211,7 @@ export default function WorkflowSkills() {
           <h3>
             This entire segment is a playful (I hope) exploration and study of
             universals for the concept of efficiency and effectiveness (as in,
-            efficiency + effectiveness in general, unconditionally === what?)
+            efficiency + effectiveness in general, unconditionally === what?).
           </h3>
           <p>
             It's not organized to be a philosophical treatise, though. It's
@@ -153,8 +226,34 @@ export default function WorkflowSkills() {
             order, how do I make C reliable".
           </p>
           <p>
-            Collection of recipes that, with possibly minimal adaptations,
-            really do make it easier solve such problems.
+            Collection of templates and tools that, with possibly minimal
+            adaptations, really do make it easier solve such problems.
+          </p>
+          <p>
+            I mark these items as "tools" because that's what I view them as -
+            tools - they are things to be used, applied. It's just that they are
+            tools held in the mind and heart (emotional system, a feel for it),
+            rather than tools held in hand - but other than that, they work just
+            like a tool held in hand.
+          </p>
+          <p>
+            As tools, they aren't always relevant and they don't need to always
+            be used. They're useful to use when they're useful to use, and not
+            so other times. Sometimes, they can be recombined with other tools,
+            for a particular need.
+          </p>
+          <h3>Final point.</h3>
+          <p>
+            These are tools, not rules. They aren't elements of a formula of
+            effectiveness.
+          </p>
+          <p>
+            They are tested, proven ideas that, when grabbed and used, make
+            certain things much easier.
+          </p>
+          <p>
+            Which is exactly the point of workflow skills - a bag of useful
+            tools.
           </p>
         </div>
         <div data-scroll="1" className="Category__item">
@@ -163,6 +262,7 @@ export default function WorkflowSkills() {
             "Fast is fine, but accuracy is everything. In a gun fight... You
             need to take your time in a hurry." - Wyatt Earp
           </P>
+          <P>Tool: Slow is smooth, smooth is fast.</P>
           <P></P>
         </div>
 
