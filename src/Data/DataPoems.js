@@ -303,12 +303,23 @@ const poemThree = {
         <span>invent no claims.</span>
       </p>
       <p>
-        <span>That's the unclaimed claimlessness,</span>
-        <span>reflecting iridescent particles,</span>
-        <span>on the cascading, invisible droplet, </span>
-        <span>falling upon a sensitive, receiving field's antenneae,</span>
-        <span>the one that hears just below...</span>
-        <span>the quietest whisper,</span>
+        <span>These are the fields of quality,</span>
+        <span>not substance,</span>
+        <span>for the guests cannot wear,</span>
+        <span>the weights of substance,</span>
+        <span>and still enter.</span>
+
+        <span>The opening, the door, and the after...</span>
+        <span>is just like the unseen pre-requirement:</span>
+        <span>unclaimed claimlessness.</span>
+
+        <span>There, never not here in fact,</span>
+        <span>from the cloud-like vapor composts,</span>
+        <span>an invisible droplet,</span>
+        <spann>reflecting iridescennt particles,</spann>
+        <span>falls upon a sensitive, receiving field's antenneae,</span>
+        <span>the one that hears just below</span>
+        <span>the quietest whisper...</span>
         <span>bearing the inventor's touch.</span>
       </p>
     </>
