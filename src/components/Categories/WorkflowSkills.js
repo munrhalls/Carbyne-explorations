@@ -263,13 +263,55 @@ export default function WorkflowSkills() {
             need to take your time in a hurry." - Wyatt Earp
           </P>
           <P>Tool: Slow is smooth, smooth is fast.</P>
-          <P></P>
+          <P>
+            Usage notes: don't try to force slowness. It's more about starting
+            gradually, warming up very gradually. It's also more about never
+            speeding up unnecessarily, than about forcing slowness.
+          </P>
+          <P>
+            Critically dangerous pitfalls: trying to force slowness - that's
+            absolutely not useful. Trying to force speed - in the same way, that
+            causes mismatch between your speed and effective speed.
+          </P>
+          <P>
+            Other notes: Don't treat speed as a static component. View it as an
+            undulating waveform-like shape, that changes all the time, in order
+            to adapt to the task territory upon which the vehicle of your
+            activities rides. When it's a patch of mud, you slow down a lot.
+            When you're out of it and it's a straight road, you can speed up no
+            problem. When it's a rainy weather all of a sudden because you feel
+            off due to someone's comment or a memory, you slow down again - or
+            pause your activities, calm the weather inside, and return some
+            moments later.
+          </P>
+          <P>
+            The goal is well-adapting speed, that's perceptively adjusted in a
+            continous manner, based on real-time notices about the task at hand,
+            and the aimed-at direction of results.
+          </P>
+          <p>
+            Why use it: to achieve a far better fit of your speed and the
+            more-or-less most effective speed, on a continous,
+            conscious-as-needed, basis.{" "}
+          </p>
         </div>
 
         <div className="Content__segregatorLine"></div>
 
-        <div data-scroll="1" className="Category__item">
-          <h1></h1>
+        <div data-scroll="2" className="Category__item">
+          <h1>
+            Anatomy of an unrealized, unconscious, point of ommission and
+            misunderstanding - the origin of confusion state, where can't tell
+            what is it that confuses you.
+          </h1>
+          <p>
+            Usage notes: Understandably, this is most easily associated with
+            programming tasks.
+          </p>
+          <p>
+            This tool is an exploration during its initial phases. To be
+            continued...{" "}
+          </p>
         </div>
       </div>
     </>
