@@ -308,19 +308,37 @@ const poemThree = {
         <span>for the guests cannot wear,</span>
         <span>the weights of substance,</span>
         <span>and still enter.</span>
-
+      </p>
+      <p>
         <span>The opening, the door, and the after...</span>
         <span>is just like the unseen pre-requirement:</span>
         <span>unclaimed claimlessness.</span>
-
+      </p>
+      <p>
         <span>There, never not here in fact,</span>
         <span>from the cloud-like vapor composts,</span>
         <span>an invisible droplet,</span>
-        <spann>reflecting iridescent particles of precise alteration,</spann>
+        <spann>reflecting iridescent particles of,</spann>
+        <span>precise alteration, the check and the match,</span>
+        <span>the time's tubes twists and untwists,</span>
         <span>falls upon a sensitive, receiving field's antenneae,</span>
         <span>the one that hears just below</span>
-        <span>the quietest whisper...</span>
-        <span>bearing the inventor's touch.</span>
+        <span>the quietest whisper,</span>
+        <span>just enough to bear unbearables most bearably...</span>
+        <span>which in turn,</span>
+        <span>the unturned turn of a paradox as it were,</span>
+        <span>bears the inventor's touch.</span>
+      </p>
+      <p>
+        <span>Why, you ask?</span>
+      </p>
+      <p>
+        <span>Because of the inverse of a simple fact:</span>
+      </p>
+
+      <p>
+        <span>when paradoxes claim,</span>
+        <span>they kind of don't.</span>
       </p>
     </>
   ),
