@@ -302,6 +302,15 @@ const poemThree = {
         <span>and then, </span>
         <span>invent no claims.</span>
       </p>
+      <p>
+        <span>That's the unclaimed claimlessness,</span>
+        <span>reflecting iridescent particles,</span>
+        <span>on the cascading, invisible droplet, </span>
+        <span>falling upon a sensitive, receiving field's antenneae,</span>
+        <span>the one that hears just below...</span>
+        <span>the quietest whisper,</span>
+        <span>bearing the inventor's touch.</span>
+      </p>
     </>
   ),
 };
