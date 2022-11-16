@@ -316,7 +316,7 @@ const poemThree = {
         <span>There, never not here in fact,</span>
         <span>from the cloud-like vapor composts,</span>
         <span>an invisible droplet,</span>
-        <spann>reflecting iridescennt particles,</spann>
+        <spann>reflecting iridescent particles of alteration,</spann>
         <span>falls upon a sensitive, receiving field's antenneae,</span>
         <span>the one that hears just below</span>
         <span>the quietest whisper...</span>
