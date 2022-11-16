@@ -4,7 +4,12 @@ import TableOfContents from "../TableOfContents/TableOfContents";
 export default function BookChoices() {
   return (
     <>
-      <TableOfContents items={["#1Josh Waitzkin, The Art of Learning"]} />
+      <TableOfContents
+        items={[
+          "The Art of Learning, by Josh Waitzkin",
+          "Extreme Ownership, by J. Willink & L. Babin",
+        ]}
+      />
 
       <div className="Category">
         <div data-scroll="0" className="Category__item">
@@ -92,11 +97,11 @@ export default function BookChoices() {
             far one of the most effective accelerators of success in pretty much
             anything.
           </p>
-          <p>
+          <h3>
             All motion and energy flows in the direction of how to solve actual
             problems, not on who or what to blame those problems for.
-          </p>
-          <h3>That's what this concept shifts.</h3>
+          </h3>
+          <p>That's what this concept shifts.</p>
           <p>
             If this casues you cognitive dissonance - sounds like an absurd -
             that everything is 100% your fault no matter what - that's exactly
@@ -121,8 +126,22 @@ export default function BookChoices() {
             truest about who or what is at fault.
           </p>
           <p>
-            The point is about thinking makes me most effective in terms of
-            confronting and solving actual problems for myself and my team.
+            The point is about what thinking - what perspective - makes me most
+            effective and empowered in terms of confronting and solving actual
+            problems for myself and my team.
+          </p>
+          <p>
+            On one hand, and this is hard - it's very humbling. On another, it's
+            very rewarding and strategically beneficial. It leaves no room to
+            blame anyone or anything, for anything - but now, all that available
+            capital of thinking and energy, is completely yours!!!
+          </p>
+          <p>
+            You can direct it onto solving actual problems, continously,
+            directly, instead of on blaming this or that, or even yourself,
+            really, whether consciously or unconsciously. None of that matters.
+            What matters is that problems are being solved, objectives achieved
+            and effective improvement keeps being the moment-to-moment norm.
           </p>
           <p>
             The problem with battle - and that's the real, actual context from
@@ -137,7 +156,7 @@ export default function BookChoices() {
             effective.
           </p>
           <p>No one blames. Everyone owns problems.</p>
-          <p>Individually, it applies all the same.</p>
+          <h3>Individually, it applies all the same.</h3>
           <p>
             It leaves no room to waste energy on blaming. There is nothing and
             no one to blame for anything, period.
@@ -237,6 +256,7 @@ export default function BookChoices() {
             follow-up, The Dichotomy of Leadership - I hardly see anything that
             matches that level of real-world applicability.
           </p>
+          <p>Putting it in my own terms - book's awesome. Study it. Benefit.</p>
         </div>
       </div>
     </>
