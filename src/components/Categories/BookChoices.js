@@ -73,17 +73,18 @@ export default function BookChoices() {
             of daily activities may or may not involve studying any book/books,
             for a given portion of the calendar.{" "}
           </p>
-          <p>
+          <h3>
             In short, I want to convey my personal opinion that choosing a book
             is an extremely dangerous, careful choice - as if choosing wrong
-            meant choosing poison.
-          </p>
+            meant choosing poison that wastes the potential of what you can be.
+          </h3>
           <p>
-            In my view, wrong book choice is like a poison - it can very easily
-            waste time but worse, it can give you a negative, even ruining ROI
-            by the means of providing false, inaccurate road signs to apply -
-            and some of these can get through your filters, even if you are
-            careful, you do the checks and you don't just accept what you read.{" "}
+            In my view, wrong book choice actually is like a poison - it can
+            very easily waste time but worse, it can give you a negative, even
+            ruining ROI by the means of providing false, inaccurate road signs
+            to apply - and some of these can get through your filters, even if
+            you are careful, you do the checks and you don't just accept what
+            you read.{" "}
           </p>
           <p>
             It is hard to say and I don't mean to offend anyone but... most
