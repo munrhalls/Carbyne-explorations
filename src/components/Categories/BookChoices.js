@@ -96,7 +96,7 @@ export default function BookChoices() {
             All motion and energy flows in the direction of how to solve actual
             problems, not on who or what to blame those problems for.
           </p>
-          <p>That's what this concept shifts.</p>
+          <h3>That's what this concept shifts.</h3>
           <p>
             If this casues you cognitive dissonance - sounds like an absurd -
             that everything is 100% your fault no matter what - that's exactly
