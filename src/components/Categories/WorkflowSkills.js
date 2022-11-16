@@ -313,6 +313,28 @@ export default function WorkflowSkills() {
             continued...{" "}
           </p>
         </div>
+
+        <div className="Content__segregatorLine"></div>
+
+        <div data-scroll="3" className="Category__item">
+          <h1>
+            (Programming) Pattern: keeping relevant placeholders as one to one
+            names railroad, all the way, from trigger event to scenario
+            completion point.
+          </h1>
+          <p>
+            (Programming) Usage notes: let's say you have a whatever name. Us
+            that whateverName, "WHATEVER__NAME", whateverName(), across all
+            relevant stop points, upon which the domino effect traverses.
+          </p>
+          <p>
+            Domino effect - sequence of cause and effect, between initial
+            trigger and the code blocks that run as a result of the initial
+            trigger being triggered, all the way to the final destination stop
+            point.
+          </p>
+          <p>Why use: minimizes things to keep track of. Whenever possible, it's useful to minimize the sum of things to keep track of. That makes it easier to track things that need to be tracked.</p>
+        </div>
       </div>
     </>
   );
