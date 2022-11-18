@@ -23,6 +23,93 @@ export default function WorkflowSkills() {
           <h1>Introduction</h1>
           <h2>IN MORE PRACTICAL TERMS...</h2>
           <P>
+            I want to address one of the most toxic ideas that float around
+            quite a lot: "hard" work.
+          </P>
+          <P>
+            The reality of effective work is that it's just accurate and gets
+            the job done.
+          </P>
+          <P>
+            It's like a refrigerator. It's just quietly humming in the
+            background, doing its job. That's about it. That's what's useful and
+            beneficial.{" "}
+          </P>
+          <P>
+            What you don't see, is a refrigerator that makes a giant glacier of
+            ice around itself, adding a loud freeze-like noise and trembles with
+            great vehemence, to show how hard it's working.
+          </P>
+          <P>
+            In fact, if it was doing that, it very heavily be getting in the way
+            of what it's job actually is. What all that "extra" nonsense is
+            relative to refrigerator, is exactly what "hard" is relative to
+            work.
+          </P>
+          <P>
+            It's a toxic, dishonest concept that has to do with self-promotion
+            and self-protection strategies and tactics of ego. It's about
+            promoting and defending one's reputation as a "tough, real adult" or
+            any number of other features, that are all just an egoic
+            self-marketing campaign.
+          </P>
+
+          <P>
+            In reality, work that gets the job done, is not light or hard or
+            anything else, really - it's just work. It's what gets the job done.
+            It's boring in a way, nothing to talk about.{" "}
+          </P>
+          <P>
+            No claims about how hard someone tried, or how they persisted, or
+            how much they to put in or any other of that total garbage and
+            dishonest nonsense and lies. That's what work is in reality.
+          </P>
+          <P>
+            However, ego and many people, like to sell a story. A story that
+            makes them feel important or that makes their business product more
+            appealing. There are entire industries that sell people all kinds of
+            concepts, instructions and what they do, is they always feed off of
+            culture. Culture, for a lot of people, happens to have a lot to do
+            with ego - and what people's egos like to do - self-protect and
+            self-promote and underscore the importance of whatever it is that
+            one's doing.
+          </P>
+          <P>That's the origin of "hard" as an add-on to work.</P>
+          <P>
+            It is a recipe for a person to massively get in their own way and
+            keep failing. Further, problems are blamed on not trying "hard"
+            enough so the go-to solution is to intensify the effort even
+            further, when in reality, it's already way too intense, inaccurate,
+            completely nonsensical fit for the task at hand. That only amplifies
+            the original cause of the issue and make the individual feel
+            disqualified, discredited, in need of a lot of "how-to" advice.
+            Which is exactly where "hard working" people start to feel very
+            elated because they are better, worth more in some way and where
+            businessman profit because people buy what they sell - be it books,
+            seminars, curriculums, programs, what have you.
+          </P>
+          <P>The reality is - work is just work.</P>
+          <P>
+            When work is just work, it beats "hard" work any day of the week
+            because it's a real thing, not a marketing campaign product of
+            someone's ego or business.
+          </P>
+          <P>
+            Let me re-iterate - just work, not light work, not hard work, just
+            work - beats any kind of "hard" work because it's actually simple
+            and real, whatever fits for the task at hand.{" "}
+          </P>
+          <P>
+            "Hard" work is not real, it's an add-on, marketing campaign of
+            someone's ego or business.
+          </P>
+          <P>
+            There's zero point talking about workflow skills, unless this
+            distinction is understood - otherwise, all is lost in all kinds of
+            false claims and nonsense added to the concepts. The fantasies of
+            salesemman and self-promoting egos need to be stripped first.
+          </P>
+          <P>
             Workflow skills are just techniques and - very importantly -
             mindsets to have when applying those techniques - to make work
             effective.
