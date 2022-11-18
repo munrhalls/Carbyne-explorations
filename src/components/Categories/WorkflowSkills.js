@@ -145,6 +145,24 @@ export default function WorkflowSkills() {
             Effective work is: work + right techniques and tools, that are a
             good fit for the task at hand.
           </P>
+          <P>
+            Anything "hard" about work is good for movies like "Rocky" and
+            selling because it adds all that emotionality to it.
+          </P>
+          <P>
+            Effective work is the literal opposite of that. There's rarely much
+            interesting going on about it when you view it from the outside.
+            Nothing to make a movie about. It's like kettle, it just does the
+            task at hand and that's about it. It's boring. That's how effective
+            stuff looks, in general.
+          </P>
+          <P>
+            That's how all the "hard" about work is so dishonest. It's just
+            adding all kinds of extra on top of just working, when somebody
+            wants to not just work but to make a movie out of it. That movie is
+            always about their ego and reputation, or about selling whatever's
+            being sold.
+          </P>
 
           <h2>IN MORE THEORETICAL TERMS...</h2>
           <P>
