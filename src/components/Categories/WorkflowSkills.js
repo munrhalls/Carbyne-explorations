@@ -21,6 +21,132 @@ export default function WorkflowSkills() {
       <div className="Category">
         <div data-scroll="0" className="Category__item">
           <h1>Introduction</h1>
+          <h2>IN MORE PRACTICAL TERMS...</h2>
+          <P>
+            Workflow skills are just techniques and - very importantly -
+            mindsets to have when applying those techniques - to make work
+            effective.
+          </P>
+          <P>
+            The first mindset shift is that most concepts about work are heavily
+            plagued by incredibly toxic and false ideas that all distill down to
+            ego, somebody promoting their reputation or selling something.
+          </P>
+          <P>Let's take a very common culprit, "HARD" WORK.</P>
+          <P>
+            The problem with "HARD" work is that it's infinitely inferior to
+            just work.
+          </P>
+          <P>
+            Let's say you turn on a kettle to boil some water - and it suddenly
+            starts jumping up and down in some strained fashion, begins tremble
+            in all directions and starts making extremely loud noises that sound
+            like it was trying to lift the building.
+          </P>
+          <P>
+            Somebody who designed that kettle had to make sure that the kettle
+            shows just how "hard" it works. Apparently, it wasn't enough that
+            the kettle just does its job and works. It had to do it really
+            "hard".
+          </P>
+          <P>
+            Have you ever seen such a kettle? Or another device that'd follow
+            that trend?
+          </P>
+          <P>No. </P>
+          <P>
+            If you think about it in terms of first principles, "HARD" has
+            nothing to do with "EFFECTIVE". It's also a very vague thing that's
+            incredibly easy to vary and mean incredibly different things for all
+            kinds of people.
+          </P>
+          <P>
+            The only real - and universal - thing about the "HARD" of hard work
+            is that:
+          </P>
+          <P>
+            1) It's self-contradicting, ineffective and doesn't work because it
+            supports getting in your own way with all the "extra" that's the
+            "hard" about it, instead of just doing what needs to be done,
+          </P>
+          <P>
+            2) It's just a self-promotion, self-marketing tactic, a device to
+            promote and defend one's reputation and it all distills down to ego
+            and is incredibly empty and dishonest.
+          </P>
+          <P>
+            All the "HARD" about work, when it comes to people, is just a ton of
+            self-marketing and self-promotion ego crap that has nothing to do
+            with anything real about what's actually effective. It's a very
+            vague concept that can mean a ton of different things, to different
+            people, and that alone, is very confusing and destructive.
+          </P>
+          <P>
+            What does the "HARD" about it mean? That you make tough-guy face
+            when you work, making sure that the vein on your forehead pulsates,
+            and the talk about it in a grumpy, mean military-tone, "MAN'S GOTTA
+            WORK HARD", "WORK IS FOR PUSSIES"?
+          </P>
+          <P>Or that you sit there for 18 hours a day?</P>
+          <P>Or that you don't take a single break throughout the whole day?</P>
+          <P>
+            I'll tell you what it means - nothing. Ego is scared of being judged
+            as "lazy" or any other kind of extremely disqualifying terms, so it
+            develops defensive-mechanism. This is so common and prevalent that
+            it becomes the norm.
+          </P>
+          <P>
+            I was one of the "HARD" work people, one time I messaged about the
+            lack of coffee in the office and didn't notice it was 1 AM at night.
+          </P>
+          <P>
+            I learned the hard way that all the "hard" about work is complete
+            and utter dishonesty and it's profoundly destructive.
+          </P>
+          <P>Here's the reality:</P>
+          <P>
+            Hard work gets you to dig a row with bare hands. When it doesn't
+            work, you just try harder, like the horse, Boxer, from G. Orwell's
+            Animal Farm - it's RUINING!!! It's a nasty dishonesty, worry-based
+            ego-tactic of self-marketing and nothing more, except means of
+            getting in your own way.
+          </P>
+          <P>
+            Work - that's what actually works. Effective work is just work +
+            right techniques that are a good fit for the task at hand. That's
+            it.
+          </P>
+          <P>
+            Effective work that actually gets a lot of stuff done - it's never
+            hard work (unless for a very short-lived stunt, to again, market
+            just how "hard" you work"). It's just work. It's not hard, it's not
+            light, it's not anything else than what it is - it's just work.
+          </P>
+          <P>
+            The most useful first step in becoming more effective is to get all
+            the toxic, false, dishonest crap out of the consideration - and keep
+            it out.
+          </P>
+          <P>
+            In a way, a lot of it is psychological - because all that crap is
+            mostly psychological, all ego, all self-defense mechanisms which
+            involve a ton of dishonest ideas.
+          </P>
+          <h2>In short: </h2>
+          <P>
+            "Hard" is not useful in any way for work. It's a toxic, dishonest,
+            ego-based, self-promoting strategy, nothing more.
+          </P>
+          <P>
+            Work is just work. It's not light, it's not hard, it's not anything
+            else than what it is - work.
+          </P>
+          <P>
+            Effective work is: work + right techniques and tools, that are a
+            good fit for the task at hand.
+          </P>
+
+          <h2>IN MORE THEORETICAL TERMS...</h2>
           <P>
             Most of what I talk about in here stands on the mental shoulders of
             the ideas taken from the best books I know of, some of which I
