@@ -35,11 +35,11 @@ export default function WorkflowSkills() {
             background, doing its job. That's about it. That's what's useful and
             beneficial.{" "}
           </P>
-          <P>
+          <h3>
             What you don't see, is a refrigerator that makes a giant glacier of
             ice around itself, adding a loud freeze-like noise and trembles with
-            great vehemence, to show how hard it's working.
-          </P>
+            great vehemence, to show just how hard it's working.
+          </h3>
           <P>
             In fact, if it was doing that, it very heavily be getting in the way
             of what it's job actually is. What all that "extra" nonsense is
@@ -103,12 +103,12 @@ export default function WorkflowSkills() {
             "Hard" work is not real, it's an add-on, marketing campaign of
             someone's ego or business.
           </P>
-          <P>
-            There's zero point talking about workflow skills, unless this
+          <h3>
+            There's zero h3oint talking about workflow skills, unless this
             distinction is understood - otherwise, all is lost in all kinds of
             false claims and nonsense added to the concepts. The fantasies of
             salesemman and self-promoting egos need to be stripped first.
-          </P>
+          </h3>
           <P>
             Workflow skills are just techniques and - very importantly -
             mindsets to have when applying those techniques - to make work
