@@ -12,8 +12,9 @@ export default function WorkflowSkills() {
         items={[
           "Introduction",
           "Take your time in a hurry",
-          "Anatomy of unrealized mis-recognition point causing confusion where the person can't tell what they're confused about",
-          "One to one, same name placeholders railroad",
+          "Anatomy of nested confusion",
+          "Railroad of placeholders",
+          "Isolating small scope, ignoring everything else",
         ]}
       />
 
@@ -306,15 +307,30 @@ export default function WorkflowSkills() {
         <div className="Content__segregatorLine"></div>
 
         <div data-scroll="2" className="Category__item">
-          <h1>
-            Anatomy of an unrealized, unconscious, point of ommission and
-            misunderstanding - the origin of confusion state, where can't tell
-            what is it that confuses you.
-          </h1>
+          <h1>Anatomy of nested confusion</h1>
+          <h2>It's one level when we know what we're confused about.</h2>
+          <h2>
+            It's another level if we are confused and we don't know what the
+            confusion is about.
+          </h2>
+          <p>This is most relevant to programming.</p>
           <p>
-            Usage notes: Understandably, this is most easily associated with
-            programming tasks.
+            Usage notes: if one knows the anatomy of n-levels nested confusion,
+            it's easier to solve any kind of confusion, as one can tell the
+            universal aspects of confusion no matter what form it takes.
           </p>
+          <p>
+            To understand confusion, it's easiest to start with its opposite:
+            clarity.
+          </p>
+          <p>
+            Clarity of understanding and perception occurs, when we are
+            detail-clear about what's going on in a given area, and no detail -
+            no chain-link - is missing. It is clear at every point, and the
+            connection between all the pieces is also clear, it all adds up
+            smoothly.
+          </p>
+
           <p>
             This tool is an exploration during its initial phases. To be
             continued...{" "}
