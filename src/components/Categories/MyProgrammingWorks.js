@@ -29,13 +29,66 @@ export default function MyProgrammingWorks() {
           <p>
             This was a learning project. I started with zero React skills and
             build a larger, intermediate level web app with practically useful
-            functionality, database and user authentication.
+            functionality, database and user authentication, over the course of
+            about 2 months.
           </p>
           <p>
-            Code...well, clearly, someone was performing a React training
-            project. Still, it has some nice solutions that I'm pleased with,
-            given that I was learning.
+            Code sucks in a lot of ways, obviously but it has some okay points,
+            some solid points even. Still does its job, though.
           </p>
+          <p>
+            Overall architecture, I have no idea. It does what it needs to do.
+            It has some okay points.
+          </p>
+          <p>
+            For example, you can take a camera snapshot with your phone and
+            immediately add it to a flashcard. You can easily create a
+            collection of such photo-based flashcards very easily.
+          </p>
+          <p>
+            You can do so as a registered user, and it's autosaved in the
+            database. Photos are saved, within flashcards, on the database - and
+            it doesn't require any storage. All utilizing base64.
+          </p>
+          <p>
+            Firebase database, I created a model: user id -> deck ids. That's
+            all.
+          </p>
+          <p>
+            Yet, every deck, in a decks list for a given user id, it has all the
+            user-created flashcards, including photos. I used base64, turns out
+            I can store images within flashcards within a deck, with a deckss
+            list, that way, it doesn't exceed the size limit too fast.
+          </p>
+          <p>
+            Most importantly, I minimized requests to the server. User can
+            change a 50, a 100 flashcards in all kinds of ways - 0 requests.
+          </p>
+          <p>
+            A request happens only upon saving deck changes. It counts as 1
+            document rewrite in a collection, in the database. 1 request, for
+            what can easily be 20-50 changes.
+          </p>
+          <p>
+            UX/UI - it's crude in some ways, it has a few okay spots here and
+            there. I think the loader's quite alright. Some other extra
+            animations are clearly over the top.
+          </p>
+          <p>
+            I asked for feedback about the UI/UX and indeed, it has a lot of
+            suboptimal stuff in there. Good lessons.
+          </p>
+          <p>
+            Overall, just good lessons. It was all done by me, including the
+            design of everything, from UI/UX to database model for things such
+            as managing photo snapshots / flashcard, over many flashcards, over
+            many decks, etc.
+          </p>
+          <p>
+            That's why these were good lessons, I had a vision but a lot to
+            figure out from nothing.
+          </p>
+
           <p>
             The app is written in
             <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank">
@@ -71,25 +124,13 @@ export default function MyProgrammingWorks() {
             </a>
             .
           </p>
-          <p>
-            Nothing else was used in this project. For me, it has been a very,
-            very large and challenging project to complete, I had so much to
-            learn in order to be able to do even 1/5th of it. It's been very
-            difficult in the beginning, given that I've started with nearly 0
-            React skills (especially with the new-for-me hooks), however I
-            focused on the process and simply enjoyed learning.
-          </p>
         </div>
 
         <div className="Content__segregatorLine"></div>
 
         <div data-scroll="1" className="Category__item">
           <h1>CARBYNE EXPLORATIONS</h1>
-          <p>
-            That's this very blog, that you're reading right now, Dear Reader
-            {" : ) "}I have completed it to its current state in about 10-12
-            days of training and learning endeavors.
-          </p>
+          <p>What's up. You're here, now. Cheers.</p>
           <p>Well, here's the link anyway:</p>
           <p className="--hoverJk">
             <a
@@ -103,10 +144,7 @@ export default function MyProgrammingWorks() {
               CARBYNE EXPLORATIONS
             </a>
 
-            <span>
-              Kidding {" :) "} That's the web app you're experiencing right now,
-              you're here already!
-            </span>
+            <span>So you can drag your cursor over it for no reason.</span>
           </p>
 
           <p>
@@ -114,24 +152,12 @@ export default function MyProgrammingWorks() {
             <a href="https://en.wikipedia.org/wiki/Scalable_Vector_Graphics">
               SVG's
             </a>
-            . I didn't even intend to, at all, to get into SVG's. I had a vision
-            for this app and initially, I thought that it should be mostly
-            doable with some resourceful CSS usage.
+            .
           </p>
           <p>
             At some point, I was doing so much hacky work with CSS and React,
             just to make some simple graphics, I realized it could literally be
             almost as simple to learn SVG's.
-          </p>
-          <p>
-            It most certainly, in every sense of the word, wasn't as simple in
-            any way, shape or form - however, great many styling ways, shapes
-            and forms became so much easier for me to write, once I began to get
-            a grasp of how to work effectively with SVG's.
-          </p>
-          <p>
-            Every single graphic element in this blog app - Carbyne Explorations
-            - has been performed in SVG's, solely by me.{" "}
           </p>
           <p>
             Carbyne Explorations is a name I came up with because I liked how it
@@ -189,8 +215,8 @@ export default function MyProgrammingWorks() {
 
         <div data-scroll="3" className="Category__item">
           <h1>
-            Web app with ONLY Javascript, zero html/css files (all html/css in
-            JS)
+            Web app with ONLY Javascript, zero html/css files (all html/css is
+            inside JS)
           </h1>
 
           <p>You can check it out here:</p>
@@ -199,6 +225,30 @@ export default function MyProgrammingWorks() {
               Monthly clarity at a glance tiles project (training project, zero
               html/css, purely with javascript)
             </a>
+          </p>
+          <p>
+            It's mostly a failed project. It's also a failed learning endeavor,
+            it was time-inefficient.
+          </p>
+          <p>
+            I am not in the least ashamed of any of my failures, though. There's
+            no reason I wouldn't put in here.
+          </p>
+          <p>
+            It's still drag & drop, colorful app that features full-scale
+            calendar carousel and dropping color-responsive and size-responsive
+            project tiles upon hour columns within a day, in a week, of a given
+            month, that's within a carousel of all year's months, that's within
+            a carousel of years.
+          </p>
+          <p>All that and zero html/css files. All html/css inside of JS.</p>
+          <p>
+            It's a failed project and a very failed learning endeavor but it
+            still has some okay points.
+          </p>
+          <p>
+            Most importantly, it taught me a lot about what NOT to do, in terms
+            of learning through challenges. I learned about learning.
           </p>
         </div>
 

@@ -15,6 +15,7 @@ export default function WorkflowSkills() {
           "Anatomy of nested confusion",
           "Railroad of placeholders",
           "Isolating small scope, ignoring everything else",
+          "Optimizing for adaptation, instead of input",
         ]}
       />
 
