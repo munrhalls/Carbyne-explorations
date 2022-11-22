@@ -303,6 +303,12 @@ export default function LearningSkills() {
             cannot even be not be practical because it's so basic?
           </p>
         </div>
+
+        <div className="Content__segregatorLine"></div>
+
+        <div data-scroll="2" className="Category__item">
+          <h1>Ease of accomodating changes and re-understandings.</h1>
+        </div>
       </div>
     </div>
   );
