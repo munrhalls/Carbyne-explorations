@@ -220,7 +220,88 @@ export default function LearningSkills() {
         <div className="Content__segregatorLine"></div>
 
         <div data-scroll="1" className="Category__item">
-          <h1></h1>
+          <h1>Association choices.</h1>
+          <p>
+            This is a slightly subtle concept. You see, when you perceive a
+            thing, be it a person talking about X, or direct experience of a
+            situation Y, or a demonstration of principle Z, you're making a lot
+            of choices, most of which are unconscious.
+          </p>
+          <p>
+            These choices are concerned with what's associated with one's
+            concept or collected viewpoints about how reality works.
+          </p>
+          <p>
+            Each choice equals "how do I associate it or not associate it with
+            reality".
+          </p>
+          <h2>Okay, assocations, cool. Is there a problem?</h2>
+          <p>
+            There are assumptions going on in there. There are choices being
+            made, about what portions of information are associated with
+            reality, and which are not, that are fundamental, yet unchecked.
+          </p>
+          <p>
+            When you have fundamental stuff unchecked, it's trouble. You don't
+            want a building to stand on unchecked grounds.
+          </p>
+          <h2>Aight. Anything practical in there?</h2>
+          <p>
+            What you see right now, in front of you, is fundamentally shaped by
+            the collected sum of choices you have made, about how a given
+            perception or experience point is to be associated or not associated
+            with how reality works.{" "}
+          </p>
+          <p>
+            That's the definition of impractical but then you have a goal or
+            task X, that you really need to accomplish. Better job, or this or
+            that thing done at that job. That kind of practical stuff. Soon, you
+            have a perception of how you're gonna go about it. All the way
+            throughout to failure, completion or status change upon that task,
+            you also have a perception of that. Whichever way you move, relative
+            to that task or goal, you have the sum of all that you see that task
+            or goal as.
+          </p>
+          <p>
+            That perception can be complicating, derailing, confusing or
+            misleading you in ways it doesn't need to - and these ways are
+            fundamental because again, the subject at hand concerns the very
+            associations about what is and what isn't reality. Remember - these
+            associations aren't reality, they are choices about what you
+            personally chose equates or doesn't equate how reality works.
+          </p>
+          <h2>
+            You lost me at the very first words of nonsense that's being spewn
+            here, after saying "practical". How. Is. Any. Of. That. Relevant.
+            To. Anybody.
+          </h2>
+          <p>
+            Let's say wanna learn some guitar. Play some good ol' catchy tunes,
+            for some good emotions and to score some reputation points at a
+            party, perhaps. Prolly don't wanna suck, though. What are you gonna
+            do, buddy?
+          </p>
+          <p>
+            Yeah, you're going to train, you're going to look for information,
+            how to learn it, yadda yadda. All the common sense, standard things
+            that people do when they want to learn something.
+          </p>
+          <p>
+            Many people want to do many cool and profitable things in this
+            world, and many of them fail. They attribute the failure to all
+            kinds of source: not enough effort, poorly planned, not enough
+            interest, talent, conditions, mentors, coaches, themselves,
+            whatever...we've got a very long list there.
+          </p>
+          <p>
+            Virtually never do you see anybody attributing the source of failure
+            to the culprit that is most often, truly and by far, most
+            reponsible: their perception.
+          </p>
+          <p>
+            Do you see how it's starting to sound like something that just
+            cannot even be not be practical because it's so basic?
+          </p>
         </div>
       </div>
     </div>
