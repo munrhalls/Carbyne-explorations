@@ -1,11 +1,18 @@
 # Carbyne Explorations
 
 https://carbyne-explorations.netlify.com
-Carbyne Explorations. My blog.
-Ancient galaxy-theme UI. Custom. React + SVG.
-100% solo project.
+Carbyne Explorations. 
 
-In development.
+My blog/website. My own design. Ancient galaxy graphics. Animated navigation. Color-adapting UI
+
+Biggest challenges:  
+- learning how to create my own SVG's (path attribute)
+- learning how to make SVG creation more time-efficient (it was a painstakingly difficult process at-first)
+- composing background and menu's from many distinct SVG components
+- modifying SVG internals with React, in many places at once, in an at least somewhat uniform manner, if not uniform
+- SVG - animated “river” of drifting menu components
+
+In continuous, experimental change and development.
 
 
 
