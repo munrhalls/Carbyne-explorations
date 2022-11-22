@@ -309,6 +309,102 @@ export default function LearningSkills() {
         <div data-scroll="2" className="Category__item">
           <h1>Ease of accomodating changes and re-understandings.</h1>
         </div>
+        <div data-scroll="3" className="Category__item">
+          <h1>About problem solving...</h1>
+          <p>
+            One of the most useful things to realize, is that for every problem,
+            very little out of what's presented actually matters.
+          </p>
+          <p>
+            It's by far one of the most beneficial problem-solving to-do's, to
+            scope out all that doesn't matter about how the problem's presented.
+          </p>
+          <p>
+            I would hold true, that for virtually any problem, as long as you
+            can do that, you are making the problem an almost incalculably
+            incredible amounts easier to solve.
+          </p>
+          <p>
+            You want to be in a scenario, where all that's not actually most
+            directly relevant and required to solve the problem, is out of the
+            picture as soon as it can be out of the picture.
+          </p>
+          <p>
+            Then you are looking at the clarity of those points that actually do
+            matter.
+          </p>
+          <p>
+            This is relative. What matters, depends on the current level of
+            whatever's relevant to know and be able to do, about whatever
+            problem you are trying to solve.
+          </p>
+          <p>
+            If you don't know some vocabulary, that IS important about the
+            problem at hand. If you do, then that vocabulary is not important
+            about the problem at hand. It's already internalized, it's not part
+            of the problem to learn that vocabulary.{" "}
+          </p>
+          <h2>Discernment...</h2>
+          <p>So far so good. </p>
+          <p>
+            {" "}
+            For most anything, most people typically get such points - the one
+            like the point presented in the paragraph above.
+          </p>
+          <p>
+            Where most people don't do nearly as well, is with subtle
+            discernment points.
+          </p>
+          <p>Here's an example.</p>
+          <p>
+            If you don't know some vocabulary and that vocabulary isn't directly
+            a part of understanding the problem, is it relevant?
+          </p>
+          <p>No. It's bloat. It's irrelevant and would waste time.</p>
+          <p>Another example:</p>
+          <p>
+            If there's a piece of vocabulary you don't know, and it doesn't
+            matter for the problem at hand, how do you know it doesn't matter if
+            you don't know what it is?
+          </p>
+          <p>
+            A lot of people would make a grumpy face there, as if you were
+            talking nonsense. That's why they get stuck - the miss these subtle
+            points. That's also why it can be so difficult to get through to
+            some people. They literally just miss it, it's like they had a
+            camera, and that camera had such (frames / second), that it missed
+            some frames that came too close to each other.
+          </p>
+          <p>
+            You know because you can know the range of what that vocab piece is
+            about, without having to know specifically what that piece of vocab
+            or whatever other thing is - you can know that it doesn't go out of
+            that range, as it's contextually apparent.
+          </p>
+          <p>
+            Let's say it's not contextually apparent, whether a given piece of
+            vocab is or is not relevant to the solution, when you don't yet know
+            what that vocab piece means.
+          </p>
+          <p>
+            You can still know it's irrelevant by the virtue of knowing how easy
+            it'd be to check and confirm, should the need arise, and how
+            impactful that'd be for the solution at hand.
+          </p>
+          <p>There are far many more such subtle discernment points.</p>
+          <p>
+            The point is, with experiential training and arming your intuition
+            and common sense with experiences that feed their ability to
+            accurately guess those discernment points - you can solve problems
+            that much more reliably, effectively and efficiently.
+          </p>
+          <p>
+            That's because you get that much better at filtering out all that
+            truly isn't directly relevant or needed to solving the problem at
+            hand, relative to your own personal, current level overall, and
+            current level in a given domain.
+          </p>
+        </div>
       </div>
     </div>
   );
