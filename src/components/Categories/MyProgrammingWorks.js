@@ -76,7 +76,7 @@ export default function MyProgrammingWorks() {
           </p>
           <p>
             I asked for feedback about the UI/UX and indeed, it has a lot of
-            suboptimal stuff in there. Good lessons.
+            stuff in there that sucks. Good lessons.
           </p>
           <p>
             Overall, just good lessons. It was all done by me, including the
@@ -196,19 +196,11 @@ export default function MyProgrammingWorks() {
             .
           </p>
           <p>
-            Design and everything else in that app, is solely performed by me.
+            This app is nothing. I wanted to utilize youtube API, make a small
+            project. No longer feasible. Youtube changed quotas. So I did a
+            small vimeo API project. That's about it.
           </p>
-          <p>
-            This is a very simple app. However, it still features addressing
-            important pragmatic concerns, such as minimizing requests to the
-            server with the use of local storage, and so on.
-          </p>
-          <p>
-            I wanted to utilize youtube API and I did - however, youtube has put
-            much of its API behind a paywall, the free API usage options are
-            very limited, so I did Vimeo instead. However, Vimeo's API is
-            slightly more complicated, so it was good practice {": )"}
-          </p>
+          <p>Made a cool loader, though.</p>
         </div>
 
         <div className="Content__segregatorLine"></div>
@@ -227,28 +219,98 @@ export default function MyProgrammingWorks() {
             </a>
           </p>
           <p>
-            It's mostly a failed project. It's also a failed learning endeavor,
-            it was time-inefficient.
+            Failed project. Also failed learning endeavor. It was
+            time-inefficient.
           </p>
           <p>
-            I am not in the least ashamed of any of my failures, though. There's
-            no reason I wouldn't put in here.
+            I am not in the least ashamed of any of my failures, though. No
+            reason I wouldn't put in here.
           </p>
           <p>
-            It's still drag & drop, colorful app that features full-scale
-            calendar carousel and dropping color-responsive and size-responsive
-            project tiles upon hour columns within a day, in a week, of a given
-            month, that's within a carousel of all year's months, that's within
-            a carousel of years.
-          </p>
-          <p>All that and zero html/css files. All html/css inside of JS.</p>
-          <p>
-            It's a failed project and a very failed learning endeavor but it
-            still has some okay points.
+            For what it's worth, it's got drag & drop and is a colorful app that
+            features full-scale calendar carousel and dropping color-responsive
+            and size-responsive project tiles upon hour columns within a day, in
+            a week, of a given month, that's within a carousel of all year's
+            months, that's within a carousel of years.
           </p>
           <p>
-            Most importantly, it taught me a lot about what NOT to do, in terms
-            of learning through challenges. I learned about learning.
+            All that and zero html/css files. All html/css with raw Javascript.
+          </p>
+          <p>Still's got some okay points. Lesson points!</p>
+          <p>
+            Most importantly, it taught me what not to do, in terms of learning
+            through challenges:
+          </p>
+          <p>
+            Get comfortable swimming, before you dive. Walk, before running.
+            Don't profess the need for challenge of lifting 150KG, when you're
+            not lifting 70KG's even once.{" "}
+          </p>
+          <p>Way over the top challenge is not a challenge, it's bul#$@t.</p>
+          <p>
+            Good challenge - good ROI (return on investment) challenge - is one
+            that has a medium level difficulty, relative to *your current
+            level*.
+          </p>
+          <p>Not too hard, not too easy.</p>
+          <p>
+            In real terms: it's within reach, if you really put your best and
+            stretch a few points beyond the outer comfort perimeter.
+          </p>
+          <p>
+            You see, pushing one's comfort zone is also one of those insanely
+            poisoned ideas, attacked with misunderstanding and falsehood from
+            all kinds of angles.
+          </p>
+          <p>
+            Pushing comfort zone IS NOT trying to push 100KM or a light year out
+            of the current comfort zone.
+          </p>
+          <p>
+            Pushing comfort IS about pushing for those points that are just
+            ever-so-slightly out of current reach - and closing the gap.{" "}
+          </p>
+          <p>
+            You DO NOT grow faster by taking on bigger or more mighty
+            challenges. These sound good to say, to tell somebody about. They
+            work awfully.
+          </p>
+          <p>
+            You DO GROW, by taking on challenges that are well-fitting, they are
+            just what *your current level* needs.
+          </p>
+          <p>
+            The primary, true discernment point is about *what your current
+            level needs*, which is always an adaptation and a careful choice. It
+            rarely sounds badass, at all. It often sounds either absurd and
+            weird, or soft, or just completely like a waste of time, from the
+            perspective of others. It's often some small, subtle thing but it's
+            the precise right thing for the precise time, for the precise need
+            and available options and context.{" "}
+          </p>
+          <p>
+            It isn't ego's "I'm gonna feel great by taking on something that is
+            so badass, big, large and when I say it, hair literally grows on my
+            chest".
+          </p>
+          <p>
+            In short: when I review an endeavor like this, from the perspective
+            of the simple points above, it fails before it even begins because
+            it is mis-configured and mis-set by false ideas and biased
+            assumptions.
+          </p>
+          <p>
+            From this long description, if there's one thing to take out, it's
+            this: whatever you do, make sure it doesn't fail before it has even
+            begun. Most often, it does - all that's needed is a few wrong,
+            unchecked ideas.
+          </p>
+          <p>
+            You can have a set of sound ideas but it takes on wrong idea
+            unrealized, to make it all into a rotten seed, from out of which
+            unrealized nonsense grows and consumes it all into a big pile of
+            nonsense justifying nonsense, justifying further nonsense and
+            pushing all sense out.
           </p>
         </div>
 
