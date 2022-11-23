@@ -158,13 +158,8 @@ export default function LearningSkills() {
             end-goal is so far away, and not be awfully frustrated?
           </h2>
           <p>
-            This entire conversation is like going into a teenager's room and
-            re-ordering a lot of things that were mixed up together in all kinds
-            of wrong ways.
-          </p>
-          <p>
             You can work in relation to goals, on the technical side. Always
-            ideanting next few, real small steps. Always in the manner of 1-2
+            identifying next few, real small steps. Always in the manner of 1-2
             small themes at a time but always keeping it real. Steps need to be
             real. They need to give real feedback
           </p>
@@ -211,10 +206,6 @@ export default function LearningSkills() {
             Small steps need to always be real, small goals that follow certain
             characteristics of a well-set goal.
           </p>
-          <h2>
-            Instead of tricking oneself with blur-ideas, stay with clear ideas
-            and use self-appreciation.
-          </h2>
         </div>
 
         <div className="Content__segregatorLine"></div>
