@@ -501,4 +501,53 @@ const poemFour = {
     </>
   ),
 };
-export const poems = [poemOne, poemTwo, poemThree, poemFour];
+
+const poemFive = {
+  title: "OGNISKUJĄC NIEDOCZESNOŚĆ",
+  content: (
+    <>
+      <h1 className="Poems__poem__title">OGNISKUJĄC NIEDOCZESNOŚĆ</h1>
+      <p>
+        <span>Niedoczesność quasi-wysławialna,</span>
+        <span>wita się ze słownikiem,</span>
+        <span>ogniskując niewerbalność,</span>
+        <span>siebie.</span>
+      </p>
+      <p>
+        <span>Niewysławialna doczesność innych przestrzeni,</span>
+        <span>oscyluje pomiędzy między,</span>
+        <span>rzeźbiąc wymiary głębi,</span>
+        <span>na powierzchniach płytszego rzędu.</span>
+      </p>
+      <p>
+        <span>Niewysławialna doczesność obcych krain,</span>
+        <span>wypływa na ląd,</span>
+        <span>dając swój nieoznaczalny znak,</span>
+        <span>znanemu, czyli wszystkiemu temu co trzymane,</span>
+        <span>w kręgu wzajemnej aprobaty.</span>
+      </p>
+      <p>
+        <span>Co ma być z tego co będzie,</span>
+        <span>jeżeli będzie jest tym samym co było,</span>
+        <span>jak było jest tym co będzie?</span>
+      </p>
+      <p>
+        <span>Cykl powtarzania,</span>
+        <span>powtarza powtarzanie,</span>
+        <span>zaś oni,</span>
+        <span>powtarzając,</span>
+        <span>napędzają kołowrotek.</span>
+      </p>
+      <p>
+        <span>Tymczasem, przed-starożytnie nowy koncept,</span>
+        <span>tematyka doczesna poprzez,</span>
+        <span>niedoczesność absolutną i uniwersalną,</span>
+        <span>nie wymaga powtarzania,</span>
+        <span>ani poznania,</span>
+        <span>jedynie zaznania.</span>
+      </p>
+    </>
+  ),
+};
+
+export const poems = [poemOne, poemTwo, poemThree, poemFour, poemFive];
