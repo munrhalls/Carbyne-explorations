@@ -550,4 +550,185 @@ const poemFive = {
   ),
 };
 
-export const poems = [poemOne, poemTwo, poemThree, poemFour, poemFive];
+const poemSix = {
+  title: "MASA MASY W MASIE SIĘ MASĄ MASUJE, A WSZECHŚWIAT SOBIE ZERKA",
+  content: (
+    <>
+      <h1 className="Poems__poem__title">
+        MASA MASY W MASIE SIĘ MASĄ MASUJE, A WSZECHŚWIAT SOBIE ZERKA
+      </h1>
+      <p>
+        <span>Masa masy w masie,</span>
+        <span>się masą masuje,</span>
+        <span>rozluźniając napięte ciężary,</span>
+        <span>teraz drażnione całkiem przyjemnie,</span>
+        <span>piórami zmysłowej lekkości. </span>
+      </p>
+      <p>
+        <span>Lekkość się unosi, </span>
+        <span>masie dodając masy,</span>
+        <span>a sobie jeszcze więcej lekkości,</span>
+        <span>a tu nagle...</span>
+      </p>
+      <p>
+        <span>mig, światło, kwadrat, energia i jedność,</span>
+        <span>po czym, jednym się stała cała całość,</span>
+        <span>masa z lekkością,</span>
+        <span>i lekkość z masą,</span>
+        <span>razem zatańczyły,</span>
+        <span>na kosmicznym parkiecie,</span>
+        <span>biało-czarnej szachownicy.</span>
+      </p>
+      <p>
+        <span>A być może, na odwrót,</span>
+        <span>na szachownicy czarno-białej,</span>
+        <span>parkietu gwiezdnych bezkresów?</span>
+      </p>
+      <p>
+        <span>Co jest w tym lokalu,</span>
+        <span>pierwsze, a co drugie?</span>
+      </p>
+      <p>
+        <span>Co było najpierw, </span>
+        <span>a co potem?</span>
+      </p>
+      <p>
+        <span>Jajko czy kura,</span>
+        <span>kura czy jajko,</span>
+        <span>znów o to pytamy?</span>
+      </p>
+      <p>
+        <span>A co jeżeli razem się pojawiły?</span>
+        <span>Skoro kura miała jajko znieść,</span>
+        <span>to jak jajko miało z kurą wytrzymać,</span>
+        <span>jeżeli od samego początku,</span>
+        <span>w taki czy inny sposób,</span>
+        <span>choćby i mniejszy o bakterii,</span>
+        <span>już z nią w niej było?</span>
+      </p>
+      <p>
+        <span>Co na czym stoi,</span>
+        <span>a co pod czym,</span>
+        <span>jest tym samym,</span>
+        <span>czym jest różnica,</span>
+        <span>pomiędzy niczym.</span>
+      </p>
+      <p>
+        <span>Pomiędzy niczym,</span>
+        <span>jeden tylko dystans występuje:</span>
+      </p>
+      <p>
+        <span>
+          <span>wymyślony.</span>
+        </span>
+      </p>
+      <p>
+        <span>Tak jak masa masująca samą siebie,</span>
+        <span>lub też lekkość unosząca się w oderwaniu od niej.</span>
+      </p>
+      <p>
+        <span>Wymyślone treści,</span>
+        <span>potrafią ważyć znacznie więcej,</span>
+        <span>niż rzeczywistość,</span>
+        <span>oraz wymyślać na swój temat, </span>
+        <span>istnienie wymyślone,</span>
+        <span>rzeczywistsze od niej,</span>
+        <span>będąc tą jakoby tą prawdziwą.</span>
+      </p>
+      <p>
+        <span>Tymczasem, co wymyślone,</span>
+        <span>pozostaje wymyślone...</span>
+        <span>tak samo jak rzeczywistość,</span>
+        <span>po tym jak, została, rzeczywiście...</span>
+      </p>
+      <p>
+        <span>wymyślona.</span>
+      </p>
+      <p>
+        <span>Po co?</span>
+        <span>W jakim celu?</span>
+        <span>Pytają pytający.</span>
+      </p>
+      <p>
+        <span>Pytają i pytają, </span>
+        <span>przewróć klepsydrę z erę lub sto,</span>
+        <span>a oni...</span>
+      </p>
+      <p>
+        <span>nadal pytają.</span>
+      </p>
+      <p>
+        <span>Czemu to wymyślone zdarzenie,</span>
+        <span>miało przybrać odzianie rzeczywistości?</span>
+        <span>Do czego miał ten wynalazek zmierzać,</span>
+        <span>w jakim kierunku?</span>
+      </p>
+      <p>
+        <span>Ktoś z nas,</span>
+        <span>kiedyś, </span>
+        <span>już znalazł odpowiedź,</span>
+        <span>w odpowiedzi:</span>
+      </p>
+      <p>
+        <span>to do nas kierowane są te pytania.</span>
+      </p>
+      <p>
+        <span>Masujemy się masą wymyślonego niczego,</span>
+        <span>dodając ciężaru za ciężarem niezrozumienia,</span>
+        <span>masując masę dalej zwielokrotnionego już nieporozumienia,</span>
+        <span>wielokrotnie powielając to zwielokrotnienie,</span>
+        <span>pytając źródło pytania,</span>
+        <span>o sens pytania.</span>
+      </p>
+      <p>
+        <span>To jedno pytanie,</span>
+        <span>tworzy sens,</span>
+        <span>nie szukając go.</span>
+      </p>
+      <p>
+        <span>Nieprzerwanie,</span>
+        <span>wiecznie,</span>
+        <span>filozoficzne perpetuum mobile sensu.</span>
+      </p>
+      <p>
+        <span>Osiągnęło swoją nieprzerwalność,</span>
+        <span>jedynym finalnie finalnym wynalazkiem:</span>
+      </p>
+      <p>
+        <span>wynalazek, który nie został wynaleziony,</span>
+        <span>a jednocześnie jest wynalazkiem,</span>
+        <span>wynajdując się,</span>
+        <span>wiecznie w trakcie.</span>
+      </p>
+      <p>
+        <span>Otóż wynalazek i finalna odpowiedź,</span>
+        <span>
+          która sobą z definicji nie jest, a mimo to siebie samą tworzy,
+        </span>
+        <span>obracająć galaktyki i spiralne konstelacje,</span>
+        <span>w przestworzach bezwiecznych otchłani:</span>
+      </p>
+      <p>
+        <span>nie ma finalnej odpowiedzi.</span>
+      </p>
+      <p>
+        <span>Ostatni rozdział książki,</span>
+        <span>końcowa odpowiedź,</span>
+        <span>to jedyna rzecz,</span>
+        <span>które naprawdę nie istnieje, ani istnieć nie może.</span>
+      </p>
+      <p>
+        <span>Tak samo jak my jesteśmy,</span>
+        <span>wiecznie nowymi odpowiedziami,</span>
+        <span>na płachtach tego,</span>
+        <span>co jest i może być,</span>
+        <span>zawsze i wszędzie,</span>
+        <span>w objęciach,</span>
+        <span>Pytania, Które Sobie,</span>
+        <span>tak przy okazji,</span>
+        <span>na nas zerka.</span>
+      </p>
+    </>
+  ),
+};
+export const poems = [poemOne, poemTwo, poemThree, poemFour, poemFive, poemSix];
