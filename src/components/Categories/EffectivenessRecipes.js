@@ -12,7 +12,19 @@ export default function EffectivenessRecipes() {
         <div className="Content__segregatorLine"></div>
 
         <div data-scroll="1" className="Category__item">
-          <h1></h1>
+          <h1>Ingredients</h1>
+          <h1>Sequencing</h1>
+          <h1>Proportions</h1>
+          <h1>Durations</h1>
+          <h3>* * * </h3>
+          <h1>Set up</h1>
+          <h1>Monitoring</h1>
+          <h1>Evaluating</h1>
+          <h1>Adjusting</h1>
+          <h3>* * *</h3>
+          <h1>Connecting each element to all.</h1>
+          <h1>Connecting all to each element.</h1>
+          <h1>Sum of connections</h1>
         </div>
       </div>
     </div>

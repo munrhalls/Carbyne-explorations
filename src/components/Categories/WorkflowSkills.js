@@ -16,6 +16,7 @@ export default function WorkflowSkills() {
           "Railroad of placeholders",
           "Isolating small scope, ignoring everything else",
           "Optimizing for adaptation, instead of input",
+          "Setting up highest efficiency 'value mining' spots, 'digging' until efficiency drops, moving between highest efficiency spots ",
         ]}
       />
 

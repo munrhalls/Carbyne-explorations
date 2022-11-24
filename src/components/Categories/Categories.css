@@ -39,6 +39,8 @@
 .Category__item h3 { 
     font-weight: bold;
     max-width: 30rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .Category__item p {
     margin: 1rem;

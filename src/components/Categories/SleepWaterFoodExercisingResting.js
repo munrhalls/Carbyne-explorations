@@ -13,7 +13,7 @@ export default function SleepWaterFoodExercisingResting() {
         <div className="Content__segregatorLine"></div>
 
         <div data-scroll="1" className="Category__item">
-          <h1></h1>
+          <h1>SLEEP WATER FOOD EXERCISE RESTING</h1>
         </div>
       </div>
     </div>

@@ -913,6 +913,7 @@ export const SVG = {
       "Workflow skills",
 
       "Book choices",
+      "Exploring code",
       "My programming works",
       "My poems",
     ];
@@ -928,6 +929,7 @@ export const SVG = {
 
       "brown",
       "lightblue",
+      "lightgreen",
       "darkblue",
     ];
 

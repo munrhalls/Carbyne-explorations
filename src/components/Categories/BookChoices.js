@@ -15,10 +15,10 @@ export default function BookChoices() {
 
       <div className="Category">
         <div data-scroll="0" className="Category__item">
-          <p>
+          <h3>
             It's called book choices because the contents below are fruits of
             book choosing, not book reading.
-          </p>
+          </h3>
           <p>
             Book reading is among the most harmful, destructive and dangerous
             activities - obviously a point most people would heavily disagree
