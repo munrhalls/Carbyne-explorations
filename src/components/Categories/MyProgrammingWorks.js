@@ -7,8 +7,8 @@ export default function MyProgrammingWorks() {
     <>
       <TableOfContents
         items={[
-          "Oxus Flashcards",
           "Carbyne Explorations",
+          "Oxus Flashcards",
           "Vimeo Searcher",
           "Web app with ONLY Javascript",
           "Coffee shop website",
@@ -130,7 +130,7 @@ export default function MyProgrammingWorks() {
 
         <div data-scroll="1" className="Category__item">
           <h1>CARBYNE EXPLORATIONS</h1>
-          <p>What's up. You're here, now. Cheers.</p>
+          <p>What's up. You're here now, cheers.</p>
           <p>Well, here's the link anyway:</p>
           <p className="--hoverJk">
             <a
@@ -146,7 +146,6 @@ export default function MyProgrammingWorks() {
 
             <span>So you can drag your cursor over it for no reason.</span>
           </p>
-
           <p>
             Before, I knew absolutely nothing about writing my own{" "}
             <a href="https://en.wikipedia.org/wiki/Scalable_Vector_Graphics">
@@ -165,11 +164,11 @@ export default function MyProgrammingWorks() {
             fierce, persistent, curious learner - like carbyne, just plowing and
             plowing and plowing and plowing and plowing and plowing, and
             plowing, and then plowing some more, and then plowing after that
-            just to get some plowing done after plowing, until whatever's not
-            yet understood, is understood and gradually, step by step by step,
-            by another tiny small step, taken from the "can't and have
-            absolutely no idea how, none whatsoever, zero and it looks like some
-            gigantic mountain" bag, into the "can very well and feel comfortable
+            just to get some more plowing done after plowing, until whatever's
+            not yet understood, is understood and gradually, step by step, by
+            another tiny small step, taken from the "can't and have absolutely
+            no idea how, none whatsoever, zero and it looks like some gigantic
+            mountain" bag, into the "can very well and feel comfortable
             performing that" bag.
           </p>
         </div>
