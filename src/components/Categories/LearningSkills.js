@@ -20,7 +20,7 @@ export default function LearningSkills() {
       <div className="Category">
         <div className="Category">
           <div data-scroll="0" className="Category__item">
-            <h1>Introduction - dealing with BIG MIS-CONCEPTIONS</h1>
+            <h1>Introduction - dealing with MIS-CONCEPTIONS</h1>
             <p>
               You cannot succesfully manage a long-term learning endeavor if
               your approach is stained with strategically false ideas that you
@@ -35,6 +35,17 @@ export default function LearningSkills() {
               Gargantuan mis-conception: working in relation to time, instead of
               goals.
             </h2>
+            <p>
+              First of all, time is absolutely the top priority at all times.
+              This is what defines everything in our world. Time. How much time
+              it takes. What's the timeline. What's the schedule. How much
+              time's available per day. When is that time available. Timing.
+              When is the most important question and time is the most important
+              factor in everything, at all times. s that not true? It mostly is
+              - but the problem is how this time-pressure leads to a lot of
+              cognitive biases - sinkholes of false thinking that wastes time,
+              instead of saving it.
+            </p>
             <p>
               Many people underscore how developing a complex, refined skillset
               takes time. How one needs to look at putting in the work every

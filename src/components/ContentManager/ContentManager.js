@@ -3,7 +3,6 @@ import { useGlobContext } from "../../Contexts/GlobProvider";
 import TableOfContents from "../TableOfContents/TableOfContents";
 import Poems from "./../Categories/Poems";
 import MyProgrammingWorks from "./../Categories/MyProgrammingWorks";
-import ExploringCode from "./../Categories/ExploringCode";
 import WorkflowSkills from "./../Categories/WorkflowSkills";
 import LearningSkills from "./../Categories/LearningSkills";
 import SleepWaterFoodExercisingResting from "./../Categories/SleepWaterFoodExercisingResting";
@@ -22,7 +21,6 @@ export const ContentManager = {
         {!content && <Welcome />}
         {content === "MY POEMS" && <Poems />}
         {content === "MY PROGRAMMING WORKS" && <MyProgrammingWorks />}
-        {content === "EXPLORING CODE" && <ExploringCode />}
 
         {content === "WORKFLOW SKILLS" && <WorkflowSkills />}
 

@@ -505,9 +505,10 @@ export default function WorkflowSkills() {
           </P>
           <P>Tool: Slow is smooth, smooth is fast.</P>
           <P>
-            Usage notes: don't try to force slowness. It's more about starting
-            gradually, warming up very gradually. It's also more about never
-            speeding up unnecessarily, than about forcing slowness.
+            Usage notes: don't try to force slowness. It has to be felt, more
+            than reasoned. It's more about starting gradually, warming up very
+            gradually. It's also more about never speeding up unnecessarily,
+            than about forcing slowness.
           </P>
           <P>
             Critically dangerous pitfalls: trying to force slowness - that's
